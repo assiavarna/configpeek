@@ -29,4 +29,4 @@ python3 -m http.server
 5. add timestamp to downloads logs
 6. compare few configs feature
 7. beautify the search flags - some lines around that itch my eye - font increase, and colour change
-8. add not working fro now on Update CTA's
+8. add `not working for now` on Update CTA's
