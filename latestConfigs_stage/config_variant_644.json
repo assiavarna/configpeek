@@ -256,15 +256,13 @@
     "licenceRefreshTimeMins": 170,
     "enableDebugOutput": true,
     "adSettings": {
-      "server": "https://7f077.v.fwmrm.net/",
+      "server": "https://2356e.v.fwmrm.net/",
       "siteSection": {
-        "id": "intllocal_my5_uk_desktop_web_vod"
+        "id": "web_my5_ns"
       },
-      "profile": "520311:my5_web_video",
-      "networkId": "520311",
-      "crtp": "vast3ap",
+      "profile": "380990:my5_web_video",
+      "networkId": "380990",
       "metr": "959",
-      "_fw_h_x_country": "GB",
       "flag": "+emcr+exvt+sltp+slcb+fbad"
     },
     "nearEndEventTime": 10,

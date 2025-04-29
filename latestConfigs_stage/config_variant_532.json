@@ -144,6 +144,7 @@
     "oneTrustEnabled": true,
     "isCommsScreenEnabled": true,
     "noKidsMode": false,
+    "noLiveContent": true,
     "noKidsModePinExit": false
   },
   "appUserSettings": {

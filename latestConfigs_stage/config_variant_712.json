@@ -103,10 +103,10 @@
     "coronaEpgPath": "epg.json",
     "coronaPlatformId": "my5android",
     "adSettings": {
-      "adServerUrl": "https://7f077.v.fwmrm.net/",
-      "csid": "intllocal_my5_uk_ctv_amazonfiretv_vod",
-      "profile": "520311:my5_firetv_video",
-      "networkId": "520311",
+      "adServerUrl": "https://2356e.v.fwmrm.net/",
+      "csid": "firetv_my5_ns",
+      "profile": "380990:my5_firetv_video",
+      "networkId": "380990",
       "metr": "959",
       "flag": "+emcr+exvt+sltp+slcb+fbad"
     },

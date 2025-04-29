@@ -302,7 +302,7 @@
     "vodChannelsEnabled": false,
     "adjustTrackingEnabled": true,
     "sponsorshipLogoEnabled": true,
-    "oneTrustEnabled": true,
+    "oneTrustEnabled": false,
     "marketingConsentEnabled": true,
     "preferenceCentreEnabled": true,
     "isJailbreakDetectionEnabled": true,
