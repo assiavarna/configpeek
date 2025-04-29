@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ConfigPeek</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css">
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+      }
+
+      input {
+        padding: 0.75rem;
+        width: 100%;
+        max-width: 300px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);
+        font-size: 0.95rem;
+      }
+
+      .entry {
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 1rem;
+        margin: 1rem auto;
+        max-width: 700px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.06);
+      }
+
+      .search-group {
+        flex: 1;
+        min-width: 250px;
+      }
+
+      .count {
+        font-size: 0.85rem;
+        color: #666;
+        margin-top: 0.3rem;
+      }
+
+      #timestamp {
+        font-style: italic;
+        color: #888;
+        justify-content: center;
+        margin: 1rem 30rem;
+        display: block;
+      }
+
+      .logo-container {
+        text-align: left;
+        margin: 1rem;
+      }
+
+      img.logo {
+        max-width: 520px;
+      }
+
+      .search-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        padding: 1rem 2rem;
+      }
+
+      @media (max-width: 600px) {
+        .search-group {
+          min-width: 100%;
+        }
+      }
+
+      .config-actions {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 2rem;
+      }
+
+      .config-actions button {
+        font-size: 1.2rem;
+        padding: 0.8rem 1.6rem;
+        margin-top: 1rem;
+        border-radius: 8px;
+        border: none;
+        background-color: #7AB4B6;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .config-actions button:hover {
+        background-color: #679092;
+      }
+
+      .cookie-input {
+        margin-top: 0.8rem;
+        display: none;
+        text-align: right;
+      }
+
+      .cookie-input input {
+        font-size: 1rem;
+        padding: 0.5rem;
+        width: 400px;
+        margin-bottom: 1rem;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+
+      .summary {
+        text-align: left;
+        background-color: #f8f8f8;
+        padding: 1rem;
+        border-radius: 6px;
+        max-width: 600px;
+        margin-left: auto;
+        overflow: auto;
+      }
+
+      .env-toggle-group {
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+
+      .env-toggle-group label {
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        color: #333;
+      }
+
+      .env-toggle-group input[type="checkbox"] {
+        transform: scale(2);
+        accent-color: #7AB4B6;
+        margin-right: 0.5rem;
+      }
+
+      .search-fields {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin: 1rem 2rem;
+      }
+
+      .search-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 300px;
+      }
+
+      .search-group input {
+        width: 260px;
+        margin-top: 0.5rem;
+        padding: 0.5rem;
+        border-radius: 6px;
+        border: 1px solid #ccc;
+        font-size: 1rem;
+      }
+
+      .entry a {
+        color: #7AB4B6;
+        text-decoration: none;
+        font-weight: normal;
+      }
+
+      .entry a:hover {
+        text-decoration: underline;
+        color: #679092;
+      }
+
+      .entry a:visited {
+        color: #527a7c;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; background-color: #fcfcfc; padding: 1rem 2rem; border-radius: 8px;">
+      <img src="logo.png" alt="ConfigPeek Logo" class="logo" style="max-height: 200px;">
+      <div style="font-size: 2rem; color: #555;">
+        Inspect platform flags, app versions,<br>
+        and config details in one place
+      </div>
+    </div>
+
+    <div class="config-actions">
+      <button onclick="toggleCookie('prod')">Update Prod Configs</button>
+      <div id="prod-cookie" class="cookie-input">
+        Cookie: <input type="text" id="prodCookieInput"><br>
+        <button onclick="toggleLog('prod')" id="prodLogButton">Show Summary</button>
+        <pre class="summary" id="prodSummary" style="display:none;"></pre>
+      </div>
+
+      <button onclick="toggleCookie('stg')">Update Stg Configs</button>
+      <div id="stg-cookie" class="cookie-input">
+        Cookie: <input type="text" id="stgCookieInput"><br>
+        <button onclick="toggleLog('stg')" id="stgLogButton">Show Summary</button>
+        <pre class="summary" id="stgSummary" style="display:none;"></pre>
+      </div>
+    </div>
+
+    <div class="search-section">
+      <div class="env-toggle-group">
+        <label style="font-weight:bold;">Environment:</label>
+        <label>
+          <input type="checkbox" id="toggleProd" checked onchange="filterResults()"> Production
+        </label>
+        <label>
+          <input type="checkbox" id="toggleStaging" checked onchange="filterResults()"> Staging
+        </label>
+      </div>
+    </div>
+
+    <div class="search-section">
+      <div class="search-fields">
+        <div class="search-group">
+          <label><strong>Search by Platform ID:</strong></label>
+          <input type="text" id="platformSearch" oninput="filterResults()" placeholder="e.g. roku, samsung">
+          <div id="platformCount" class="count"></div>
+        </div>
+        <div class="search-group">
+          <label><strong>Search by Config Name:</strong></label>
+          <input type="text" id="configSearch" oninput="filterResults()" placeholder="e.g. 7.25.2, FAST">
+          <div id="configCount" class="count"></div>
+        </div>
+        <div class="search-group">
+          <label><strong>Search any Key or Value:</strong></label>
+          <input type="text" id="anySearch" oninput="filterResults()" placeholder="Deep search...">
+          <div id="anyCount" class="count"></div>
+        </div>
+        <div class="search-group">
+          <label for="featureFlagSearch"><strong>Search feature flag(s):</strong></label>
+          <select id="featureFlagSearch" multiple></select>
+          <div id="featureFlagCount" class="count"></div>
+        </div>
+      </div>
+    </div>
+
+    <span id="timestamp"></span>
+    <div id="results"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        fetch('./extractKeys/keys.json')
+          .then(res => res.json())
+          .then(keys => {
+            const select = document.getElementById('featureFlagSearch');
+
+            keys.forEach(key => {
+              const option = document.createElement('option');
+              option.value = key;
+              option.textContent = key;
+              select.appendChild(option);
+            });
+
+            const choices = new Choices(select, {
+              removeItemButton: true,
+              placeholder: true,
+              placeholderValue: 'Select feature flags',
+              searchPlaceholderValue: 'Search keys...'
+            });
+
+            select.addEventListener('change', () => {
+              const selected = choices.getValue(true);
+              document.getElementById('featureFlagCount').textContent = `${selected.length} selected`;
+              filterResults();
+            });
+          });
+      });
+
+      function filterResults() {
+        const platformText = document.getElementById('platformSearch').value.toLowerCase();
+        const configText = document.getElementById('configSearch').value.toLowerCase();
+        const anyText = document.getElementById('anySearch').value.toLowerCase();
+        const showProd = document.getElementById('toggleProd').checked;
+        const showStaging = document.getElementById('toggleStaging').checked;
+        const selectedFlags = Array.from(document.getElementById('featureFlagSearch')?.selectedOptions || [])
+          .map(opt => opt.value);
+
+        const filtered = window.allResults.filter(i => {
+          const envMatch = (showProd && i.environment === 'production') || (showStaging && i.environment === 'staging');
+          
+          
+          const platformId = i.dataServiceSettings?.platformId;
+          const platformIdSafe = platformId ? platformId.toLowerCase() : 'missing';
+          const platformMatch = platformIdSafe.includes(platformText);
+
+          // Log missing platformId entries
+          if (!platformId) {
+            console.warn('Missing platformId:', i);
+          }
+
+          
+          
+         
+          const configNameSafe = i._configName ? i._configName.toLowerCase() : 'missing';
+          const configMatch = configNameSafe.includes(configText);
+                if (!i._configName) {
+                    console.warn('Missing _configName:', i);
+                    }
+
+         
+         
+         
+         
+          const anyMatch = JSON.stringify(i).toLowerCase().includes(anyText);
+          const flagMatch = selectedFlags.length === 0 || selectedFlags.some(flag => {
+            const parts = flag.split('.');
+            let value = i;
+            for (const part of parts) {
+              if (value && typeof value === 'object' && part in value) {
+                value = value[part];
+              } else {
+                return false;
+              }
+            }
+            return value !== undefined && value !== null && value !== '';
+          });
+
+          return envMatch && platformMatch && configMatch && anyMatch && flagMatch;
+        });
+
+        document.getElementById('platformCount').textContent = `Matches: ${filtered.filter(i => {
+          const id = i.dataServiceSettings?.platformId;
+          const idSafe = id ? id.toLowerCase() : 'missing';
+          return idSafe.includes(platformText);
+        }).length}`;
+        
+        
+        
+        document.getElementById('configCount').textContent = `Matches: ${filtered.filter(i => {
+            const nameSafe = i._configName ? i._configName.toLowerCase() : 'missing';
+            return nameSafe.includes(configText);
+          }).length}`;
+
+        
+        
+        
+        
+        document.getElementById('anyCount').textContent = `Matches: ${filtered.filter(i => JSON.stringify(i).toLowerCase().includes(anyText)).length}`;
+
+        renderResults(filtered, selectedFlags);
+      }
+
+      function renderResults(items, selectedFlags) {
+        const div = document.getElementById('results');
+        div.innerHTML = '';
+        items.forEach(item => {
+          const el = document.createElement('div');
+          el.className = 'entry';
+
+          const idMatch = item.filename?.match(/config_variant_(\d+)\.json/);
+          const id = idMatch ? idMatch[1] : null;
+          const cassieUrl = id
+            ? item.environment === 'production'
+              ? `https://cassie.channel5.com/admin/config_variants/${id}/edit`
+              : `https://cassie-staging.channel5.com/admin/config_variants/${id}/edit`
+            : null;
+
+          let html = `
+          <strong>Platform:</strong> ${item.dataServiceSettings?.platformId || '—'}<br>
+            <strong>Environment:</strong> ${item.environment}<br>
+            <strong>Config:</strong> ${item._configName || '[missing]'}<br>
+            <strong>File:</strong> ${item.filename || '[missing]'}<br>
+            ${cassieUrl ? `<strong>Cassie Link:</strong> <a href="${cassieUrl}" target="_blank">${cassieUrl}</a><br>` : ''}
+          `;
+
+          if (selectedFlags.length > 0) {
+            html += `<div style="margin-top: 1rem;"><strong>Selected Flag Values:</strong><ul>`;
+            html += selectedFlags.map(flag => {
+              const parts = flag.split('.');
+              let value = item;
+              for (const part of parts) {
+                if (value && typeof value === 'object' && part in value) {
+                  value = value[part];
+                } else {
+                  value = undefined;
+                  break;
+                }
+              }
+              return `<li><code>${flag}</code>: ${value !== undefined ? JSON.stringify(value) : '<em>not found</em>'}</li>`;
+            }).join('');
+            html += `</ul></div>`;
+          }
+
+          el.innerHTML = html;
+          div.appendChild(el);
+        });
+      }
+
+      function toggleCookie(env) {
+        const el = document.getElementById(env + '-cookie');
+        el.style.display = el.style.display === 'none' ? 'block' : 'none';
+      }
+
+      function toggleLog(env) {
+        const summaryEl = document.getElementById(env + 'Summary');
+        const btnEl = document.getElementById(env + 'LogButton');
+
+        if (summaryEl.style.display === 'none') {
+          fetchLog(env, summaryEl);
+          summaryEl.style.display = 'block';
+          btnEl.textContent = 'Hide Summary';
+        } else {
+          summaryEl.style.display = 'none';
+          btnEl.textContent = 'Show Summary';
+        }
+      }
+
+      function fetchLog(env, summaryEl) {
+        const path = env === 'prod'
+          ? './latestConfigs_prod/download_log.txt'
+          : './latestConfigs_stage/download_log.txt';
+
+        fetch(path)
+          .then(res => res.text())
+          .then(txt => {
+            const lines = txt.trim().split('\n').reverse();
+            summaryEl.textContent = lines.join('\n');
+          })
+          .catch(() => {
+            summaryEl.textContent = 'Could not load log.';
+          });
+      }
+
+      function loadData() {
+  fetch('results/grandmerge.json?ts=' + Date.now())
+    .then(res => res.json())
+    .then(data => {
+      window.allResults = data;
+
+      console.log('✅ Total entries loaded:', window.allResults.length);
+
+      const missingConfig = window.allResults.filter(i => !i._configName).length;
+      const missingPlatform = window.allResults.filter(i => !i.dataServiceSettings?.platformId).length;
+
+      console.log('⚠️ Entries missing _configName:', missingConfig);
+      console.log('⚠️ Entries missing platformId:', missingPlatform);
+
+      filterResults();
+      document.getElementById('timestamp').textContent =
+        'Last updated: ' + new Date().toLocaleTimeString();
+    })
+    .catch(err => console.error('Failed to load results.json:', err));
+}
+
+      loadData();
+      setInterval(loadData, 60000);
+    </script>
+  </body>
+</html>

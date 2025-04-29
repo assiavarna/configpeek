@@ -1,0 +1,192 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "ps4",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5PS4SGPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance",
+        "colour": "#f6f646"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.  \n\r\n\r   For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.  \n\r\n\r   To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>",
+      "button1": "Accept All",
+      "button2": "Reject All",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "privacy": {
+      "header": "About your Privacy",
+      "label": "Your current privacy settings",
+      "accept": "Accept All",
+      "reject": "Reject All",
+      "description": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.",
+      "info": [
+        "For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.",
+        "To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>."
+      ]
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/ps4/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/ps4/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5ps4dash",
+    "cassieAppId": "my5ps4",
+    "playbackMode": "dashjs-singlevideoelement",
+    "dashJsUrl": "https://player-test.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1.min.js",
+    "thumbnailsEnabled": true,
+    "keyMapping": "sonyps4",
+    "adSettings": {
+      "adRequestUrl": "https://vip-ads-tpx.stg.ads.aws.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=144750&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=ps4_my5&prof=144750:c5_mss_ps4&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 10,
+      "loadVideoTimeoutInSecs": 10,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "adobeAnalyticsSettings": {
+      "heartbeatKeepAlivePeriod": 25,
+      "appName": "ps4_my5",
+      "ADBMobileConfig": {
+        "lastModified": "2017-12-11T13:00:00.000Z",
+        "target": {
+          "clientCode": "",
+          "timeout": 5
+        },
+        "audienceManager": {
+          "server": "",
+          "analyticsForwardingEnabled": false,
+          "timeout": 5
+        },
+        "acquisition": {
+          "server": "c00.adobe.com",
+          "appid": "d101a5b0346d55efc7ca423a6e63d4ff31a9f2656285f30b261442775a8d9047"
+        },
+        "marketingCloud": {
+          "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+        },
+        "analytics": {
+          "rsids": [
+            "viach5dev",
+            "viach5intlhubtest"
+          ],
+          "server": "ch5.sc.omtrdc.net",
+          "ssl": false,
+          "offlineEnabled": false,
+          "charset": "UTF-8",
+          "lifecycleTimeout": 300,
+          "privacyDefault": "optedin",
+          "batchLimit": 0,
+          "timezone": "PDT",
+          "timezoneOffset": -420,
+          "referrerTimeout": 0,
+          "backdateSessionInfo": false,
+          "poi": [
+
+          ]
+        },
+        "mediaHeartbeat": {
+          "server": "mtv.hb.omtrdc.net",
+          "publisher": "Channel 5",
+          "channel": "Channel 5",
+          "ssl": false,
+          "ovp": "my5-uk",
+          "playerName": "videojs-c5-player"
+        },
+        "messages": [
+
+        ],
+        "remotes": {
+          "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e2064746d64dc00ce3d.json",
+          "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e1e64746d2e0200d4dd.json"
+        }
+      }
+    },
+    "kantarSettings": {
+      "siteName": "c5pstest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "obfuscateIp": "false",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noRailBackground": true,
+    "noSuitest": true,
+    "noAdobeLaunch": true,
+    "noNextEpisode": false,
+    "noWatchHistory": false,
+    "noSignIn": false,
+    "noAllRailsTitleTreatment": true,
+    "noTitleTreatment": false,
+    "noEnhancedPlayerPanel": false,
+    "noRecommendations": false,
+    "noHomepageBackJourney": false,
+    "noEnhancedContinueWatching": false,
+    "noLiveContent": true,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": false,
+    "noLiveTVEnhancedPlayerPanel": true,
+    "noMandatoryRegistration": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/ps4/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "env": "staging",
+      "tcfVersion": 1,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "PS4 Dash"
+}

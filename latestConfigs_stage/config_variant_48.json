@@ -1,0 +1,122 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "dataServiceSettings": {
+    "platformId": "freesat",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreenFreesat",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreesatPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/freesat/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/freesat/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5freesat",
+    "playbackMode": "hbbtvoipf",
+    "thumbnailsEnabled": false,
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=freesat_my5&prof=380990:c5_mss_freesat&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 5,
+      "loadVideoTimeoutInSecs": 5,
+      "translateDirectAdUrlsToHttp?": true
+    },
+    "kantarSettings": {
+      "siteName": "c5freesattest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "false",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_freesat_smooth"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noSuitest": false,
+    "noRailBackground": false,
+    "noanimation": true,
+    "noOnboarding": false,
+    "noUseEffect": true,
+    "noNextEpisode": false,
+    "noSignIn": false,
+    "noOnwardJourney": false,
+    "noEnhancedPlayerPanel": false,
+    "noHomepageBackJourney": false,
+    "noEnhancedContinueWatching": false,
+    "noLiveContent": true,
+    "noAllRailsTitleTreatment": true,
+    "noTitleTreatment": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": false,
+    "noMandatoryRegistration": false,
+    "noLiveTVEnhancedPlayerPanel": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/freesat/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "env": "staging",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.  \n\r\n\r   For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.  \n\r\n\r   To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>",
+      "button1": "Accept All",
+      "button2": "Reject All",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "privacy": {
+      "header": "About your Privacy",
+      "label": "Your current privacy settings",
+      "accept": "Accept All",
+      "reject": "Reject All",
+      "description": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.",
+      "info": [
+        "For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.",
+        "To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>."
+      ]
+    }
+  },
+  "_configName": "STAGING | Gen 2 | Smooth"
+}

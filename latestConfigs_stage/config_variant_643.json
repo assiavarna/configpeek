@@ -1,0 +1,114 @@
+{
+  "onboardingVersion": 2,
+  "appSubtitlesEnabled": true,
+  "dataServiceSettings": {
+    "platformId": "freesathbbtv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
+    "ednaOnboardingSignedInImagesCollectionId": "PLC_CommsScreenFastCTV",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreesatFASTPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "ednaCollectionsTemplateUriV2": "/collections/{collectionId}.json?platform={platformId}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/freesat-fastqa/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/freesat-fastqa/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5freesathbbtv",
+    "playbackMode": "hbbtvoipf",
+    "thumbnailsEnabled": true,
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=520311&resp=vmap1&caid={c5id}&csid=intllocal_my5_uk_ctv_freesat_vod&prof=520311:c5_mss_freesat&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 5,
+      "loadVideoTimeoutInSecs": 5,
+      "translateDirectAdUrlsToHttp?": false
+    },
+    "kantarSettings": {
+      "siteName": "c5freesattest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "false",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_freesat_dash"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noSuitest": false,
+    "noRailBackground": false,
+    "noanimation": true,
+    "noOnboarding": false,
+    "noUseEffect": true,
+    "noNextEpisode": false,
+    "noSignIn": false,
+    "noOnwardJourney": false,
+    "noEnhancedPlayerPanel": false,
+    "noHomepageBackJourney": false,
+    "noEnhancedContinueWatching": false,
+    "noLiveContent": false,
+    "noFast": false,
+    "noLiveTVEnhancedPlayerPanel": true,
+    "noAllRailsTitleTreatment": true,
+    "noTitleTreatment": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": false,
+    "noMandatoryRegistration": false,
+    "noHomeHeroTitleTreatment ": false,
+    "noShowHeroTitleTreatment": false,
+    "noShowTileTitleTreatment": false,
+    "noKidsMode": false,
+    "noKidsModePinExit": false,
+    "noOneTrust": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/freesat/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "fastautomation | Gen3 | HbbTV DASH"
+}

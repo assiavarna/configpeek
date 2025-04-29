@@ -1,0 +1,147 @@
+{
+  "onboardingVersion": 7,
+  "onboardingSignedInVersion": 1,
+  "appSubtitlesEnabled": false,
+  "appAudioDescriptionEnabled": false,
+  "browsePageSubGenreRailMaxDisplayItems": 19,
+  "dataServiceSettings": {
+    "platformId": "skyoverip",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenSOIP",
+    "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreenSOIP",
+    "ednaPrimaryNavCollectionId": "PLC_My5SkyOverIPSGPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FVPSGMilkShakePrimaryNav",
+    "ednaOnboardingSignedInImagesCollectionId": "PLC_My5OnboardingKidsScreen",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaCollectionsTemplateUriV2": "/collections/{collectionId}.json?platform={platformId}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance",
+        "colour": "#f6f646"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.akamaized.net/videojsplayer/stage2/skyoverip/core/bundle.js",
+    "themeUrl": "https://player-test.akamaized.net/videojsplayer/stage2/skyoverip/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "dashJsUrl": "https://player.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1a.min.js",
+    "hlsJsUrl": "https://player-test.akamaized.net/videojsplayer/hlsjs/hls.1.4.0.js",
+    "cassiePlatformId": "my5skyoverip",
+    "coronaPlatformId": "skyoverip",
+    "playbackMode": "dashjs-singlevideoelement",
+    "dismissButtonEnabled": true,
+    "arrowButtonsStartTrickplay": true,
+    "keyMapping": "skyoverip",
+    "trickplaySpeeds": [
+      2,
+      6,
+      12,
+      30
+    ],
+    "adSettings": {
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+sltp+exvt+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_skyglass_vod&prof=520311:c5_hls_my5skyoverip&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_dpr=1.00&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 30,
+      "loadVideoTimeoutInSecs": 30,
+      "translateDirectAdUrlsToHttp": false,
+      "adSkippingEntitlement": true,
+      "combinedAdProgressBar": true,
+      "skipPreRollOnResume": true
+    },
+    "kantarSettings": {
+      "siteName": "c5skytest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": false,
+      "obfuscateIp": true,
+      "extraParams": {
+        "param1": "my5_sky_overip",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5,
+    "adBreakProgressBarEnabled": true
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit channel5.com/privacy-and-cookies.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "kidsModeBanner": {
+      "header": "Set up PIN protection features in Settings."
+    }
+  },
+  "appFeatureSettings": {
+    "noNextEpisode": false,
+    "noAnimation": false,
+    "noOnboarding": false,
+    "noEnhancedPlayerPanel": false,
+    "noSignIn": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noEnhancedContinueWatching": false,
+    "noLiveContent": true,
+    "noHomepageBackJourney": true,
+    "noSponsorship": false,
+    "noRecommendations": false,
+    "noLiveTVEnhancedPlayerPanel": true,
+    "noHomeHeroTitleTreatment": false,
+    "noShowHeroTitleTreatment": false,
+    "noShowTileTitleTreatment": false,
+    "noMandatoryRegistration": true,
+    "noKidsMode": false,
+    "noKidsModePinExit": false,
+    "noShortHistory": true,
+    "noScreenLogger": true,
+    "exitOnBack": true,
+    "noCommsScreen": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/skyoverip/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "env": "staging",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "SOIP-UAT"
+}

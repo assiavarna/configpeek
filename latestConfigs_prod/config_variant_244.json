@@ -1,0 +1,112 @@
+{
+  "onboardingVersion": 2,
+  "appSubtitlesEnabled": true,
+  "browsePageSubGenreRailMaxDisplayItems": 19,
+  "dataServiceSettings": {
+    "platformId": "lge",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5LgSGPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit viacomcbsprivacy.com/policy.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player.akamaized.net/videojsplayer/lg/core/bundle.js",
+    "themeUrl": "https://player.akamaized.net/videojsplayer/lg/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5lg",
+    "playbackMode": "lgnetcast",
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=144750&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=lg_my5&prof=144750:c5_mss_lg&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "imaSdkUrl": "https://player.akamaized.net/videojsplayer/ima-sdk/ima3.309.0.js",
+      "vastLoadTimeoutInSecs": 20,
+      "loadVideoTimeoutInSecs": 20,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "kantarSettings": {
+      "siteName": "c5smarttvtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "host": "npaw.my5.tv",
+      "accountCode": "channel5",
+      "obfuscateIp": "false",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5_lglg",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 120000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "disablePointerEvents": true,
+    "noAllRailsTitleTreatment": true,
+    "noEnhancedContinueWatching": false,
+    "noEnhancedPlayerPanel": false,
+    "noHomepageBackJourney": false,
+    "noLiveContent": true,
+    "noMouse": false,
+    "noNextEpisode": false,
+    "noRecommendations": false,
+    "noSignIn": false,
+    "noTitleTreatment": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": false,
+    "noMandatoryRegistration": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice.channel5.com/html/lg/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "2.116.12-13 | LG webOS 1,2&4 | Smooth | LiveTV Off | Sponsor On"
+}

@@ -1,0 +1,92 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "dataServiceSettings": {
+    "platformId": "freeviewplay",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreeviewPlayPrimaryNav",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/freeviewplay/core/bundle.js",
+    "coreUrl-webos3": "https://player-staging.akamaized.net/videojsplayer/freeviewplay/core-webos3/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/freeviewplay/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5freeviewplayhbbtv",
+    "playbackMode": "hbbtvoipf",
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={c5id}&csid=freeviewplay_my5&prof=144750:c5_mss_freeviewplay&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "imaSdkUrl": "https://player-staging.akamaized.net/videojsplayer/ima-sdk/ima3.309.0.js",
+      "vastLoadTimeoutInSecs": 30,
+      "loadVideoTimeoutInSecs": 30,
+      "translateDirectAdUrlsToHttp": false
+    },
+    "kantarSettings": {
+      "siteName": "c5freeviewtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "obfuscateIp": "false",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noAnimation": [
+      "fvp4000t"
+    ],
+    "disablePointerEvents": true,
+    "noMouse": false,
+    "noNextEpisode": true,
+    "noUseEffect": [
+      "fvp4000t"
+    ],
+    "noSignIn": true,
+    "noEnhancedPlayerPanel": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "to delete: HbbTV DASH (MB180)"
+}

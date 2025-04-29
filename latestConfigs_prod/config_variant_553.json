@@ -1,0 +1,337 @@
+{
+  "onboardingVersion": 1,
+  "resumePointPeriod": 20000,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "launchesForPushReminder": 5,
+  "commsVersion": null,
+  "dataServiceSettings": {
+    "platformId": "my5android",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaPrimaryNavCollectionId": "PLC_My5AndroidFASTPrimaryNav",
+    "ednaSecondaryNavCollectionId": "PLC_My5AndroidFASTOnlyPrimaryNav",
+    "ednaMilkshakeFeaturedCollectionId": "PLC_My5FeaturedMilkshakeKidsMode",
+    "ednaMilkshakeMy5SubNav": "PLC_My5AndroidFASTPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5AndroidFASTMilkshakeSubNav",
+    "ednaMilkshakeHomeNavCollectionId": "PLC_MilkShakeAndroidFASTHomePageNav",
+    "ednaMilkshakeBrowseNavCollectionId": "PLC_MilkshakeBrowsePageSubNav",
+    "ednaMilkshakeSearchNavCollectionId": "PLC_MilkshakeSearchSubNav",
+    "ednaMilkshakeMyListNavCollectionId": "PLC_My5FavouritesKidsMode",
+    "ednaAndroidMorePageSubNavId": "PLC_My5AndroidMorePageSubNav",
+    "ednaMilkshakeContinueWatchingCollectionId": "PLC_My5ContinueWatchingMilkShakeKids",
+    "ednaMyListCollectionId": "PLC_My5MyListRail",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5AndroidRecommendationsRail",
+    "ednaSignedCommunicationImagesCollectionId": "PLC_My5CommsScreenFireOS",
+    "ednaAdBannerPromoCollectionId": "PLC_My5AdBannerPromo",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}&master={master}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes/{watchableId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaShowQueryTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&query={query}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "coronaBrowseShowCountTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=vod_genre",
+    "coronaBrowseSubGenreTemplateUri": "/shows/search.json?platform={platformId}&offset={offset}&limit={limit}&sort_by={sort_by}&vod_subgenres[]={vodSubgenreIds}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaRelatedItemsTemplateUri": "/watchables/{watchableId}/related.json?platform={platformId}&friendly=1&recommendations_limit=3",
+    "coronaRecommendationsTemplateUri": "/collections/recommendations.json?platform={platformId}",
+    "preferenceCentreUri": "https://www.channel5.com/mobile/settings/preference-center/{bearerToken}",
+    "ednaHomeSubNavId": "PLC_My5AndroidFASTHomePageSubNav",
+    "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+    "ednaChannelsSubNavId": "PLC_My5FASTLiveTVPageSubNav",
+    "ednaLiveTVSubNavId": "PLC_My5FASTLiveTVPageSubNav",
+    "ednaSearchSubNavId": "PLC_My5SearchNav",
+    "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+    "ednaSettingsSubNavId": "PLC_My5AndroidSettings",
+    "coronaAllEpisodesByShowTemplateUri": "/shows/{showId}/episodes.json?platform={platformId}",
+    "coronaChannelsWithTransmissions": "/collections/{collectionId}.json?platform={platformId}&min_transmissions={minTransmissions}",
+    "coronaNowNextMetadataFeedTemplateUri": "/channels/{channelId}/epg.json?start={startTime}&end={endTime}&platform={platformId}",
+    "ednaFeaturedCollectionId": "PLC_My5AndroidFeaturedRail",
+    "ednaMilkshakeLiveTVSubNavId": "PLC_My5FASTKidsLiveTVSubNav",
+    "ednaMilkshakeMorePageSubNavId": "PLC_My5MilkshakeFASTAndroidMorePage",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5AndroidRecentlyAddedRail",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "colour": "#FF5ABD",
+        "text": "Next Episode"
+      }
+    ],
+    "ednaSettingsMenuIds": {
+      "ednaAccountSettingsId": "PLC_My5androidAccountSettings"
+    }
+  },
+  "upgradeSettings": {
+    "minVersion": "7.11.10",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the Play Store."
+  },
+  "systemMessages": {
+    "policies": {
+      "active": true,
+      "title": "Your Data",
+      "text": "The 5 app uses cookies and the data which you provide to us to personalise your 5 app experience and enable us to serve you with more relevant ‘targeted’ advertising.\n\nFor detailed information about how we use the data we store, you can read our privacy and cookie policies by clicking on the privacy policy link below.\n\nTo allow the use of your data to personalise your advertising and application experience click on ‘Accept all’. For full control of how we use your data click on edit settings and tell us what you’re happy with.",
+      "dataActive": true,
+      "dataSubtitle": "Your Registration Data",
+      "dataText": "We’d like to use the information you provide to us to personalise your 5 experience and deliver more relevant ‘targeted’ advertising. We will share your data to help make this experience a reality. – please let us know if you consent to the use of your data for this purpose.",
+      "dataYesButton": "Yes",
+      "dataNoButton": "No",
+      "cookiesActive": true,
+      "cookiesSubtitle": "Cookie policy",
+      "cookiesText": "We’d like to store cookies on your device to be able to serve you with more relevant ‘targeted’ advertising – please let us know if you consent to the use of cookies for this purpose.",
+      "cookiesYesButton": "Yes",
+      "cookiesNoButton": "No",
+      "policyButton": "Privacy & Cookies",
+      "policyUrl": "channel5.com/privacy-and-cookies",
+      "editButton": "Edit choices",
+      "acceptButton": "Accept all",
+      "saveButton": "Save",
+      "version": 1
+    },
+    "rootjailMessage": {
+      "active": true,
+      "rootjailTitle": "Channel 5",
+      "rootjailText": "The Channel 5 app is not supported on rooted devices",
+      "dismissable": true,
+      "dismissButton": "Continue"
+    },
+    "marketingConsent": {
+      "marketingConsentModal": {
+        "modalTitle": "Want to get more out of 5?",
+        "modalCopy": "We'd love to keep in touch! Just let us know your preferences below.",
+        "Channel5AndMy5Text": "Get the best out of 5 with personalised show recommendations and latest feature announcements.",
+        "viacomcbsText": "Send me emails from other ViacomCBS brands including MTV, Comedy Central and Paramount.",
+        "paramountText": "Get exclusive, carefully-curated offers and promotions from our Paramount family of brands including MTV, Comedy Central and Paramount.",
+        "communicationButton1": "Confirm",
+        "communicationButton2": "Skip for now",
+        "privacyPolicyHtml": "Read how we use your information to improve your 5 experience. <a href='https://privacy.paramount.com/en/policy'>Privacy Policy</a>"
+      },
+      "marketingCommunicationSettings": {
+        "communicationText": "Want to get more out of 5? We’d love to keep in touch! You can change your communications preferences by managing your consent settings below. Please note any changes may take up to seven days to seven days to complete.",
+        "Channel5AndMy5Panel": "Get the best out of 5 with personalised show recommendations and latest feature announcements.",
+        "viacomcbsPanel": "Send me emails from other ViacomCBS brands including MTV, Comedy Central and Paramount.",
+        "paramountPanel": "Get exclusive, carefully-curated offers and promotions from our Paramount family of brands including MTV, Comedy Central and Paramount."
+      },
+      "marketingUnsubscribe": {
+        "unsubscribeText": "We hope you've enjoyed hearing from us and we're sad to see you go, but if it's a break you need then we understand. You can change your communication preferences by managing your consent settings below. Please note any changes will take up to seven days to update. You can re-subscribe at any time, we'd love to have you back.",
+        "Channel5AndMy5Text": "Send me emails about the best of 5, including; new shows we think you'll like, exclusive content, special events, competitions and experiences.",
+        "viacomcbsText": "Get exclusive, carefully-curated offers and promotions from our Paramount family of brands including MTV, Comedy Central and Paramount."
+      }
+    },
+    "pushNotificationsModalSettings": {
+      "title": "Get the most out of 5",
+      "descriptionAndroid13": "Enable notifications and we’ll let you know about shows and features you’ll love.",
+      "descriptionAndroid12AndBelow": "Enable notifications and we’ll let you know about shows and features you’ll love.\nIf you don't want to receive notifications you can change this in your device settings.",
+      "primaryButtonTextAndroid13": "Enable notifications",
+      "secondaryButtonText": "Not now",
+      "primaryButtonTextAndroid12AndBelow": "Ok"
+    },
+    "emailValidationSettings": {
+      "title": "You need to update your email address to continue using the 5 App",
+      "description": "We tried to validate your email address, but we're unable to do so. Please update your email address in your account settings",
+      "primaryButtonText": "Update details",
+      "secondaryButtonText": "Not Now"
+    },
+    "kidsModeToastMessage": {
+      "message": "Set up PIN protection features in Settings"
+    }
+  },
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/androidplayer/theme/my5/android-my5-mobile.css",
+    "theme": "my5",
+    "coronaBaseUrl": "https://corona.channel5.com/channels/",
+    "coronaEpgPath": "epg.json",
+    "coronaPlatformId": "my5android",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "My5FireTabletHydra",
+    "cassieChromecastPlatformId": "gccandroidng",
+    "cassieConnectionTimeoutInMilliseconds": 5000,
+    "cassieReadTimeoutInMilliseconds": 5000,
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "skipPreRollOnResume": false,
+    "adSettings": {
+      "adServerUrl": "https://7f077.v.fwmrm.net/",
+      "csid": "intllocal_my5_uk_mobile_amazonfiretablet_vod",
+      "profile": "520311:my5_firetablet_video",
+      "networkId": "520311",
+      "metr": "959",
+      "_fw_h_x_country": "GB",
+      "flag": "+emcr+exvt+sltp+slcb+fbad"
+    },
+    "adobeAnalytics": {
+      "server": "mtv.hb.omtrdc.net",
+      "channel": "Channel 5",
+      "ovp": "my5-uk",
+      "ssl": false,
+      "publisher": "Channel 5",
+      "playerName": "android-c5-player",
+      "debugLogging": false,
+      "heartbeatKeepAlivePeriod": 25
+    },
+    "kantarSettings": {
+      "siteName": "c5amazontablet",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_firetab"
+      },
+      "httpSecure": true,
+      "obfuscateIp": true
+    },
+    "nearEndEventTime": 10,
+    "guidanceOverlayDurationSecs": 5.0
+  },
+  "adobeAnalytics": {
+    "marketingCloud": {
+      "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+    },
+    "analytics": {
+      "rsids": "viach5intlapp,viach5intlhub",
+      "server": "ch5.sc.omtrdc.net",
+      "ssl": true,
+      "offlineEnabled": false,
+      "charset": "UTF-8",
+      "lifecycleTimeout": 300,
+      "privacyDefault": "optedin",
+      "batchLimit": 0,
+      "timezone": "GMT",
+      "timezoneOffset": 0,
+      "referrerTimeout": 0,
+      "backdateSessionInfo": false,
+      "poi": [
+
+      ],
+      "heartbeatKeepAlivePeriod": 25
+    }
+  },
+  "userServiceSettings": {
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 10,
+      "maxLocalResumePoints": 10,
+      "maxLocalSearchHistory": 10
+    }
+  },
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "https://privacy.paramount.com/en/policy",
+    "cookieUrl": "https://privacy.paramount.com/en/policy",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com",
+    "promoUrl": "https://www.paramount.com"
+  },
+  "sponsorship": {
+    "DFPNetworkID": "69550299",
+    "DFPSiteID": "channel5"
+  },
+  "stores": [
+    {
+      "name": "Kindle App Store",
+      "url": "amzn://apps/android?p=com.mobileiq.demand5"
+    }
+  ],
+  "appUserSettings": {
+    "personalDetailsSettings": {
+      "sectionTitlePersonalDetails": "PERSONAL DETAILS",
+      "buttonEdit": "Edit"
+    },
+    "accessibilitySettings": {
+      "sectionTitleAccessibility": "ACCESSIBILITY",
+      "checkboxSubtitles": "Show subtitles if available",
+      "checkboxAudio": "Play audio description if available"
+    },
+    "accountSettings": {
+      "sectionTitleAccount": "ACCOUNT",
+      "sectionTitleHistory": "My History",
+      "buttonSearch": "Search history",
+      "buttonWatch": "Watch history",
+      "buttonRecs": "Recommendations",
+      "buttonSignIn": "Sign-in / Register",
+      "sectionTitleParental": "Parental Controls",
+      "buttonSetup": "PIN",
+      "buttonChange": "Change PIN"
+    },
+    "consentSettings": {
+      "sectionTitleConsent": "CONSENT",
+      "sectionTitle": "Cookies Policy",
+      "consentText": "Channel 5 and its partners use cookies and similar technologies to store in your device to personalise your experience and be able to serve you with more relevant ('targeted') advertising.<br /><br />For detailed information about how we use the data we store, you can read our <a href='https://www.channel5.com/privacy-and-cookies' target='_blank'/>Cookies and Privacy Policies</a>.",
+      "cookiesSubtitle": "Choose your preferences below",
+      "cookiesText": "We'd like to store cookies on your device to be able to serve you with more relevant 'targeted' advertising – please let us know if you consent to the use of cookies for this purpose by clicking 'Yes' or 'No' below.",
+      "cookiesButton1": "Yes",
+      "cookiesButton2": "No",
+      "cookiesButton3": "Save",
+      "policyLink": "Privacy & Cookies",
+      "policyUrl": "https://www.channel5.com/privacy-and-cookies",
+      "sectionTitleMarketingCommunicationsettings": "Communications",
+      "communicationText": "Want to get more out of the 5 App? We'd love to keep in touch! You can change your communications preferences by managing your consent settings below.  Please note any changes will may take up to seven days to update.",
+      "ChannelAndMy5Panel": "Send me emails about the best of Channel5 including; new shows we think you'll like, exclusive content, special events, competitions and experiences.",
+      "viacomcbsPanel": "Send me emails from other ViacomCBS brands including MTV, Comedy Central and Paramount."
+    },
+    "notificationsSettings": {
+      "sectionTitleNotifications": "NOTIFICATIONS",
+      "textNotificationsEnabled": "Push notifications are enabled. To disable them please open the 5 app settings on your device.",
+      "textNotificationsDisabled": "Push notifications are disabled. To enable them please open the 5 app settings on your device.",
+      "textButton": "Open settings"
+    },
+    "aboutSettings": {
+      "sectionTitleAbout": "ABOUT",
+      "sectionTitleApp": "About the app",
+      "txtAboutApp": "App version",
+      "txtAboutOS": "OS version",
+      "txtAboutPlayer": "Player version",
+      "txtAboutUserService": "User Service version",
+      "sectionTitleFeedback": "Feedback"
+    }
+  },
+  "appFeatureSettings": {
+    "mandatoryRegistration": true,
+    "sponsorshipLogoEnabled": true,
+    "adjustTrackingEnabled": false,
+    "isJailbreakDetectionEnabled": false,
+    "oneTrustEnabled": false,
+    "marketingConsentEnabled": true,
+    "preferenceCentreEnabled": true,
+    "paramountPromoEnabled": false,
+    "brazePushNotificationEnabled": false,
+    "isEmailValidationEnabled": false,
+    "isCommsScreenEnabled": true,
+    "kidsModeEnabled": true
+  },
+  "onetrustSettings": {
+    "domainID": "63279cec-4dea-4d2b-a459-f27b0dcd6d0c",
+    "domain": "cdn.cookielaw.org"
+  },
+  "_configName": "7.20.9 | FAST | Kids Mode | Push Notifications On | Email Validation Off | Sub-genres | OneTrust Off | ManReg On"
+}

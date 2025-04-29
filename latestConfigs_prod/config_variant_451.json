@@ -1,0 +1,210 @@
+{
+  "onboardingVersion": 1,
+  "resumePointPeriod": 20,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "androidtv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaOnboardingImage10ftId": "PLC_My5OnboardingImage10ft",
+    "ednaOnboardingImageManRegId": "PLC_My5OnboardingImageManReg",
+    "ednaPrimaryNavCollectionId": "PLC_My5AndroidTVSGPrimaryNav",
+    "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5AndroidTVRecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?updated_at={time}&master={master}",
+    "ednaPINpairingImageId": "PLC_My5PINpairingimage",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaAllShowsCollectionId": "PLC_My5AllShows",
+    "ednaChannelsSubNavId": "PLC_My5ChannelsPageSubNav",
+    "ednaFeaturedCollectionId": "PLC_My5AndroidTVFeaturedRail",
+    "ednaHomeSubNavId": "PLC_My5AndroidTVHomePageSubNav",
+    "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+    "ednaSearchSubNavId": "PLC_My5SearchNav",
+    "ednaSettingsSubNavId": "PLC_My5AndroidTVSettingsPageSubNav",
+    "ednaSettingsMenuIds": {
+      "ednaAboutId": "PLC_My5AndroidTVAbout",
+      "ednaAccessibilitySettingsId": "PLC_My5AndroidTVAccessibilitySetting",
+      "ednaAccountSettingsId": "PLC_My5AndroidTVAccountSettings",
+      "ednaConsentSettingsId": "PLC_My5AndroidTVConsentSettings",
+      "ednaHelpId": "PLC_My5AndroidTVHelp"
+    },
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllEpisodesByShowTemplateUri": "/shows/{showId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowQueryTemplateUri": "/shows/search.json?platform={platformId}&query={query}",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}&channel={channelId}&starts_with={starts_with}&sort_by={sort_by}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaWatchableByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes/{watchableId}.json?platform={platformId}",
+    "coronaBrowseShowCountTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=vod_genre",
+    "coronaBrowseSubGenreTemplateUri": "/shows/search.json?platform={platformId}&offset={offset}&limit={limit}&sort_by={sort_by}&vod_subgenres[]={vodSubgenreIds}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5AndroidTVRecentlyAddedRail",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#F20D0D"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/androidplayer/theme/androidtv/android-my5-androidtv.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "My5AndroidTVHydra",
+    "cassieConnectionTimeoutInMilliseconds": 5000,
+    "cassieReadTimeoutInMilliseconds": 5000,
+    "adSettings": {
+      "adServerUrl": "https://7f077.v.fwmrm.net/",
+      "csid": "intllocal_my5_uk_ctv_androidtv_vod",
+      "profile": "520311:my5_androidtv_video",
+      "crtp": "vast3ap",
+      "networkId": "520311",
+      "metr": "959",
+      "_fw_h_x_country": "GB",
+      "flag": "+emcr+exvt+sltp+slcb+fbad"
+    },
+    "adobeAnalyticsSettings": {
+      "ADBMobileConfig": {
+        "lastModified": "2017-12-11T13:00:00.000Z",
+        "target": {
+          "clientCode": "",
+          "timeout": 5
+        },
+        "audienceManager": {
+          "analyticsForwardingEnabled": false,
+          "server": "",
+          "timeout": 5
+        },
+        "acquisition": {
+          "appid": "d101a5b0346d55efc7ca423a6e63d4ff31a9f2656285f30b261442775a8d9047",
+          "server": "c00.adobe.com"
+        },
+        "marketingCloud": {
+          "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+        },
+        "analytics": {
+          "backdateSessionInfo": false,
+          "batchLimit": 0,
+          "charset": "UTF-8",
+          "lifecycleTimeout": 300,
+          "offlineEnabled": false,
+          "poi": [
+
+          ],
+          "privacyDefault": "optedin",
+          "referrerTimeout": 0,
+          "rsids": "viach5intlcd,viach5intlhub",
+          "server": "ch5.sc.omtrdc.net",
+          "ssl": false,
+          "timezone": "PDT",
+          "timezoneOffset": -420
+        },
+        "mediaHeartbeat": {
+          "channel": "Channel 5",
+          "keepAlive": 25,
+          "ovp": "my5-uk",
+          "playerName": "android-c5-player",
+          "publisher": "Channel 5",
+          "server": "mtv.hb.omtrdc.net",
+          "ssl": false
+        }
+      }
+    },
+    "kantarSettings": {
+      "secure": false,
+      "playerName": "my5",
+      "siteName": "c5androidtv"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": true,
+      "obfuscateIp": true,
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_androidtv",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "systemMessages": {
+    "policies": {
+      "text1": "We’d like to be able to serve you with more relevant (‘targeted’) advertising. Please select ‘Accept’ to consent to the use of targeted advertising and non-functional cookies,  or ‘Not now’ if you’re not sure. You can always check and change your preference in the Settings menu.\n\r\n\rFurthermore, to learn more about our use of cookies and how to manage them, how we process your data and your rights please visit: viacomcbsprivacy.com/policy.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "version": 1,
+      "focusButton1": true
+    }
+  },
+  "upgradeSettings": {
+    "minVersion": "153",
+    "storeLink": "https://play.google.com/store/apps/details?id=com.channel5.my5",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5."
+  },
+  "userServiceSettings": {
+    "sdkUrl": "http://userservice.channel5.com/android/userServiceSdk-release.aar",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20,
+      "maxResumePoints": 20
+    }
+  },
+  "appFeatureSettings": {
+    "vodChannelsEnabled": false,
+    "mandatoryRegistration": true,
+    "sponsorshipLogoEnabled": true,
+    "oneTrustEnabled": true
+  },
+  "appUserSettings": {
+    "oneTrust": {
+      "title": "Consent",
+      "description": "We'd like to store cookies on your device to be able to serve you with more relevant 'targeted' advertising - please let us know if you consent to the use of cookies for this purpose.",
+      "buttonText": "Manage",
+      "cookiesHeader": "To learn more about how we and our partners use cookies and how to manage them, visit: ",
+      "cookiesLink": "www.channel5.com/cookies",
+      "termsAndConditions": "For our general terms and conditions, please visit: ",
+      "termsLink": "www.channel5.com/terms"
+    }
+  },
+  "onetrustSettings": {
+    "domainID": "08f2f319-0074-4201-b414-d656cf96254f",
+    "domain": "cdn.cookielaw.org"
+  },
+  "activation": {
+    "titleText": "Two ways to sign in",
+    "link": "my5.tv/activate",
+    "textActivationTitle": "Visit website",
+    "step1Description": "On your mobile device or computer go to:",
+    "step2Description": "Then enter this code:",
+    "step3Description": "Sign in to My5 and your TV will be ready to watch.",
+    "scanActivationTitle": "Scan QR code",
+    "scanDescription": "My5 Registration & Sign-in is FREE.\nPlease be aware of scam QR code reader apps\n sending people to fraudulent sites.\nFor more information visit www.channel5.com/qrcodes",
+    "interText": "OR",
+    "welcomeTitle": "Welcome",
+    "welcomeSubtitle": "Thanks for signing up for a My5 account and a more personalised experience. When you're signed in you can:",
+    "welcomeBullet01": "Add shows to Favourites, to access them easily in future",
+    "welcomeBullet02": "Resume watching episodes on different devices, and pick up where you left off",
+    "welcomeBullet03": "Access My5 exclusives and series Box sets"
+  },
+  "_configName": "4.22.3 | OneTrust On | ManReg On | Sponsor On"
+}

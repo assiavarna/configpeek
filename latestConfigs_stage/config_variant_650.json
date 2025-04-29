@@ -1,0 +1,167 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "samsung",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreensamsung1516",
+    "ednaOnboardingSignedInImagesCollectionId": "",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FVPSGMilkShakePrimaryNav",
+    "ednaPrimaryNavCollectionId": "PLC_My5SamsungSGPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaCollectionsTemplateUriV2": "/collections/{collectionId}.json?platform={platformId}",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance",
+        "colour": "#f6f646"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit channel5.com/privacy-and-cookies.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "kidsModeBanner": {
+      "header": "Set up PIN protection features in Settings."
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.channel5.com/videojsplayer/stage2/samsung-fastuat/core/bundle.js",
+    "themeUrl": "https://player-test.channel5.com/videojsplayer/stage2/samsung-fastuat/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth2.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth2.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5samsung",
+    "playbackMode": "samsungtizen",
+    "dashJsUrl": "https://player-staging.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1.min.js",
+    "thumbnailsEnabled": true,
+    "startAgainEnabled": false,
+    "keyMapping": "samsungtizen",
+    "adSettings": {
+      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_samsung_vod&prof=520311:c5_mss_samsungtizen&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 30,
+      "loadVideoTimeoutInSecs": 30,
+      "translateDirectAdUrlsToHttp": false
+    },
+    "kantarSettings": {
+      "siteName": "c5smarttvtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "true",
+      "contentIdKey": "param2",
+      "obfuscateIp": true,
+      "extraParams": {
+        "param1": "my5"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noAnimation": [
+      "fvp4000t"
+    ],
+    "disablePointerEvents": true,
+    "noMouse": true,
+    "noOnboarding": false,
+    "noNextEpisode": false,
+    "noUseEffect": [
+      "fvp4000t"
+    ],
+    "noSignIn": false,
+    "noSuitest": false,
+    "noEnhancedPlayerPanel": false,
+    "noLiveTVEnhancedPlayerPanel": true,
+    "noHomepageBackJourney": true,
+    "noEnhancedContinueWatching": false,
+    "noBrowseSort": true,
+    "noLiveContent": false,
+    "noFast": false,
+    "noHomeChannelGrid": false,
+    "noSponsorship": false,
+    "noMandatoryRegistration": false,
+    "noHomeHeroTitleTreatment": false,
+    "noShowHeroTitleTreatment": false,
+    "noShowTileTitleTreatment": false,
+    "noKidsMode": false,
+    "noOneTrust": true,
+    "noKochava": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/samsung/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "env": "staging",
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "activation": {
+    "titleText": "Scan QR Code",
+    "description": " To sign-in or register for free, scan the QR code using the camera on your mobile device. For more information visit www.channel5.com/qrcodes"
+  },
+  "onetrustSettings": {
+    "appId": "9114caa1-883d-4c9b-b676-48adf94a58aa",
+    "appIdTest": "9114caa1-883d-4c9b-b676-48adf94a58aa-test",
+    "cdnLocation": "cdn.cookielaw.org",
+    "supported": {
+      "tizen": [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "lg": [
+        "2020",
+        "2021",
+        "2022"
+      ]
+    }
+  },
+  "kochavaSettings": {
+    "kochavaGuid": "kosamsungch5-ldc8"
+  },
+  "_configName": "Copy of FAST UAT | Sub-genres | 2015 & 2016"
+}

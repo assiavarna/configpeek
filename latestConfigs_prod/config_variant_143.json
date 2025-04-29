@@ -1,0 +1,170 @@
+{
+  "onboardingVersion": 1,
+  "resumePointPeriod": 20,
+  "stillWatchingTimeMins": 120,
+  "stores": [
+    {
+      "name": "Huawei App Gallery",
+      "url": "appmarket://details?id=com.mobileiq.demand5"
+    }
+  ],
+  "dataServiceSettings": {
+    "platformId": "my5android",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaPrimaryNavCollectionId": "PLC_My5AndroidPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "coronaAllEpisodesByShowTemplateUri": "/shows/{showId}/episodes.json?platform={platformId}",
+    "coronaWatchableByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "upgradeSettings": {
+    "minVersion": "0.0.0",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Gallery."
+  },
+  "systemMessages": {
+    "policies": {
+      "active": true,
+      "title": "My5 And Your Data",
+      "text": "Channel 5 uses cookies and the data which you provide to us to personalise your My5 experience and enable us to serve you with more relevant 'targeted' advertising.\n\nFor detailed information about how we use the data we store, you can read our privacy and cookie policies by clicking on the privacy policy link below.\n\nTo allow the use of your data to personalise your advertising and application experience click on ‘Accept all’. For full control of how we use your data click on edit settings and tell us what you’re happy with.",
+      "dataActive": true,
+      "dataSubtitle": "Your Registration Data",
+      "dataText": "We’d like to use the information you provide to us to personalise your My5 experience and deliver more relevant 'targeted' advertising. We will share your data to help make this experience a reality. – please let us know if you consent to the use of your data for this purpose.",
+      "dataYesButton": "Yes",
+      "dataNoButton": "No",
+      "cookiesActive": true,
+      "cookiesSubtitle": "Cookie policy",
+      "cookiesText": "We’d like to store cookies on your device to be able to serve you with more relevant 'targeted' advertising – please let us know if you consent to the use of cookies for this purpose.",
+      "cookiesYesButton": "Yes",
+      "cookiesNoButton": "No",
+      "policyButton": "Privacy & Cookies",
+      "policyUrl": "channel5.com/privacy-and-cookies",
+      "editButton": "Edit choices",
+      "acceptButton": "Accept all",
+      "saveButton": "Save",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/androidplayer/theme/my5/mobile-my5.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5huawei",
+    "cassieChromecastPlatformId": "gccandroidng",
+    "cassieConnectionTimeoutInMilliseconds": 5000,
+    "cassieReadTimeoutInMilliseconds": 5000,
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={c5id}&csid=android_d5&prof=144750:c5_dash_android&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}"
+    },
+    "adobeAnalytics": {
+      "server": "mtv.hb.omtrdc.net",
+      "channel": "Channel 5",
+      "ovp": "my5-uk",
+      "ssl": false,
+      "publisher": "Channel 5",
+      "playerName": "android-c5-player",
+      "debugLogging": false,
+      "heartbeatKeepAlivePeriod": 25
+    },
+    "kantarSettings": {
+      "siteName": "c5android",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": true,
+      "obfuscateIp": true,
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_android_mobile_huawei"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "adobeAnalytics": {
+    "marketingCloud": {
+      "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+    },
+    "analytics": {
+      "rsids": "viach5intlapp",
+      "server": "ch5.sc.omtrdc.net",
+      "ssl": true,
+      "offlineEnabled": false,
+      "charset": "UTF-8",
+      "lifecycleTimeout": 300,
+      "privacyDefault": "optedin",
+      "batchLimit": 0,
+      "timezone": "GMT",
+      "timezoneOffset": 0,
+      "referrerTimeout": 0,
+      "backdateSessionInfo": false,
+      "poi": [
+
+      ],
+      "heartbeatKeepAlivePeriod": 25
+    }
+  },
+  "userServiceSettings": {
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 10,
+      "maxLocalResumePoints": 10,
+      "maxLocalSearchHistory": 10
+    }
+  },
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "http://www.channel5.com/privacy-and-cookies",
+    "cookieUrl": "http://www.channel5.com/cookie-policy",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com"
+  },
+  "sponsorship": {
+    "DFPNetworkID": "69550299",
+    "DFPSiteID": "channel5"
+  },
+  "_configName": "Backup 10 June 2021"
+}

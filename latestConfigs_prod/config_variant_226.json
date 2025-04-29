@@ -1,0 +1,178 @@
+{
+  "onboardingVersion": 1,
+  "resumePointPeriod": 20,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "upgradeSettings": {
+    "minVersion": "2100064173",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5. Please download the latest My5 app from the Amazon Store.",
+    "storeLink": "amzn://apps/android?p=com.mobileiq.demand5"
+  },
+  "systemMessages": {
+    "policies": {
+      "text1": "Oops! It looks like you're trying to use an old version of the My5 app that no longer works. Please update to the latest version of My5 to continue watching. You can visit help.channel5.com for help on how to update the My5 app.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "version": 4,
+      "focusButton1": true
+    }
+  },
+  "dataServiceSettings": {
+    "platformId": "my5android",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaOnboardingImage10ftId": "PLC_My5OnboardingImage10ft",
+    "ednaOnboardingImageManRegId": "PLC_My5OnboardingImageManReg",
+    "ednaPINpairingImageId": "PLC_My5PINpairingimage",
+    "ednaPrimaryNavCollectionId": "PLC_My5FireTVPrimaryNoNav",
+    "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5AndroidTVRecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaWatchableByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes/{watchableId}.json?platform={platformId}",
+    "coronaBrowseShowCountTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=vod_genre",
+    "coronaBrowseSubGenreTemplateUri": "/shows/search.json?platform={platformId}&offset={offset}&limit={limit}&sort_by={sort_by}&vod_subgenres[]={vodSubgenreIds}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaPMRTemplateUri": "/collections/{collectionId}.json?platform={platformId}",
+    "amazonPMRCollectionId": "PLC_My5FireTVFeaturedRail",
+    "amazonPMRUpdatePeriodMs": 3600000,
+    "ednaC5XmltvEpgFeedUri": "",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5RecentlyAddedCarousel",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceCarousel",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#F20D0D"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/amazonplayer/theme/firetv/my5/android-my5-firetv.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5firetv",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=144750&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=firetv_my5&prof=144750:c5_dash_firetv&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}"
+    },
+    "adobeAnalyticsSettings": {
+      "ADBMobileConfig": {
+        "lastModified": "2017-12-11T13:00:00.000Z",
+        "target": {
+          "clientCode": "",
+          "timeout": 5
+        },
+        "audienceManager": {
+          "server": "",
+          "analyticsForwardingEnabled": false,
+          "timeout": 5
+        },
+        "acquisition": {
+          "server": "c00.adobe.com",
+          "appid": "d101a5b0346d55efc7ca423a6e63d4ff31a9f2656285f30b261442775a8d9047"
+        },
+        "marketingCloud": {
+          "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+        },
+        "analytics": {
+          "rsids": "viach5intlcd,viach5intlhub",
+          "server": "ch5.sc.omtrdc.net",
+          "ssl": false,
+          "offlineEnabled": false,
+          "charset": "UTF-8",
+          "lifecycleTimeout": 300,
+          "privacyDefault": "optedin",
+          "batchLimit": 0,
+          "timezone": "PDT",
+          "timezoneOffset": -420,
+          "referrerTimeout": 0,
+          "backdateSessionInfo": false,
+          "poi": [
+
+          ]
+        },
+        "mediaHeartbeat": {
+          "server": "mtv.hb.omtrdc.net",
+          "publisher": "Channel 5",
+          "channel": "Channel 5",
+          "ssl": false,
+          "ovp": "my5-uk",
+          "playerName": "android-c5-player",
+          "keepAlive": 25
+        },
+        "messages": [
+
+        ],
+        "remotes": {
+          "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e2064746d64dc00ce3d.json",
+          "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e1e64746d2e0200d4dd.json"
+        }
+      }
+    },
+    "kantarSettings": {
+      "siteName": "c5firetv",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "obfuscateIp": "true",
+      "httpSecure": "true",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_firetv",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "userServiceSettings": {
+    "sdkUrl": "http://userservice.channel5.com/android/userServiceSdk-release.aar",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "appFeatureSettings": {
+    "sponsorshipLogoEnabled": true,
+    "mandatoryRegistration": true,
+    "oneTrustEnabled": false
+  },
+  "appUserSettings": {
+    "oneTrust": {
+      "title": "Consent",
+      "description": "We'd like to store cookies on your device to be able to serve you with more relevant 'targeted' advertising - please let us know if you consent to the use of cookies for this purpose.",
+      "buttonText": "Manage",
+      "cookiesHeader": "To learn more about how we and our partners use cookies and how to manage them, visit: ",
+      "cookiesLink": "www.channel5.com/cookies",
+      "termsAndConditions": "For our general terms and conditions, please visit: ",
+      "termsLink": "www.channel5.com/terms"
+    }
+  },
+  "onetrustSettings": {
+    "domainID": "be378b13-4024-410e-8a46-b6b0864d16ce",
+    "domain": "cdn.cookielaw.org"
+  },
+  "_configName": "App 4.3.3 (sub-genre support - EPG hotfix)"
+}

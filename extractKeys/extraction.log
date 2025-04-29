@@ -1,0 +1,11 @@
+=== Keys extracted at 2025-04-28 12:43:59 ===
+
+📁 Processing: ./latestConfigs_prod
+📁 Processing: ./latestConfigs_stage
+
+✅ Done! Unique keys written to: ./extractKeys/keys.json
+📄 Full log: ./extractKeys/extraction.log
+📊 Total files: 765
+⏭️  Files with errors: 0
+➡️  Files processed: 765
+🗝️  Keys extracted:     1011

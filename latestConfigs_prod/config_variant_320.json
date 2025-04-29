@@ -1,0 +1,113 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "appAudioDescriptionEnabled": false,
+  "dataServiceSettings": {
+    "platformId": "virgin",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5VirginSGPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5BrowsePageLastChance",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit viacomcbsprivacy.com/policy.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 2
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player.akamaized.net/videojsplayer/virgintivohorizon/core/bundle.js",
+    "themeUrl": "https://player.akamaized.net/videojsplayer/virgintivohorizon/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie.channel5.com/api/v2/media",
+    "dashJsUrl": "https://player.akamaized.net/videojsplayer/dashjs/dash.all.min.js",
+    "cassiePlatformId": "my5virginhorizon",
+    "playbackMode": "dashjs-doublevideoelement",
+    "keyMapping": "virginhorizon",
+    "adSettings": {
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+sltp+exvt+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_virginmediahorizontv2stb_vod&prof=520311:c5_dash_vmhorizon&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 30,
+      "loadVideoTimeoutInSecs": 30,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "kantarSettings": {
+      "siteName": "c5virgintest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "host": "npaw.my5.tv",
+      "accountCode": "channel5",
+      "obfuscateIp": "true",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5_virgin_horizon",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noOnboarding": false,
+    "noNextEpisode": false,
+    "noEnhancedPlayerPanel": false,
+    "noSignIn": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": false,
+    "noRecommendations": true,
+    "noTitleTreatment": false,
+    "noAllRailsTitleTreatment": true,
+    "noShowTitleTreatment": true,
+    "noLiveContent": true,
+    "disablePointerEvents": true,
+    "noEnhancedContinueWatching": true,
+    "noHomepageBackJourney": false,
+    "noMouse": true,
+    "noMandatoryRegistration": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice.channel5.com/html/virgintivo/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "1"
+}

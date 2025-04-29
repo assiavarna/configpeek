@@ -1,0 +1,108 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "dataServiceSettings": {
+    "platformId": "samsung",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5SamsungSignInOrsayPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance",
+        "colour": "#f6f646"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit channel5.com/privacy-and-cookies.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/samsungorsay/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/samsungorsay/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth2-prelive.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5samsungorsay",
+    "thumbnailsEnabled": true,
+    "playbackMode": "samsungorsay",
+    "keyMapping": "samsungorsay",
+    "adSettings": {
+      "adRequestUrl": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=samsungorsay_my5&prof=380990:c5_mss_samsungorsay&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 5,
+      "loadVideoTimeoutInSecs": 5,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "kantarSettings": {
+      "siteName": "c5smarttvtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": false,
+      "obfuscateIp": true,
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noNextEpisode": false,
+    "noOnwardJourney": false,
+    "noOnboarding": true,
+    "noSignIn": false,
+    "noEnhancedContinueWatching": true,
+    "noLiveContent": true,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": true,
+    "noLiveTVEnhancedPlayerPanel": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/samsungorsay/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "1"
+}

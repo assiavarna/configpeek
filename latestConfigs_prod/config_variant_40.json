@@ -1,0 +1,102 @@
+{
+  "onboardingVersion": 2,
+  "dataServiceSettings": {
+    "platformId": "appletv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaPrimaryNavCollectionId": "PLC_My5AppleTVPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaOnboardingImage10ftId": "PLC_My5OnboardingImage10ft",
+    "ednaPINpairingImageId": "PLC_My5PINpairingimage",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaAllEpisodesByShowTemplateUri": "/shows/{showId}/episodes.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "upgradeSettings": {
+    "minVersion": "1.6.37",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Store."
+  },
+  "systemMessages": {
+    "policies": {
+      "text": "We’d like to be able to serve you with more relevant (‘targeted’) advertising. Please select ‘Accept’ to consent to the use of targeted advertising and non-functional cookies,  or ‘Not now’ if you’re not sure. You can always check and change your preference in the Settings menu.\n\r\n\rFurthermore, to learn more about our use of cookies and how to manage them, how we process your data and your rights please visit: channel5.com/privacy-and-cookies.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "version": 1,
+      "focusButton1": true
+    }
+  },
+  "c5playerSettings": {
+    "fairplayApplicationCertificateUrl": "https://c5apps.channel5.com/fps/c5-fps-app-cert-20170119.cer",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5appletv",
+    "playheadEventInterval": 5,
+    "adSettings": {
+      "baseUrl": "https://2356e.v.fwmrm.net",
+      "flag": "+emcr+exvt+sltp+slcb",
+      "metr": "959",
+      "nw": "144750",
+      "csid": "appletv_my5",
+      "prof": "144750:c5_appletv_video",
+      "_fw_did_idfa": "false"
+    },
+    "adobeAnalytics": {
+      "server": "mtv.hb.omtrdc.net",
+      "channel": "Channel 5",
+      "ovp": "my5-uk",
+      "ssl": true,
+      "publisher": "Channel 5",
+      "playerName": "tvos-c5-player",
+      "debugLogging": false,
+      "heartbeatKeepAlivePeriod": 25
+    },
+    "kantarSettings": {
+      "siteName": "c5appletv",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": "true",
+      "obfuscateIp": "true",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_appletv",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "userServiceSettings": {
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "1"
+}

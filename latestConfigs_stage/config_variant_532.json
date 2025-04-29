@@ -1,0 +1,180 @@
+{
+  "onboardingVersion": 2,
+  "onwardJourney": true,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "commsVersion": null,
+  "_configName": "kepler",
+  "upgradeSettings": {
+    "minVersion": "2100064084",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5. Please download the latest My5 app from the Amazon Store.",
+    "storeLink": "amzn://apps/android?p=com.mobileiq.demand5"
+  },
+  "systemMessages": {
+    "policies": {
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising or 'Not now' if you’re not sure. You can always check and change your preference in the Settings menu.\n\r\n\rTo learn more about how we process your data and your rights please visit: viacomcbsprivacy.com/policy",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "version": 2,
+      "focusButton1": true
+    },
+    "kidsModeBanner": {
+      "header": "Set up PIN protection features in Settings."
+    }
+  },
+  "dataServiceSettings": {
+    "platformId": "my5android",
+    "ednaAccountSettingsId": "PLC_My5androidAccountSettings",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaC5XmltvEpgFeedUri": "/feed/c5-xmltv-epg.xml",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaPrimaryNavCollectionId": "PLC_My5KeplerKidsModePrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
+    "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreenKepler",
+    "ednaSignedCommunicationImagesCollectionId": "PLC_My5CommsScreenKepler",
+    "ednaOnboardingImage10ftId": "PLC_My5OnboardingImage10ft",
+    "ednaOnboardingImageManRegId": "PLC_My5OnboardingImageManReg",
+    "ednaPINpairingImageId": "PLC_My5PINpairingimage",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5KeplerRecommendationsRail",
+    "ednaHomeSubNavId": "PLC_My5KeplerHomePageSubNav",
+    "ednaChannelsSubNavId": "PLC_My5ChannelsPageSubNav",
+    "ednaSearchSubNavId": "PLC_My5SearchNav",
+    "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+    "ednaSettingsSubNavId": "PLC_My5KeplerSettingsPageSubNav",
+    "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}&master={master}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaWatchableByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes/{watchableId}.json?platform={platformId}",
+    "coronaBrowseShowCountTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=vod_genre",
+    "coronaBrowseSubGenreTemplateUri": "/shows/search.json?platform={platformId}&offset={offset}&limit={limit}&sort_by={sort_by}&vod_subgenres[]={vodSubgenreIds}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaPMRTemplateUri": "/collections/{collectionId}.json?platform={platformId}",
+    "coronaNowNextMetadataFeedTemplateUri": "/channels/{channelId}/epg.json?start={startTime}&end={endTime}&platform={platformId}",
+    "amazonPMRCollectionId": "PLC_My5KeplerFeaturedRail",
+    "amazonPMRUpdatePeriodMs": 3600000,
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5FireTVRecentlyAddedRail",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "c5playerSettings": {
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-staging.channel5.com/api/v2/media",
+    "cassieLiveBaseUrl": "https://cassie-staging.channel5.com/api/v2/live_media",
+    "dashJsUrl": "https://player-staging.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.2.min.js",
+    "cassiePlatformId": "my5kepler",
+    "cassieAppId": "my5kepler",
+    "playbackMode": "dashjs-singlevideoelement",
+    "dismissButtonEnabled": true,
+    "arrowButtonsStartTrickplay": true,
+    "trickplaySpeeds": [
+      2,
+      6,
+      12,
+      30
+    ],
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+sltp+exvt+slcb+fbad&metr=959&nw=380990&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=skyq_my5&prof=380990:c5_my5skyq&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "vastLoadTimeoutInSecs": 10,
+      "loadVideoTimeoutInSecs": 10,
+      "translateDirectAdUrlsToHttp": true,
+      "adSkippingEntitlement": true,
+      "combinedAdProgressBar": true,
+      "skipPreRollOnResume": true
+    },
+    "kantarSettings": {
+      "siteName": "c5skytest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": false,
+      "obfuscateIp": true,
+      "extraParams": {
+        "param1": "my5_sky_overip",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5,
+    "adBreakProgressBarEnabled": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/kepler/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "env": "staging",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "appFeatureSettings": {
+    "mandatoryRegistration": true,
+    "noAnimation": false,
+    "vodChannelsEnabled": false,
+    "adjustTrackingEnabled": false,
+    "sponsorshipLogoEnabled": true,
+    "oneTrustEnabled": true,
+    "isCommsScreenEnabled": true,
+    "noKidsMode": false,
+    "noKidsModePinExit": false
+  },
+  "appUserSettings": {
+    "oneTrust": {
+      "title": "Consent",
+      "description": "We'd like to store cookies on your device to be able to serve you with more relevant 'targeted' advertising - please let us know if you consent to the use of cookies for this purpose.",
+      "buttonText": "Manage",
+      "cookiesHeader": "To learn more about how we and our partners use cookies and how to manage them, visit: ",
+      "cookiesLink": "www.channel5.com/cookies",
+      "termsAndConditions": "For our general terms and conditions, please visit: ",
+      "termsLink": "www.channel5.com/terms"
+    }
+  },
+  "onetrustSettings": {
+    "domainID": "be378b13-4024-410e-8a46-b6b0864d16ce-test",
+    "domain": "cdn.cookielaw.org"
+  },
+  "activation": {
+    "titleText": "Two ways to sign in",
+    "link": "staging.channel5.com/activate",
+    "textActivationTitle": "Visit website",
+    "step1Description": "On your mobile device or computer go to:",
+    "step2Description": "Then enter this code:",
+    "step3Description": "Sign in to 5 and your TV will be ready to watch.",
+    "scanActivationTitle": "Scan QR code",
+    "scanDescription": "To scan, use your camera app or QR code \nreader on your mobile device.",
+    "interText": "OR",
+    "welcomeTitle": "Welcome",
+    "welcomeSubtitle": "Thanks for signing up for a 5 account and a more personalised experience. When you're signed in you can:",
+    "welcomeBullet01": "Add shows to Favourites, to access them easily in future",
+    "welcomeBullet02": "Resume watching episodes on different devices, and pick up where you left off",
+    "welcomeBullet03": "Access 5 exclusives and series Box sets"
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "onboardingVersion": 2,
+  "appSubtitlesEnabled": true,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "freesathbbtv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreeviewPlayNoFASTPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5NoFastMilkShakeSubNav",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.  \n\r\n\r   For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.  \n\r\n\r   To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>",
+      "button1": "Accept All",
+      "button2": "Reject All",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "privacy": {
+      "header": "About your Privacy",
+      "label": "Your current privacy settings",
+      "accept": "Accept All",
+      "reject": "Reject All",
+      "description": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.",
+      "info": [
+        "For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.",
+        "To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>."
+      ]
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/freeviewplay-fast/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/freeviewplay-fast/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5freeviewplayhbbtv",
+    "playbackMode": "hbbtvoipf",
+    "thumbnailsEnabled": true,
+    "startAgainEnabled": false,
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_freeviewplayhbbtvvod_vod&prof=520311:c5_mss_freeviewplay&pvrn={pvrn}&vprn={vprn};_fw_is_lat={lat}&_fw_cookie_consent={cookie}",
+      "vastLoadTimeoutInSecs": 30,
+      "loadVideoTimeoutInSecs": 30,
+      "translateDirectAdUrlsToHttp": false
+    },
+    "kantarSettings": {
+      "siteName": "c5freeviewtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "obfuscateIp": "false",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noCache": true,
+    "noAnimation": false,
+    "disablePointerEvents": true,
+    "noMouse": false,
+    "noNextEpisode": true,
+    "noUseEffect": [
+      "fvp4000t"
+    ],
+    "noSignIn": false,
+    "noOnwardJourney": true,
+    "noEnhancedContinueWatching": false,
+    "noEnhancedPlayerPanel": false,
+    "noLiveContent": true,
+    "noFast": true,
+    "noAllRailsTitleTreatment": true,
+    "noTitleTreatment": false,
+    "noRecommendations": true,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noSponsorship": true,
+    "noMandatoryRegistration": true,
+    "noLiveTVEnhancedPlayerPanel": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/freeviewplay/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "env": "staging",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "FAST | No Fast | HbbTVVoD | LiveTVDisabled | Panasonic"
+}

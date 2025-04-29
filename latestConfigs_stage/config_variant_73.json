@@ -1,0 +1,98 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "dataServiceSettings": {
+    "platformId": "samsung",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaPrimaryNavCollectionId": "PLC_MilkshakeSamsungPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_MSSamsungContinueWatchingRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre=milkshake!&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre=milkshake!",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre=milkshake!",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data at www.channel5.com/privacy-and-cookies",
+      "button1": "OK",
+      "button2": "CLOSE",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.akamaized.net/videojsplayer/stage2/samsung/core/bundle.js",
+    "themeUrl": "https://player-test.akamaized.net/videojsplayer/stage2/samsung/theme/milkshake/styles.css",
+    "theme": "milkshake",
+    "cassieBaseUrl": "https://cassie-auth2.channel5.com/api/v2/media",
+    "cassiePlatformId": "milkshakesamsung",
+    "playbackMode": "samsungtizen",
+    "keyMapping": "samsungtizen",
+    "adSettings": {
+      "adRequestUrl": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=samsungtizen_milkshake&prof=380990:c5_mss_samsungtizen_milkshake&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "imaSdkUrl": "https://player-staging.akamaized.net/videojsplayer/ima-sdk/ima3.309.0.js",
+      "vastLoadTimeoutInSecs": 5,
+      "loadVideoTimeoutInSecs": 5
+    },
+    "kantarSettings": {
+      "siteName": "c5smarttvtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "false",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "noSignIn": true,
+    "noBackgroundRail": false,
+    "disableSubtitles": true,
+    "noDynamicBackground": false,
+    "noSearchHistory": true,
+    "noGdpr": true,
+    "noEnhancedPlayerPanel": true,
+    "noHomepageBackJourney": false,
+    "noNextEpisode": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/samsung/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "_configName": "1"
+}

@@ -1,0 +1,148 @@
+{
+  "onboardingVersion": 6,
+  "appSubtitlesEnabled": true,
+  "onboardingSignedInVersion": 1,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "lge",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
+    "ednaOnboardingSignedInImagesCollectionId": "PLC_CommsScreenFastCTV",
+    "ednaPrimaryNavCollectionId": "PLC_My5LGLiveTVNoFASTPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5NoFastMilkShakeSubNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "ednaCollectionsTemplateUriV2": "/collections/{collectionId}.json?platform={platformId}",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance",
+        "colour": "#f6f646"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode",
+        "colour": "#FF5ABD"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.  \n\r\n\r   For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.  \n\r\n\r   To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>",
+      "button1": "Accept All",
+      "button2": "Reject All",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "kidsModeBanner": {
+      "header": "Set up PIN protection features in Settings."
+    },
+    "privacy": {
+      "header": "About your Privacy",
+      "label": "Your current privacy settings",
+      "accept": "Accept All",
+      "reject": "Reject All",
+      "description": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.",
+      "info": [
+        "For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.",
+        "To see a list of the partners we work with, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>."
+      ]
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.akamaized.net/videojsplayer/stage2/lg-fastuat/core/bundle.js",
+    "themeUrl": "https://player-test.akamaized.net/videojsplayer/stage2/lg-fastuat/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth-staging.channel5.com/api/v2/live_media",
+    "deviceSettingsServiceUrl": "https://player-staging.akamaized.net/videojsplayer/devicesettings/deviceSettingsService.0.0.2.js",
+    "cassiePlatformId": "my5lg",
+    "playbackMode": "lgnetcast",
+    "startAgainEnabled": false,
+    "thumbnailsEnabled": true,
+    "keyMapping": "freeviewplaylg",
+    "adSettings": {
+      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_lgwebos35_vod&prof=520311:c5_mss_lg&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}&_fw_did={did}&tfcd={tfcd}&_fw_coppa={tfcd}",
+      "vastLoadTimeoutInSecs": 20,
+      "loadVideoTimeoutInSecs": 20,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "kantarSettings": {
+      "siteName": "c5smarttvtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "obfuscateIp": "false",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5
+  },
+  "appFeatureSettings": {
+    "disablePointerEvents": true,
+    "noAnimation": false,
+    "noAllRailsTitleTreatment": true,
+    "noEnhancedContinueWatching": false,
+    "noEnhancedPlayerPanel": false,
+    "noHomepageBackJourney": false,
+    "noFast": true,
+    "noLiveContent": true,
+    "noMouse": false,
+    "noNextEpisode": false,
+    "noRecommendations": false,
+    "noSignIn": false,
+    "noTitleTreatment": true,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noLiveTVEnhancedPlayerPanel": true,
+    "noSponsorship": false,
+    "noHomeHeroTitleTreatment": false,
+    "noShowHeroTitleTreatment": false,
+    "noShowTileTitleTreatment": false,
+    "noKidsMode": false,
+    "noCommsScreen": false,
+    "noKochava": false
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice-staging.channel5.com/html/lg/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "env": "staging",
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "kochavaSettings": {
+    "kochavaGuid": "kolg-ch5-eiq9ykmim"
+  },
+  "_configName": "FAST UAT | WebOS 1,2 SMOOTH NETCAST | Rebrand | Kids Mode"
+}

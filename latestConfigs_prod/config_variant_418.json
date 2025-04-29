@@ -1,0 +1,142 @@
+{
+  "onboardingVersion": 1,
+  "appSubtitlesEnabled": true,
+  "browsePageSubGenreRailMaxDisplayItems": 19,
+  "dataServiceSettings": {
+    "platformId": "youviewhbbtv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
+    "ednaPrimaryNavCollectionId": "PLC_My5YouviewSGPrimaryNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=starts_with&genre={genre}",
+    "coronaShowsByChannelTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=channel&genre={genre}",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      },
+      {
+        "collection": "NextEpisode",
+        "text": "Next Episode"
+      }
+    ]
+  },
+  "systemMessages": {
+    "policies": {
+      "header": "My5 and your data",
+      "text1": "We'd like to be able to serve you with more relevant ('targeted') advertising. Please select 'Accept' to consent to the use of targeted advertising and non-functional cookies, or 'Not now' if you're not sure. You can always check and change your preference in the settings menu.  \n\r\n\r   Furthermore, to learn more about the use of cookies and how to manage them, how we process your data and your rights please visit channel5.com/privacy-and-cookies.",
+      "button1": "Accept",
+      "button2": "Not now",
+      "text2": "",
+      "initialFocus": "button1",
+      "version": 1
+    },
+    "privacy": {
+      "header": "About your Privacy",
+      "label": "Your current privacy settings",
+      "accept": "Accept All",
+      "reject": "Reject All",
+      "description": "We and our trusted partners (see list linked below) would like to store and access cookies and other information on your device in order to deliver more relevant ads to you, including by understanding more about you and the way in which you use our services and assessing whether the displayed ads are effective. If you choose not to accept, you will still receive advertising but this may not be as relevant to you. You can always change your mind later in the settings menu.",
+      "info": [
+        "For more information about how we use cookies and similar technologies, please see <span class='font--medium font--link'>http://privacy.paramount.com/en/policy</span>.",
+        "To see a list of the partners we work with, please see <span class='font--medium font--link'>https://legal.paramount.com/uk/en/channel-5/ad-partners</span>."
+      ]
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player.akamaized.net/videojsplayer/youview/core-talktalk/bundle.js",
+    "themeUrl": "https://player.akamaized.net/videojsplayer/youview/theme-talktalk/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassiePlatformId": "my5youviewhbbtv",
+    "playbackMode": "hbbtvoipf-doublevideoelement",
+    "thumbnailsEnabled": true,
+    "keyMapping": "youviewstb",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=144750&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=youview_my5_stb&prof=144750:c5_youview_stb_admgr_profile&pvrn={pvrn}&vprn={vprn};_fw_is_lat={lat}&_fw_cookie_consent={cookie}",
+      "vastLoadTimeoutInSecs": 10,
+      "loadVideoTimeoutInSecs": 10,
+      "translateDirectAdUrlsToHttp": true
+    },
+    "kantarSettings": {
+      "siteName": "c5youviewtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": "true",
+      "obfuscateIp": "true",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_youview_stb_talktalk"
+      }
+    },
+    "nearEndEventTime": 10,
+    "playheadEventInterval": 30000,
+    "scrubPanelAutohideExpiry": 5,
+    "youviewCridTemplate": "crid://panorama.five.tv/versions/{c5id}{version}"
+  },
+  "appFeatureSettings": {
+    "noSuitest": true,
+    "noCache": true,
+    "noAnimation": [
+      "fvp4000t"
+    ],
+    "disablePointerEvents": true,
+    "noMouse": true,
+    "noAdobeLaunch": false,
+    "noOnboarding": false,
+    "noNextEpisode": false,
+    "noSearchHistory": false,
+    "noUseEffect": true,
+    "noSignIn": false,
+    "noEnhancedPlayerPanel": false,
+    "noHomepageBackJourney": false,
+    "noBrowseSort": true,
+    "noHomeChannelGrid": true,
+    "noRecommendations": false,
+    "noSponsorship": false,
+    "noEnhancedContinueWatching": false,
+    "noMandatoryRegistration": false,
+    "noHomeHeroTitleTreatment ": false,
+    "noShowHeroTitleTreatment": false,
+    "noShowTileTitleTreatment": false,
+    "noKidsMode": true
+  },
+  "userServiceSettings": {
+    "sdkUrl": "https://userservice.channel5.com/html/youview/user-service-ctv-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "platform": "Milkshake Web",
+      "brand": "My5",
+      "env": "prod",
+      "tcfVersion": 1,
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20
+    }
+  },
+  "activation": {
+    "titleText": "Scan QR Code",
+    "description": "My5 Registration & Sign-in is FREE. Please be aware of scam QR code reader apps sending people to fraudulent sites. For more information visit www.channel5.com/qrcodes"
+  },
+  "_configName": "133.43.1 | Gen 4+ (TalkTalk Android TV) | Sub-genres | LAT"
+}

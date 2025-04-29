@@ -1,0 +1,168 @@
+{
+  "onboardingVersion": 2,
+  "browsePageSubGenreRailMaxDisplayItems": 20,
+  "dataServiceSettings": {
+    "platformId": "appletv",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingImages",
+    "ednaOnboardingImage10ftIdMandatorySignIn": "PLC_My5OnboardingImageManReg",
+    "ednaPrimaryNavCollectionId": "PLC_My5AppleTVSGPrimaryNav",
+    "ednaHomeNavCollectionId": "PLC_My5AppleTVHomePageSubNav",
+    "ednaBrowseNavCollectionId": "PLC_My5SubGenreBrowsePageSubNav",
+    "ednaChannelNavCollectionId": "PLC_My5ChannelsPageSubNav",
+    "ednaAllShowsCollectionId": "PLC_My5AllShows",
+    "ednaSettingsCollectionId": "PLC_My5AppleTVSettingsPageSubNav",
+    "ednaAccountCollectionId": "PLC_My5AppleTVAccountSettings",
+    "ednaCookiesCollectionId": "PLC_My5CookieSettings",
+    "ednaHelpCollectionId": "PLC_My5AppleTVHelp",
+    "ednaAboutCollectionId": "PLC_My5AppleTVAbout",
+    "ednaAccessibilityCollectionId": "PLC_My5AppleTVAccessibilitySettings",
+    "ednaLiveNavCollectionId": "PLC_My510ftLiveTVPageSubNav",
+    "ednaMyListNavCollectionId": "PLC_My5FavouritesNav",
+    "ednaSearchNavCollectionId": "PLC_My5SearchNav",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
+    "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
+    "ednaFeaturedCollectionId": "PLC_My5AppleTVFeaturedRail",
+    "ednaOnboardingImage10ftId": "PLC_My5OnboardingImage10ft",
+    "ednaPINpairingImageId": "PLC_My5PINpairingimage",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
+    "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
+    "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
+    "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
+    "coronaWatchableTemplateUri": "/watchables/{watchableId}.json?platform={platformId}",
+    "coronaWatchableRelatedItemsTemplateUri": "/watchables/{watchableId}/relateditems.json?platform={platformId}",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "/shows/{showId}/seasons/{seasonId}/episodes.json?platform={platformId}",
+    "coronaAllSeasonsByShowTemplateUri": "/shows/{showId}/seasons.json?platform={platformId}",
+    "coronaAllEpisodesByShowTemplateUri": "/shows/{showId}/episodes.json?platform={platformId}",
+    "coronaShowAtoZTemplateUri": "/shows/atoz.json?platform={platformId}&genre={genre}",
+    "coronaBrowseShowCountTemplateUri": "/shows/counts.json?platform={platformId}&counts_by=vod_genre",
+    "coronaBrowseSubGenreTemplateUri": "/shows/search.json?platform={platformId}&vod_subgenres[]={subGenre}&offset=0&limit={limit}",
+    "ednaNowNextFeedTemplateUri": "/feed/now-next/{channelId}.json",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "PLC_My5BrowsePageRecentlyAdded",
+        "text": "New"
+      },
+      {
+        "collection": "PLC_My5LastChanceRail",
+        "text": "Last Chance"
+      }
+    ]
+  },
+  "upgradeSettings": {
+    "minVersion": "3.4.1",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Store."
+  },
+  "systemMessages": {
+    "policies": {
+      "bannerActive": true,
+      "text": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data at viacomcbsprivacy.com/policy",
+      "button1": "Okay",
+      "button2": "Read later",
+      "version": 1,
+      "position": "bottom"
+    },
+    "activation": {
+      "activationActive": true,
+      "titleText": "Two ways to sign in",
+      "link": "my5.tv/activate",
+      "textActivationTitle": "Visit website",
+      "step1Description": "On your mobile device or computer go to:",
+      "step2Description": "Then enter this code:",
+      "step3Description": "Sign in to My5 and your TV will be ready to watch.",
+      "scanActivationTitle": "Scan QR code",
+      "scanDescription": "To scan, use your camera app or QR code reader on your mobile device.",
+      "interText": "OR",
+      "welcomeTitle": "Welcome",
+      "welcomeSubtitle": "Thanks for signing up for a My5 account and a more personalised experience. When you're signed in you can:",
+      "welcomeBullets": [
+        "Add shows to Favourites, to access them easily in future",
+        "Resume watching episodes on different devices, and pick up where you left off",
+        "Access My5 exclusives and series Box sets"
+      ]
+    },
+    "marketingConsent": {
+      "marketingCommunicationsettings": {
+        "communicationText": "Want to get more out of My5? We'd love to keep in touch! You can change your communications preferences by managing your consent settings below.  Pleae note any changes will may take up to seven days to update",
+        "channel5AndMy5Panel": "Send me emails about the best of Channel5 and My5 including; new shows we think you'll like, exclusive content, special events, competitions and experiences.",
+        "viacomcbsPanel": "Send me emails from other ViacomCBS brands including MTV, Comedy Central and Paramount."
+      }
+    }
+  },
+  "c5playerSettings": {
+    "fairplayApplicationCertificateUrl": "https://c5apps.channel5.com/fps/c5-fps-app-cert-20170119.cer",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5appletv",
+    "playheadEventInterval": 5,
+    "adSettings": {
+      "baseUrl": "https://7f077.v.fwmrm.net",
+      "flag": "+emcr+exvt+sltp+slcb",
+      "metr": "959",
+      "nw": "520311",
+      "csid": "intllocal_my5_uk_ctv_appletv_vod",
+      "prof": "520311:c5_appletv_video",
+      "_fw_gdpr": "1",
+      "_fw_did_idfa": "false"
+    },
+    "adobeAnalytics": {
+      "server": "mtv.hb.omtrdc.net",
+      "channel": "Channel 5",
+      "ovp": "my5-uk",
+      "ssl": true,
+      "publisher": "Channel 5",
+      "playerName": "tvos-c5-player",
+      "debugLogging": false,
+      "heartbeatKeepAlivePeriod": 25
+    },
+    "kantarSettings": {
+      "siteName": "c5appletv",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": "true",
+      "obfuscateIp": "true",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_appletv",
+        "param2": "{c5id}"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "userServiceSettings": {
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 20,
+      "maxLocalResumePoints": 20,
+      "maxLocalSearchHistory": 20,
+      "minWatchTimeSec": 30,
+      "timeBeforeEndSec": 30
+    }
+  },
+  "appFeatureSettings": {
+    "sponsorshipLogoEnabled": false,
+    "mandatoryRegistrationEnabled": true,
+    "marketingConsentEnabled": false,
+    "oneTrustEnabled": false
+  },
+  "appUserSettings": {
+    "oneTrustConsentSettings": {
+      "title": "Consent",
+      "description": "We’d like to store cookies on your device to be able to serve you with more relevant ‘targeted’ advertising – please let us know if you consent to the use of cookies for this purpose",
+      "buttonText": "Manage",
+      "footer": "To learn more about how we and our partners use cookies and how to manage them, visit: www.channel5.com/cookies\n\nFor our general terms and conditions, please visit: www.channel5.com/terms"
+    }
+  },
+  "onetrustSettings": {
+    "domain": "cdn.cookielaw.org",
+    "domainID": "77fc2eb4-a734-43f3-be13-8bb5c5795d4e"
+  },
+  "_configName": "App 3.1.7 (Sub genre)"
+}
