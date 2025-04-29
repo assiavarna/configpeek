@@ -28,4 +28,5 @@ python3 -m http.server
 4. standalone app to avoid the Backend???!! (Electron App)
 5. add timestamp to downloads logs
 6. compare few configs feature
-7. beautify the serach flags - some lines around that itch my eye - font increase, and colour change
+7. beautify the search flags - some lines around that itch my eye - font increase, and colour change
+8. add not working fro now on Update CTA's
