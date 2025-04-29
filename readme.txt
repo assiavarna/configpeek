@@ -7,21 +7,25 @@
 2. Clean up those witout platformID - too old, not used
 ./cleanup/cleanup_noplatformID.sh
 
-4. Merge all in one
+3. Merge all in one
 ./merge/grandmerge.sh
 
 
-3. ??maybenot needed??? 
+4. ??maybenot needed??? 
 To extract keys from configs from root run - this will update the keys.json
 ./extractKeys/extract_keys.sh
 
 
-3. To serve on http://localhost:8000/ from root run
+5. To serve on http://localhost:8000/ from root run
 python3 -m http.server
 
 
 
 #### TO DO:
-1. download results summary - short verrsion - then big version
-2. 3 columns for results - false true missing
-3. standalone app to avoid the Backend???!! (Electron App)
+1. download results summary - short version - then click for big version
+2. 3 columns for results - false true not found
+3. not found - make missing or smth better
+4. standalone app to avoid the Backend???!! (Electron App)
+5. add timestamp to downloads logs
+6. compare few configs feature
+7. beautify the serach flags - some lines around that itch my eye - font increase, and colour change

@@ -198,7 +198,7 @@
         <pre class="summary" id="prodSummary" style="display:none;"></pre>
       </div>
 
-      <button onclick="toggleCookie('stg')">Update Stg Configs</button>
+      <button onclick="toggleCookie('stg')">Update Stage Configs</button>
       <div id="stg-cookie" class="cookie-input">
         Cookie: <input type="text" id="stgCookieInput"><br>
         <button onclick="toggleLog('stg')" id="stgLogButton">Show Summary</button>
@@ -289,7 +289,7 @@
           const envMatch = (showProd && i.environment === 'production') || (showStaging && i.environment === 'staging');
           
           
-          const platformId = i.dataServiceSettings?.platformId;
+          const platformId = i.c5playerSettings?.cassiePlatformId;
           const platformIdSafe = platformId ? platformId.toLowerCase() : 'missing';
           const platformMatch = platformIdSafe.includes(platformText);
 
@@ -329,7 +329,7 @@
         });
 
         document.getElementById('platformCount').textContent = `Matches: ${filtered.filter(i => {
-          const id = i.dataServiceSettings?.platformId;
+          const id = i.c5playerSettings?.cassiePlatformId;
           const idSafe = id ? id.toLowerCase() : 'missing';
           return idSafe.includes(platformText);
         }).length}`;
@@ -366,7 +366,7 @@
             : null;
 
           let html = `
-          <strong>Platform:</strong> ${item.dataServiceSettings?.platformId || '—'}<br>
+          <strong>Platform:</strong> ${item.c5playerSettings?.cassiePlatformId || '—'}<br>
             <strong>Environment:</strong> ${item.environment}<br>
             <strong>Config:</strong> ${item._configName || '[missing]'}<br>
             <strong>File:</strong> ${item.filename || '[missing]'}<br>
@@ -440,7 +440,7 @@
       console.log('✅ Total entries loaded:', window.allResults.length);
 
       const missingConfig = window.allResults.filter(i => !i._configName).length;
-      const missingPlatform = window.allResults.filter(i => !i.dataServiceSettings?.platformId).length;
+      const missingPlatform = window.allResults.filter(i => !i.c5playerSettings?.cassiePlatformId).length;
 
       console.log('⚠️ Entries missing _configName:', missingConfig);
       console.log('⚠️ Entries missing platformId:', missingPlatform);
