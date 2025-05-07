@@ -81,7 +81,7 @@
   },
   "upgradeSettings": {
     "minVersion": "7.17.0",
-    "upgradeMessage": "Sorry, you need to upgrade to a newer version of 5.\nPlease download the latest 5 app from the Play Store."
+    "upgradeMessage": "Please upgrade to a newer version of 5.\nPlease download the latest 5 app from the Play Store."
   },
   "systemMessages": {
     "policies": {
@@ -337,5 +337,5 @@
     "domainID": "63279cec-4dea-4d2b-a459-f27b0dcd6d0c",
     "domain": "cdn.cookielaw.org"
   },
-  "_configName": "Latest 7.20.5 | Fast & Rebrand | Sub-genres | OneTrust On | ManReg On"
+  "_configName": "Force updated 7.20.5 | Fast & Rebrand | Sub-genres | OneTrust On | ManReg On"
 }

@@ -4,7 +4,7 @@
 ./downloadConfigs/download_all_configs_stage.sh
 
 
-2. Clean up those witout platformID - too old, not used
+2. Clean up those without platformID - too old, not used
 ./cleanup/cleanup_noplatformID.sh
 
 3. Merge all in one

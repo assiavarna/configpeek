@@ -79,7 +79,7 @@
     "audioDescriptionEnabled": true,
     "keyMapping": "youviewstb",
     "adSettings": {
-      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_youviewg4btipstb_vod &prof=520311:c5_youview_stb_admgr_profile&pvrn={pvrn}&vprn={vprn};_fw_is_lat={lat}&_fw_h_x_country=GB&_fw_cookie_consent={cookie}",
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_youviewg4btipstb_vod&prof=520311:c5_youview_stb_admgr_profile&pvrn={pvrn}&vprn={vprn};_fw_is_lat={lat}&_fw_h_x_country=GB&_fw_cookie_consent={cookie}",
       "vastLoadTimeoutInSecs": 10,
       "loadVideoTimeoutInSecs": 10,
       "translateDirectAdUrlsToHttp": false

@@ -12,7 +12,7 @@
     "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
     "ednaOnboardingSignedInImagesCollectionId": "PLC_CommsScreenNoFastCTV",
     "ednaPrimaryNavCollectionId": "PLC_SkyQFASTprimarySubnav",
-    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5NoFastMilkShakeSubNav",
     "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
     "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
     "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",

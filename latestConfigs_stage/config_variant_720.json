@@ -181,7 +181,7 @@
       "crtp": "vast3ap",
       "metr": "959",
       "_fw_h_x_country": "GB",
-      "skipPreRollOnResume": false
+      "skipPreRollOnResume": true
     },
     "googleDaiAdSettings": {
       "queryString": "?imafw_csid=intllocal_my5_uk_mobile_iostablet_live_{c5id_lowercase}&imafw__fw_gdpr=1&imafw__fw_gdpr_consent={consent}&imafw__fw_h_x_country=GB&imafw__fw_vcid2={vcid}",
@@ -321,5 +321,5 @@
   "kochavaSettings": {
     "kochavaGuid": "koiosch5-w8wjcrss4"
   },
-  "_configName": "iPhone 7.26.1 Ad Tags"
+  "_configName": "iPhone 7.26.3 Ad Tags"
 }

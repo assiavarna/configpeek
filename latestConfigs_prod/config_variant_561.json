@@ -166,9 +166,9 @@
   },
   "appFeatureSettings": {
     "sponsorshipLogoEnabled": true,
-    "mandatoryRegistrationEnabled": false,
-    "marketingConsentEnabled": false,
-    "oneTrustEnabled": false,
+    "mandatoryRegistrationEnabled": true,
+    "marketingConsentEnabled": true,
+    "oneTrustEnabled": true,
     "commsScreen": false,
     "kidsModeEnabled": true
   },
@@ -184,5 +184,5 @@
     "domain": "cdn.cookielaw.org",
     "domainID": "77fc2eb4-a734-43f3-be13-8bb5c5795d4e"
   },
-  "_configName": "Pre Release 3.9.6.1 | Rebrand | Kids Mode | OneTrust TEMP OFF | ManReg TEMP OFF | Sponsor On"
+  "_configName": "Latest 3.9.6.3 | Rebrand | Kids Mode | OneTrust On | ManReg on | Sponsor On"
 }

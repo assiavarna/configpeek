@@ -85,7 +85,7 @@
     "cassiePlatformId": "My5AndroidTVHydra",
     "coronaBaseUrl": "https://corona.channel5.com/channels/",
     "coronaEpgPath": "epg.json",
-    "coronaPlatformId": "androidtv",
+    "coronaPlatformId": "my5android",
     "cassieConnectionTimeoutInMilliseconds": 5000,
     "cassieReadTimeoutInMilliseconds": 5000,
     "adSettings": {
@@ -232,5 +232,5 @@
     "welcomeBullet02": "Resume watching episodes on different devices, and pick up where you left off",
     "welcomeBullet03": "Access My5 exclusives and series Box sets"
   },
-  "_configName": "4.25.6 | Fast | Rebrand |OneTrust On | ManReg On | Sponsor On"
+  "_configName": "Pre Release 4.25.9 | Fast | Rebrand | OneTrust On | ManReg On | Sponsor On"
 }

@@ -80,7 +80,7 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.17.0",
+    "minVersion": "7.20.6",
     "upgradeMessage": "Sorry, you need to upgrade to a newer version of 5.\nPlease download the latest 5 app from the Play Store."
   },
   "systemMessages": {

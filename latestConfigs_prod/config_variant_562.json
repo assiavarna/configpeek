@@ -250,8 +250,8 @@
       "my5": true
     },
     "dashboardContinueWatchingFeatureEnabled": false,
-    "mandatoryRegistrationEnabled": false,
-    "oneTrustEnabled": false,
+    "mandatoryRegistrationEnabled": true,
+    "oneTrustEnabled": true,
     "commsScreenEnabled": false,
     "kidsModeEnabled": true,
     "kochavaEnabled": true
@@ -285,5 +285,5 @@
       }
     ]
   },
-  "_configName": "Pre Release 2.9.5 | Rebrand | Kids Mode |  ManReg TEMP OFF | OneTrust TEMP OFF | Sub-Genre"
+  "_configName": "Latest 2.9.5 | Rebrand | Kids Mode |  ManReg ON | OneTrust ON | Sub-Genre"
 }

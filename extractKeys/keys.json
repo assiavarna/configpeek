@@ -626,6 +626,7 @@
   "dataServiceSettings.preferenceCentreUri",
   "dataServiceSettings.routingCollections.ednaBrowseSubNavId",
   "dataServiceSettings.routingCollections.ednaChannelsSubNavId",
+  "dataServiceSettings.routingCollections.ednaEnterKidsModeSubNavId",
   "dataServiceSettings.routingCollections.ednaFastHomeSubNavId",
   "dataServiceSettings.routingCollections.ednaFastLiveTvPageSubNavId",
   "dataServiceSettings.routingCollections.ednaFastMilkshakeLiveTvPageSubNavId",

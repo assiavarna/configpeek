@@ -153,7 +153,7 @@
     "theme": "my5",
     "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
     "cassieBaseLiveUrl": "https://cassie-auth-staging.channel5.com/api/v2/live_media",
-    "cassiePlatformId": "My5RokuWidevine",
+    "cassiePlatformId": "my5roku",
     "coronaBaseUrl": "https://corona-staging.channel5.com",
     "coronaPlatformId": "roku",
     "debugOn": true,

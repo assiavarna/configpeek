@@ -250,6 +250,7 @@
     "cassiePlatformId": "my5desktopng",
     "coronaBaseUri": "https://corona-staging.channel5.com/channels",
     "startAgain": false,
+    "skipPrerollEnabled": "true",
     "liveStreamStartoverWindow": 10,
     "cassieChromecastPlatformId": "gccdesktopng",
     "autoplay": "true",
