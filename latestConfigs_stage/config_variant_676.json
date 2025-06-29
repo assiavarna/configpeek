@@ -2,7 +2,7 @@
   "onboardingVersion": 2,
   "onwardJourney": true,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": 2,
+  "commsVersion": 3,
   "upgradeSettings": {
     "minVersion": "2100064084",
     "upgradeMessage": "Sorry, you need to upgrade to a newer version of 5. Please download the latest 5 app from the Amazon Store.",

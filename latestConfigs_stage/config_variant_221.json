@@ -5,7 +5,7 @@
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "dataServiceSettings": {
     "platformId": "freesathbbtv",
-    "ednaBaseUri": "https://feeds-api.channel5.com",
+    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
     "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
     "ednaWelcomeScreenMilkshakeImagesCollectionId": "PLC_My5WelcomeScreenMilkshake",
@@ -16,8 +16,8 @@
     "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
     "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
     "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
-    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
-    "coronaBaseUri": "https://corona.channel5.com",
+    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona-staging.channel5.com",
     "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
     "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
     "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
@@ -73,17 +73,19 @@
     "coreUrl": "https://player-test.akamaized.net/videojsplayer/stage2/freesat/core/bundle.js",
     "themeUrl": "https://player-test.akamaized.net/videojsplayer/stage2/freesat/theme/my5/styles.css",
     "theme": "my5",
-    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
-    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth-staging.channel5.com/api/v2/live_media",
     "cassiePlatformId": "my5freesathbbtv",
     "playbackMode": "hbbtvoipf",
     "thumbnailsEnabled": "true",
+    "dismissButtonEnabled": true,
     "keyMapping": "freeviewplaylg",
     "adSettings": {
       "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=520311&resp=vmap1&caid={c5id}&csid=intllocal_my5_uk_ctv_freesat_vod&prof=520311:c5_mss_freesat&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
       "vastLoadTimeoutInSecs": 5,
       "loadVideoTimeoutInSecs": 5,
-      "translateDirectAdUrlsToHttp?": false
+      "translateDirectAdUrlsToHttp?": false,
+      "skipPreRollOnResume?": true
     },
     "kantarSettings": {
       "siteName": "c5freesattest",

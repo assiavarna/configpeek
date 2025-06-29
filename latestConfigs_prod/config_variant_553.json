@@ -208,6 +208,7 @@
       "obfuscateIp": true
     },
     "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470,
     "guidanceOverlayDurationSecs": 5.0
   },
   "adobeAnalytics": {
@@ -326,7 +327,7 @@
     "paramountPromoEnabled": false,
     "brazePushNotificationEnabled": false,
     "isEmailValidationEnabled": false,
-    "isCommsScreenEnabled": true,
+    "isCommsScreenEnabled": false,
     "kidsModeEnabled": true
   },
   "onetrustSettings": {

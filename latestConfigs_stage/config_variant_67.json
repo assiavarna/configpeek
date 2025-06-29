@@ -9,6 +9,29 @@
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}",
     "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
     "ednaPrimaryNavCollectionId": "PLC_My5VirginSGPrimaryNav",
+    "routingCollections": {
+      "ednaFastHomeSubNavId": "PLC_My5VirginFASTHomePageSubNav",
+      "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+      "ednaHomeSubNavId": "PLC_My5VirginHomePageSubNav",
+      "ednaMilkshakeSubNavId": "PLC_My5MilkShakeSubNav",
+      "ednaFastMilkshakeSubNavId": "PLC_My5FastMilkShakeSubNav",
+      "ednaEnterKidsModeSubNavId": "PLC_My5NoFastMilkShakeSubNav",
+      "ednaMilkshakeHomeSubNavId": "PLC_MilkshakeHomePageSubNav",
+      "ednaMilkshakeBrowseSubNavId": "PLC_MilkshakeBrowsePageSubNav",
+      "ednaChannelsSubNavId": "PLC_My5ChannelsPageSubNav",
+      "ednaFastLiveTvPageSubNavId": "PLC_My5FASTLiveTVPageSubNav",
+      "ednaFastMilkshakeLiveTvPageSubNavId": "PLC_My5FASTKidsLiveTVSubNav",
+      "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+      "ednaMilkshakeFavouritesSubNavId": "PLC_My5FavouritesKidsMode",
+      "ednaSearchSubNavId": "PLC_My5SearchNav",
+      "ednaMilkshakeSearchSubNavId": "PLC_MilkshakeSearchSubNav",
+      "ednaSettingsAboutSubNavId": "PLC_My5VirginAbout",
+      "ednaSettingsAccountSettingsSubNavId": "PLC_My5VirginAccountSettings",
+      "ednaSettingsAccessibilitySubNavId": "PLC_My5VirginAccessibilitySettings",
+      "ednaSettingsCookieSubNavId": "PLC_My5CookieSettings",
+      "ednaSettingsHelpSubNavId": "PLC_My5VirginHelp",
+      "ednaSettingsSubNavId": "PLC_My5VirginSettingsPageSubNav"
+    },
     "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreenVMHorizon",
     "ednaWelcomeScreenMilkshakeImagesCollectionId": "PLC_My5WelcomeScreenMilkshake",
     "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FVPSGMilkShakePrimaryNav",
@@ -71,10 +94,13 @@
     "playbackMode": "dashjs-doublevideoelement",
     "keyMapping": "virginhorizon",
     "adSettings": {
-      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+sltp+exvt+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_virginmediahorizon360stb_vod&prof=520311:c5_dash_vmhorizon&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+sltp+exvt+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_virginmediahorizon360stb_vod&prof=520311:c5_dash_vmhorizon&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}&tfcd={tfcd}&_fw_coppa={tfcd}",
       "vastLoadTimeoutInSecs": 20,
       "loadVideoTimeoutInSecs": 20,
       "translateDirectAdUrlsToHttp": false
+    },
+    "googleDaiAdSettings": {
+      "queryString": "?imafw_csid=intllocal_my5_uk_ctv_virginmediahorizontv2stb_live_{c5id_lowercase}&imafw__fw_cookie={cookie}&imafw__fw_h_x_country=GB&imafw__fw_vcid2={vcid}&tfcd={tfcd}&imafw_tfcd={tfcd}&imafw__fw_coppa={tfcd}"
     },
     "kantarSettings": {
       "siteName": "c5virgintest",

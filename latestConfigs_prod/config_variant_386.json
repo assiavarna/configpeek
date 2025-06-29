@@ -181,6 +181,7 @@
       "obfuscateIp": true
     },
     "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470,
     "guidanceOverlayDurationSecs": 5.0
   },
   "adobeAnalytics": {

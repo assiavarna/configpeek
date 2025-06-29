@@ -79,8 +79,8 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.25.2",
-    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Store."
+    "minVersion": "7.27.2.1",
+    "upgradeMessage": "Please upgrade to a newer version of the 5 app.\nDownload the latest 5 app from the App Store."
   },
   "systemMessages": {
     "policies": {
@@ -290,7 +290,7 @@
     "emailValidationEnabled": false,
     "brazePushNotificationEnabled": true,
     "displayBanner": false,
-    "commsScreen": false,
+    "commsScreen": true,
     "kidsModeEnabled": true
   },
   "onetrustSettings": {

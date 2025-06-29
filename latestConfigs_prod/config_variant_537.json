@@ -1,6 +1,6 @@
 {
   "onboardingVersion": 1,
-  "onboardingSignedInVersion": 1,
+  "onboardingSignedInVersion": 2,
   "appSubtitlesEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
@@ -135,7 +135,7 @@
     "noKidsMode": false,
     "noKidsModePinExit": false,
     "noOneTrust": true,
-    "noCommsScreen": true,
+    "noCommsScreen": false,
     "noScreenLogger": true
   },
   "userServiceSettings": {

@@ -48,7 +48,7 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.18.7",
+    "minVersion": "7.22.4",
     "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the Play Store."
   },
   "systemMessages": {
@@ -149,7 +149,8 @@
         "param1": "my5_android_mobile"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "adobeAnalytics": {
     "marketingCloud": {

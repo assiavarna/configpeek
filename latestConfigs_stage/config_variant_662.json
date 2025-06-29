@@ -2,6 +2,7 @@
   "onboardingVersion": 1,
   "onboardingSignedInVersion": 1,
   "appSubtitlesEnabled": true,
+  "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
     "platformId": "freesathbbtv",

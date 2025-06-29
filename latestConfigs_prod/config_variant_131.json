@@ -55,7 +55,8 @@
       "imaSdkUrl": "https://player.akamaized.net/videojsplayer/ima-sdk/ima3.309.0.js",
       "vastLoadTimeoutInSecs": 10,
       "loadVideoTimeoutInSecs": 10,
-      "translateDirectAdUrlsToHttp": false
+      "translateDirectAdUrlsToHttp": false,
+      "skipPreRollOnResume": "true"
     },
     "kantarSettings": {
       "siteName": "c5smarttv",

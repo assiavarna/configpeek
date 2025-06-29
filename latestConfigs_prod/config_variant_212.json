@@ -141,7 +141,8 @@
         "param2": "{c5id}"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "systemMessages": {
     "policies": {

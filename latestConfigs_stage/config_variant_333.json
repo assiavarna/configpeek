@@ -4,7 +4,7 @@
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "dataServiceSettings": {
     "platformId": "youview",
-    "ednaBaseUri": "https://feeds-api-staging.channel5.com",
+    "ednaBaseUri": "https://feeds-api.channel5.com",
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
     "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
     "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreenYV",
@@ -15,8 +15,8 @@
     "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
     "ednaCollectionsTemplateUriV2": "/collections/{collectionId}.json?platform={platformId}",
     "ednaRecommendationsCollectionId": "PLC_My5RecommendationsRail",
-    "ednaImagesTemplateUri": "https://api-images-staging.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
-    "coronaBaseUri": "https://corona-staging.channel5.com",
+    "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
+    "coronaBaseUri": "https://corona.channel5.com",
     "coronaShowSearchTemplateUri": "/shows/search.json?platform={platformId}&genre={genre}&ids[]={showIds}",
     "coronaShowTemplateUri": "/shows/{showId}.json?platform={platformId}",
     "coronaWatchableSearchTemplateUri": "/watchables/search.json?platform={platformId}&ids[]={watchableIds}",
@@ -69,10 +69,10 @@
     }
   },
   "c5playerSettings": {
-    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/youview/core/bundle.js",
-    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/youview/theme/my5/styles.css",
+    "coreUrl": "https://player.akamaized.net/videojsplayer/youview/core/bundle.js",
+    "themeUrl": "https://player.akamaized.net/videojsplayer/youview/theme/my5/styles.css",
     "theme": "my5",
-    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
     "cassiePlatformId": "my5youviewhbbtv",
     "playbackMode": "hbbtvoipf",
     "keyMapping": "youviewsonytv",
@@ -204,8 +204,8 @@
   "userServiceSettings": {
     "sdkUrl": "https://userservice-staging.channel5.com/html/youview/user-service-ctv-sdk.js",
     "userServiceSdkConfig": {
-      "apiUrl": "https://userservice-api-staging.channel5.com/",
-      "env": "staging",
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
       "consentExpirationTimeInMonths": 13,
       "maxResumePoints": 20,
       "maxLocalResumePoints": 20,

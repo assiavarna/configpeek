@@ -8,6 +8,29 @@
     "ednaOnboardingSignedInImagesCollectionId": "PLC_CommsScreenFastCTV",
     "ednaPrimaryNavCollectionId": "PLC_My5FreesatFASTPrimaryNav",
     "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
+    "routingCollections": {
+      "ednaFastHomeSubNavId": "PLC_My5FreesatFASTHomePageSubNav",
+      "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+      "ednaHomeSubNavId": "PLC_My5FreesatHomePageSubNav",
+      "ednaMilkshakeSubNavId": "PLC_My5MilkShakeSubNav",
+      "ednaFastMilkshakeSubNavId": "PLC_My5FastMilkShakeSubNav",
+      "ednaEnterKidsModeSubNavId": "PLC_My5NoFastMilkShakeSubNav",
+      "ednaMilkshakeHomeSubNavId": "PLC_MilkshakeHomePageSubNav",
+      "ednaMilkshakeBrowseSubNavId": "PLC_MilkshakeBrowsePageSubNav",
+      "ednaChannelsSubNavId": "PLC_My5ChannelsPageSubNav",
+      "ednaFastLiveTvPageSubNavId": "PLC_My5FASTLiveTVPageSubNav",
+      "ednaFastMilkshakeLiveTvPageSubNavId": "PLC_My5FASTKidsLiveTVSubNav",
+      "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+      "ednaMilkshakeFavouritesSubNavId": "PLC_My5FavouritesKidsMode",
+      "ednaSearchSubNavId": "PLC_My5SearchNav",
+      "ednaMilkshakeSearchSubNavId": "PLC_MilkshakeSearchSubNav",
+      "ednaSettingsAboutSubNavId": "PLC_My5FreesatAbout",
+      "ednaSettingsAccountSettingsSubNavId": "PLC_My5FreesatAccountSettings",
+      "ednaSettingsAccessibilitySubNavId": "PLC_My5FreeviewAccessibilitySettings",
+      "ednaSettingsCookieSubNavId": "PLC_My5CookieSettings",
+      "ednaSettingsHelpSubNavId": "PLC_My5FreesatHelp",
+      "ednaSettingsSubNavId": "PLC_My5FreesatSettingsPageSubNav"
+    },
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
     "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
     "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
@@ -52,7 +75,7 @@
       "vastLoadTimeoutInSecs": 5,
       "loadVideoTimeoutInSecs": 5,
       "translateDirectAdUrlsToHttp?": false,
-      "skipPreRollOnResume": "true"
+      "skipPreRollOnResume": true
     },
     "kantarSettings": {
       "siteName": "c5freesattest",

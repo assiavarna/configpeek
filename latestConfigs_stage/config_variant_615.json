@@ -11,6 +11,29 @@
     "ednaOnboardingSignedInImagesCollectionId": "PLC_My5CommsScreen1",
     "ednaPrimaryNavCollectionId": "PLC_My5VirginNoFASTPrimaryNav",
     "ednaMilkshakePrimaryNavCollectionId": "PLC_My5NoFastMilkShakeSubNav",
+    "routingCollections": {
+      "ednaFastHomeSubNavId": "PLC_My5VirginFASTHomePageSubNav",
+      "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
+      "ednaHomeSubNavId": "PLC_My5VirginHomePageSubNav",
+      "ednaMilkshakeSubNavId": "PLC_My5MilkShakeSubNav",
+      "ednaFastMilkshakeSubNavId": "PLC_My5FastMilkShakeSubNav",
+      "ednaEnterKidsModeSubNavId": "PLC_My5NoFastMilkShakeSubNav",
+      "ednaMilkshakeHomeSubNavId": "PLC_MilkshakeHomePageSubNav",
+      "ednaMilkshakeBrowseSubNavId": "PLC_MilkshakeBrowsePageSubNav",
+      "ednaChannelsSubNavId": "PLC_My5ChannelsPageSubNav",
+      "ednaFastLiveTvPageSubNavId": "PLC_My5FASTLiveTVPageSubNav",
+      "ednaFastMilkshakeLiveTvPageSubNavId": "PLC_My5FASTKidsLiveTVSubNav",
+      "ednaFavouritesSubNavId": "PLC_My5FavouritesNav",
+      "ednaMilkshakeFavouritesSubNavId": "PLC_My5FavouritesKidsMode",
+      "ednaSearchSubNavId": "PLC_My5SearchNav",
+      "ednaMilkshakeSearchSubNavId": "PLC_MilkshakeSearchSubNav",
+      "ednaSettingsAboutSubNavId": "PLC_My5VirginAbout",
+      "ednaSettingsAccountSettingsSubNavId": "PLC_My5VirginAccountSettings",
+      "ednaSettingsAccessibilitySubNavId": "PLC_My5VirginAccessibilitySettings",
+      "ednaSettingsCookieSubNavId": "PLC_My5CookieSettings",
+      "ednaSettingsHelpSubNavId": "PLC_My5VirginHelp",
+      "ednaSettingsSubNavId": "PLC_My5VirginSettingsPageSubNav"
+    },
     "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
     "ednaContinueWatchingCollectionId": "PLC_My5ContinueWatchingRail",
     "ednaContinueWatchingV2CollectionId": "PLC_My5ContinueWatchingRail",
@@ -73,7 +96,7 @@
       "vastLoadTimeoutInSecs": 10,
       "loadVideoTimeoutInSecs": 10,
       "translateDirectAdUrlsToHttp": false,
-      "skipPreRollOnResume": "true"
+      "skipPreRollOnResume": true
     },
     "kantarSettings": {
       "siteName": "c5virgintest",

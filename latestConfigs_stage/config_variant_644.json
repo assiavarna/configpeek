@@ -296,7 +296,7 @@
     "adjustTrackingEnabled": false,
     "sponsorshipLogoEnabled": true,
     "oneTrustEnabled": true,
-    "oneTrustDomainScript": "33e5379c-21fb-470f-baed-d19216f7e163",
+    "oneTrustDomainScript": "33e5379c-21fb-470f-baed-d19216f7e163-test",
     "mandatoryRegistration": true,
     "useSSO": true,
     "emailValidationEnabled": true,

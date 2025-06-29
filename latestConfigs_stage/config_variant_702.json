@@ -1,8 +1,8 @@
 {
   "onboardingVersion": 7,
-  "onboardingSignedInVersion": 1,
-  "appSubtitlesEnabled": false,
-  "appAudioDescriptionEnabled": false,
+  "onboardingSignedInVersion": 2,
+  "appSubtitlesEnabled": true,
+  "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
     "platformId": "skyoverip",
@@ -28,7 +28,7 @@
       "ednaSearchSubNavId": "PLC_My5SearchNav",
       "ednaMilkshakeSearchSubNavId": "PLC_MilkshakeSearchSubNav",
       "ednaSettingsAboutSubNavId": "PLC_My5SkyOverIPAbout",
-      "ednaSettingsAccessibilitySubNavId": "PLC_My5SkyOverIPAccessibilitySettings",
+      "ednaSettingsAccessibilitySubNavId": "PLC_My5SkyOverIPAccessSettings",
       "ednaSettingsAccountSettingsSubNavId": "PLC_My5SkyOverIPAccountSettings",
       "ednaSettingsCookieSubNavId": "PLC_My5CookieSettings",
       "ednaSettingsHelpSubNavId": "PLC_My5SkyOverIPHelp",
@@ -72,9 +72,9 @@
     "themeUrl": "https://player-test.akamaized.net/videojsplayer/stage2/skyoverip/theme/my5/styles.css",
     "theme": "my5",
     "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
-    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
-    "dashJsUrl": "https://player-staging.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1.min.js",
-    "hlsJsUrl": "https://player-test.akamaized.net/videojsplayer/hlsjs/hls.1.4.0.js",
+    "cassieBaseLiveUrl": "https://cassie-auth-staging.channel5.com/api/v2/live_media",
+    "dashJsUrl": "https://player.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1.min.js",
+    "hlsJsUrl": "https://player-staging.akamaized.net/videojsplayer/hlsjs/hls.1.4.0.js",
     "cassiePlatformId": "my5skyoverip",
     "coronaPlatformId": "skyoverip",
     "playbackMode": "dashjs-singlevideoelement",
@@ -155,13 +155,13 @@
     "noShortHistory": false,
     "noScreenLogger": false,
     "exitOnBack": true,
-    "noCommsScreen": true
+    "noCommsScreen": false
   },
   "userServiceSettings": {
     "sdkUrl": "https://userservice-staging.channel5.com/html/skyoverip/user-service-ctv-sdk.js",
     "userServiceSdkConfig": {
-      "apiUrl": "https://userservice-api-staging.channel5.com/",
-      "env": "staging",
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
       "consentExpirationTimeInMonths": 13,
       "maxResumePoints": 20,
       "maxLocalResumePoints": 20,

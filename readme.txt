@@ -2,6 +2,8 @@
 1. To download/update configs  run from root
 ./downloadConfigs/download_all_configs_prod.sh
 ./downloadConfigs/download_all_configs_stage.sh
+./downloadConfigs/download_all_configs_test.sh
+
 
 
 2. Clean up those without platformID - too old, not used

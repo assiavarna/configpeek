@@ -1,6 +1,6 @@
 {
   "onboardingVersion": 1,
-  "onboardingSignedInVersion": 1,
+  "onboardingSignedInVersion": 2,
   "appSubtitlesEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
@@ -77,16 +77,19 @@
     "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
     "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
     "cassiePlatformId": "my5lghbbtv",
+    "deviceSettingsServiceUrl": "https://player.akamaized.net/videojsplayer/devicesettings/deviceSettingsService.0.0.2.js",
+    "webosUrl": "https://player.akamaized.net/videojsplayer/webostvjs/webOSTV-dev.1.2.12.js",
     "playbackMode": "dashjs-singlevideoelement",
     "dashJsUrl": "https://player.akamaized.net/videojsplayer/dashjs/videojs-dash.4.5.1.min.js",
     "thumbnailsEnabled": true,
     "startAgainEnabled": true,
     "keyMapping": "freeviewplaylg",
     "adSettings": {
-      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_lgwebos35_vod&prof=520311:c5_mss_lg&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}",
+      "adRequestUrl": "http://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_lgwebos35_vod&prof=520311:c5_mss_lg&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_h_x_country=GB&_fw_gdpr_consent={consent}&_fw_did={did}&tfcd={tfcd}&_fw_coppa={tfcd}",
       "vastLoadTimeoutInSecs": 20,
       "loadVideoTimeoutInSecs": 20,
-      "translateDirectAdUrlsToHttp": true
+      "translateDirectAdUrlsToHttp": true,
+      "skipPreRollOnResume": "true"
     },
     "kantarSettings": {
       "siteName": "c5smarttvtest",
@@ -132,7 +135,7 @@
     "noKidsMode": false,
     "noScreenLogger": false,
     "noKidsModePinExit": false,
-    "noCommsScreen": true,
+    "noCommsScreen": false,
     "noOneTrust": false,
     "noKochava": false
   },

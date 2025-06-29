@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 5,
-  "commsVersion": 2,
+  "commsVersion": 3,
   "dataServiceSettings": {
     "platformId": "my5android",
     "ednaBaseUri": "https://feeds-api-staging.channel5.com",

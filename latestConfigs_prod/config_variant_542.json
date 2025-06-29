@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 20,
-  "commsVersion": null,
+  "commsVersion": 1,
   "dataServiceSettings": {
     "platformId": "my5ios",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -296,7 +296,7 @@
     "emailValidationEnabled": false,
     "brazePushNotificationEnabled": true,
     "displayBanner": false,
-    "commsScreen": false,
+    "commsScreen": true,
     "kidsModeEnabled": true
   },
   "onetrustSettings": {

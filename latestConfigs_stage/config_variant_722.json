@@ -1,7 +1,7 @@
 {
   "onboardingVersion": 1,
   "browsePageSubGenreRailMaxDisplayItems": 5,
-  "commsVersion": 1,
+  "commsVersion": 2,
   "dataServiceSettings": {
     "platformId": "appletv",
     "ednaBaseUri": "https://feeds-api-staging.channel5.com",
@@ -227,7 +227,7 @@
     "animation": true,
     "mandatoryRegistrationEnabled": true,
     "oneTrustEnabled": true,
-    "commsScreen": false,
+    "commsScreen": true,
     "kidsModeEnabled": true
   },
   "appUserSettings": {

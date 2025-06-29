@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 5,
-  "commsVersion": 3,
+  "commsVersion": 5,
   "dataServiceSettings": {
     "platformId": "my5android",
     "ednaBaseUri": "https://feeds-api-staging.channel5.com",
@@ -328,7 +328,7 @@
     "paramountPromoEnabled": true,
     "brazePushNotificationEnabled": false,
     "isEmailValidationEnabled": false,
-    "isCommsScreenEnabled": false,
+    "isCommsScreenEnabled": true,
     "kidsModeEnabled": false
   },
   "onetrustSettings": {

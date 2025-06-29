@@ -2,7 +2,7 @@
   "onboardingVersion": 1,
   "resumePointPeriod": 20,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": null,
+  "commsVersion": 2,
   "dataServiceSettings": {
     "platformId": "androidtv",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -145,7 +145,8 @@
         "param2": "{c5id}"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "systemMessages": {
     "policies": {

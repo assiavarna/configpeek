@@ -52,6 +52,7 @@ process_folder() {
 
 process_folder "${BASE_DIR}latestConfigs_prod"
 process_folder "${BASE_DIR}latestConfigs_stage"
+process_folder "${BASE_DIR}latestConfigs_test"
 
 sort "$KEYS_FILE" | uniq > "${KEYS_FILE}.tmp" && mv "${KEYS_FILE}.tmp" "$KEYS_FILE"
 jq -Rs 'split("\n") | map(select(. != ""))' "$KEYS_FILE" > "${KEYS_FILE}.tmp" && mv "${KEYS_FILE}.tmp" "$KEYS_FILE"

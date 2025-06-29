@@ -1,7 +1,7 @@
 {
   "onboardingVersion": 2,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": 1,
+  "commsVersion": 3,
   "dataServiceSettings": {
     "platformId": "appletv",
     "ednaBaseUri": "https://feeds-api.channel5.com",

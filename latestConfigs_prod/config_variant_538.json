@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 5,
-  "commsVersion": null,
+  "commsVersion": 1,
   "dataServiceSettings": {
     "platformId": "my5android",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -80,7 +80,7 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.17.0",
+    "minVersion": "7.20.5",
     "upgradeMessage": "Please upgrade to a newer version of 5.\nPlease download the latest 5 app from the Play Store."
   },
   "systemMessages": {
@@ -210,6 +210,7 @@
       }
     },
     "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470,
     "guidanceOverlayDurationSecs": 5.0
   },
   "adobeAnalytics": {
@@ -330,7 +331,7 @@
     "paramountPromoEnabled": true,
     "brazePushNotificationEnabled": true,
     "isEmailValidationEnabled": false,
-    "isCommsScreenEnabled": true,
+    "isCommsScreenEnabled": false,
     "kidsModeEnabled": true
   },
   "onetrustSettings": {

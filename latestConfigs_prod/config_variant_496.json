@@ -2,7 +2,7 @@
   "onboardingVersion": 1,
   "resumePointPeriod": 20,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": null,
+  "commsVersion": 1,
   "upgradeSettings": {
     "minVersion": "2100064184",
     "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5. Please download the latest My5 app from the Amazon Store.",
@@ -174,7 +174,8 @@
         "param2": "{c5id}"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "userServiceSettings": {
     "sdkUrl": "http://userservice.channel5.com/android/userServiceSdk-release.aar",

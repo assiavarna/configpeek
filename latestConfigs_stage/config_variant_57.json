@@ -5,9 +5,10 @@
   "dataServiceSettings": {
     "platformId": "freesathbbtv",
     "ednaBaseUri": "https://feeds-api.channel5.com",
-    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingScreenX1",
-    "ednaOnboardingSignedInImagesCollectionId": "PLC_My5OnboardingKidsScreen",
-    "ednaPrimaryNavCollectionId": "PLC_My5FreeviewPlayLiveTVSGPrimNav",
+    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
+    "ednaSignedCommunicationScreensCollectionId": "PLC_CommsScreenFastCTV",
+    "ednaPrimaryNavCollectionId": "PLC_5GoldCTVHybridPrimaryNav",
+    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
     "routingCollections": {
       "ednaFastHomeSubNavId": "PLC_My5FVPFASTHomePageSubNav",
       "ednaBrowseSubNavId": "PLC_My5SubGenreBrowsePageSubNav",
@@ -31,7 +32,6 @@
       "ednaSettingsHelpSubNavId": "PLC_My5FreeviewPlayHelp",
       "ednaSettingsSubNavId": "PLC_My5FreeviewPlySettingsPageSubNav"
     },
-    "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FVPSGMilkShakePrimaryNav",
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platformId}&channel={channelId}",
     "ednaImagesTemplateUri": "https://api-images.channel5.com/otis/images/{type}/{id}/{resolution}.{fmt}?overlay={overlayType}&updated_at={time}",
     "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
@@ -152,6 +152,7 @@
     "noShowHeroTitleTreatment": false,
     "noShowTileTitleTreatment": false,
     "noKidsMode": false,
+    "noFast": true,
     "noScreenLogger": true,
     "noKidsModePinExit": false
   },

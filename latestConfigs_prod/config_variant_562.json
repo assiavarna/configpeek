@@ -2,7 +2,7 @@
   "onboardingVersion": 0,
   "resumePointPeriod": 20,
   "onwardJourney": true,
-  "commsVersion": 1,
+  "commsVersion": 5,
   "dataServiceSettings": {
     "platformId": "roku",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -252,7 +252,7 @@
     "dashboardContinueWatchingFeatureEnabled": false,
     "mandatoryRegistrationEnabled": true,
     "oneTrustEnabled": true,
-    "commsScreenEnabled": false,
+    "commsScreenEnabled": true,
     "kidsModeEnabled": true,
     "kochavaEnabled": true
   },

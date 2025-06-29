@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE_DIR="/Users/assia/workspace/BUILDS_C5/configpeek"
-FOLDERS=("$BASE_DIR/latestConfigs_prod" "$BASE_DIR/latestConfigs_stage")
+FOLDERS=("$BASE_DIR/latestConfigs_prod" "$BASE_DIR/latestConfigs_stage" "$BASE_DIR/latestConfigs_test")
 LOG_FILE="$BASE_DIR/cleanup/cleanup_deleted_files.log"
 
 > "$LOG_FILE"  # Clear old log

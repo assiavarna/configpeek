@@ -1,6 +1,6 @@
 {
   "onboardingVersion": 1,
-  "onboardingSignedInVersion": 1,
+  "onboardingSignedInVersion": 5,
   "appSubtitlesEnabled": true,
   "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
@@ -135,7 +135,7 @@
     "noShortHistory": true,
     "noScreenLogger": true,
     "exitOnBack": true,
-    "noCommsScreen": true
+    "noCommsScreen": false
   },
   "userServiceSettings": {
     "sdkUrl": "https://userservice.channel5.com/html/skyq/user-service-ctv-sdk.js",

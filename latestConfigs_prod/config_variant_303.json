@@ -174,7 +174,8 @@
       "httpSecure": "true",
       "obfuscateIp": "true"
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "adobeAnalytics": {
     "marketingCloud": {

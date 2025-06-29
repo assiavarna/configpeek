@@ -184,7 +184,7 @@
       "skipPreRollOnResume": true
     },
     "googleDaiAdSettings": {
-      "queryString": "?imafw_csid=intllocal_my5_uk_mobile_iostablet_live_{c5id_lowercase}&imafw__fw_gdpr=1&imafw__fw_gdpr_consent={consent}&imafw__fw_h_x_country=GB&imafw__fw_vcid2={vcid}",
+      "queryString": "?imafw__fw_h_x_country=GB&imafw__fw_is_lat={device_lat}&imafw_csid=intllocal_my5_uk_mobile_iostablet_live_{c5id_lowercase}&imafw__fw_gdpr=1&imafw__fw_gdpr_consent={consent}&imafw__fw_vcid2={vcid}&imafw__fw_did={did}&imafw_tfcd={tfcd}&imafw__fw_coppa={tfcd}&imafw__fw_atts={atts}",
       "adParameters": {
       }
     },

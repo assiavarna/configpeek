@@ -182,8 +182,8 @@
   "userServiceSettings": {
     "sdkUrl": "https://userservice-staging.channel5.com/html/youview/user-service-ctv-sdk.js",
     "userServiceSdkConfig": {
-      "apiUrl": "https://userservice-api-staging.channel5.com/",
-      "env": "staging",
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "env": "prod",
       "consentExpirationTimeInMonths": 13,
       "maxResumePoints": 20,
       "maxLocalResumePoints": 20,

@@ -1,14 +1,14 @@
 {
   "onboardingVersion": 1,
-  "onboardingSignedInVersion": 2,
+  "onboardingSignedInVersion": 6,
   "appSubtitlesEnabled": true,
-  "appAudioDescriptionEnabled": false,
+  "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
     "platformId": "skyoverip",
     "ednaBaseUri": "https://feeds-api.channel5.com",
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
-    "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
+    "ednaOnboardingImagesCollectionId": "PLC_My5CommsScreen1",
     "ednaSignedCommunicationScreensCollectionId": "PLC_My5CommsScreen1SOIP",
     "ednaPrimaryNavCollectionId": "PLC_My5SkyOverIPFASTPrimaryNav",
     "ednaMilkshakePrimaryNavCollectionId": "PLC_My5FastMilkShakeSubNav",
@@ -135,7 +135,7 @@
     "noShortHistory": false,
     "noScreenLogger": true,
     "exitOnBack": true,
-    "noCommsScreen": true
+    "noCommsScreen": false
   },
   "userServiceSettings": {
     "sdkUrl": "https://userservice.channel5.com/html/skyoverip/user-service-ctv-sdk.js",

@@ -2,7 +2,7 @@
   "onboardingVersion": 1,
   "resumePointPeriod": 20,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": null,
+  "commsVersion": 4,
   "dataServiceSettings": {
     "platformId": "androidtv",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -165,7 +165,8 @@
         "param2": "{c5id}"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "systemMessages": {
     "policies": {
@@ -198,7 +199,7 @@
     "animation": true,
     "sponsorshipLogoEnabled": true,
     "oneTrustEnabled": true,
-    "isCommsScreenEnabled": false,
+    "isCommsScreenEnabled": true,
     "kidsModeEnabled": false
   },
   "appUserSettings": {
@@ -222,7 +223,7 @@
     "textActivationTitle": "Visit website",
     "step1Description": "On your mobile device or computer go to:",
     "step2Description": "Then enter this code:",
-    "step3Description": "Sign in to My5 and your TV will be ready to watch.",
+    "step3Description": "Sign in to the 5 app to start streaming.",
     "scanActivationTitle": "Scan QR code",
     "scanDescription": "My5 Registration & Sign-in is FREE.\nPlease be aware of scam QR code reader apps\n sending people to fraudulent sites.\nFor more information visit www.channel5.com/qrcodes",
     "interText": "OR",
@@ -232,5 +233,5 @@
     "welcomeBullet02": "Resume watching episodes on different devices, and pick up where you left off",
     "welcomeBullet03": "Access My5 exclusives and series Box sets"
   },
-  "_configName": "Pre Release 4.25.9 | Fast | Rebrand | OneTrust On | ManReg On | Sponsor On"
+  "_configName": "Latest 4.25.10 | Fast | Rebrand | OneTrust On | ManReg On | Sponsor On"
 }

@@ -1,6 +1,6 @@
 {
   "onboardingVersion": 1,
-  "onboardingSignedInVersion": 1,
+  "onboardingSignedInVersion": 3,
   "appSubtitlesEnabled": true,
   "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
@@ -9,7 +9,7 @@
     "ednaBaseUri": "https://feeds-api.channel5.com",
     "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?platform={platformId}&channel={channelId}",
     "ednaOnboardingImagesCollectionId": "PLC_My5OnboardingRebrandScreen1",
-    "ednaPrimaryNavCollectionId": "PLC_SkyQFASTprimarySubnav",
+    "ednaPrimaryNavCollectionId": "PLC_SkyQNoFASTprimarySubnav",
     "ednaMilkshakePrimaryNavCollectionId": "PLC_My5NoFastMilkShakeSubNav",
     "ednaOnboardingSignedInImagesCollectionId": "PLC_My5CommsScreen1SkyQ",
     "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter1",
@@ -119,10 +119,10 @@
     "noEnhancedPlayerPanel": false,
     "noSignIn": false,
     "noBrowseSort": true,
-    "noHomeChannelGrid": true,
+    "noHomeChannelGrid": false,
     "noEnhancedContinueWatching": false,
     "noLiveContent": false,
-    "noFast": false,
+    "noFast": true,
     "noHomepageBackJourney": true,
     "noSponsorship": false,
     "noRecommendations": false,
@@ -153,5 +153,5 @@
     "titleText": "Scan QR Code",
     "description": "To sign-in or register for free, scan the QR code using the camera on your mobile device. For more information visit www.channel5.com/qrcodes"
   },
-  "_configName": "146.44.0 | Fast | Rebrand | Kids Mode | MR On | Comms Off"
+  "_configName": "146.44.0 | Rebrand | Kids Mode | MR On | Comms Off"
 }

@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 20,
-  "commsVersion": 1,
+  "commsVersion": true,
   "dataServiceSettings": {
     "platformId": "my5ios",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -79,8 +79,8 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.25.2",
-    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Store."
+    "minVersion": "7.27.2.1",
+    "upgradeMessage": "Please upgrade to a newer version of the 5 app.\nDownload the latest 5 app from the App Store."
   },
   "systemMessages": {
     "policies": {

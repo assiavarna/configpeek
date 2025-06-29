@@ -1,8 +1,8 @@
 {
   "onboardingVersion": 1,
   "onboardingSignedInVersion": 2,
-  "appSubtitlesEnabled": true,
-  "appAudioDescriptionEnabled": false,
+  "appSubtitlesEnabled": false,
+  "appAudioDescriptionEnabled": true,
   "browsePageSubGenreRailMaxDisplayItems": 19,
   "dataServiceSettings": {
     "platformId": "skyoverip",
@@ -153,5 +153,5 @@
     "titleText": "Scan QR Code",
     "description": " To sign-in or register for free, scan the QR code using the camera on your mobile device. For more information visit www.channel5.com/qrcodes"
   },
-  "_configName": "145.16.1 | Fast | Rebrand | Kids Mode | Content ReOrg | HD"
+  "_configName": "145.16.3 | Fast | Rebrand | Kids Mode | Content ReOrg | HD"
 }

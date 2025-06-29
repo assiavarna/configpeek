@@ -4,7 +4,7 @@
   "stillWatchingTimeMins": 120,
   "browsePageSubGenreRailMaxDisplayItems": 20,
   "launchesForPushReminder": 20,
-  "commsVersion": null,
+  "commsVersion": 1,
   "dataServiceSettings": {
     "platformId": "my5ios",
     "ednaBaseUri": "https://feeds-api.channel5.com",
@@ -82,8 +82,8 @@
     }
   },
   "upgradeSettings": {
-    "minVersion": "7.25.2",
-    "upgradeMessage": "Sorry, you need to upgrade to a newer version of the 5 app.\nPlease download the latest 5 app from the App Store."
+    "minVersion": "7.27.2.1",
+    "upgradeMessage": "Please upgrade to a newer version of the 5 app.\nDownload the latest 5 app from the App Store."
   },
   "systemMessages": {
     "policies": {
@@ -296,7 +296,7 @@
     "emailValidationEnabled": false,
     "brazePushNotificationEnabled": true,
     "displayBanner": false,
-    "commsScreen": false,
+    "commsScreen": true,
     "kidsModeEnabled": true,
     "kochavaEnabled": false
   },
@@ -307,5 +307,5 @@
   "kochavaSettings": {
     "kochavaGuid": "koiosch5-w8wjcrss4"
   },
-  "_configName": "Latest  iOS11 | 7.25.2 | Fast | Rebrand | Kids Mode | Kochava TEMP OFF"
+  "_configName": "iOS11 | 7.25.2 | Fast | Rebrand | Kids Mode | Kochava TEMP OFF"
 }

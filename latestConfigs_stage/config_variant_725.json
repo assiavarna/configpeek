@@ -159,10 +159,13 @@
     "debugOn": true,
     "liveButtonsEnabled": true,
     "fastRestartEnabled": true,
-    "skipPreRollOnResume": true,
     "adSettings": {
-      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_roku_vod&prof=520311:my5_roku_video&pvrn={pvrn}&_fw_h_x_country=GB&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "adRequestUrl": "https://7f077.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=520311&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=intllocal_my5_uk_ctv_roku_vod&prof=520311:my5_roku_video&pvrn={pvrn}&_fw_h_x_country=GB&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}&_fw_did={did}&tfcd={tfcd}&__fw_coppa={tfcd}&_fw_is_lat={device_lat}",
       "rafAdPrefetchDuration": 30
+    },
+    "skipPreRollOnResume": true,
+    "googleDaiAdSettings": {
+      "queryString": "?imafw_csid=intllocal_my5_uk_ctv_roku_live_{c5id_lowercase}&imafw__fw_gdpr=1&imafw__fw_gdpr_consent={consent}&imafw__fw_h_x_country=GB&imafw__fw_vcid2={vcid}&imafw__fw_did={did}&imafw_tfcd={tfcd}&imafw__fw_coppa={tfcd}&imafw__fw_is_lat={device_lat}"
     },
     "adobeAnalytics": {
       "heartbeatKeepAlivePeriod": 1500,

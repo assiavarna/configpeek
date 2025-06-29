@@ -189,7 +189,12 @@
         and config details in one place
       </div>
     </div>
-
+   
+    <div style="margin-left: 10rem; text-align: left; font-size: 1 rem; color: #555; justify-content: center;">
+      Version 2, 29 June 2025
+    </div>
+    
+    
     <div class="config-actions">
       <button onclick="toggleCookie('prod')">Update Prod Configs</button>
       <div id="prod-cookie" class="cookie-input">
@@ -204,6 +209,16 @@
         <button onclick="toggleLog('stg')" id="stgLogButton">Show Summary</button>
         <pre class="summary" id="stgSummary" style="display:none;"></pre>
       </div>
+
+      <button onclick="toggleCookie('test')">Update Test Configs</button>
+      <div id="test-cookie" class="cookie-input">
+        Cookie: <input type="text" id="testCookieInput"><br>
+        <button onclick="toggleLog('test')" id="testLogButton">Show Summary</button>
+        <pre class="summary" id="testSummary" style="display:none;"></pre>
+      </div>
+
+      <span id="timestamp"></span>
+
     </div>
 
     <div class="search-section">
@@ -214,6 +229,9 @@
         </label>
         <label>
           <input type="checkbox" id="toggleStaging" checked onchange="filterResults()"> Staging
+        </label>
+        <label>
+          <input type="checkbox" id="toggleTest" checked onchange="filterResults()"> Test
         </label>
       </div>
     </div>
@@ -243,7 +261,7 @@
       </div>
     </div>
 
-    <span id="timestamp"></span>
+   
     <div id="results"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
@@ -282,11 +300,12 @@
         const anyText = document.getElementById('anySearch').value.toLowerCase();
         const showProd = document.getElementById('toggleProd').checked;
         const showStaging = document.getElementById('toggleStaging').checked;
+        const showTest = document.getElementById('toggleTest').checked;
         const selectedFlags = Array.from(document.getElementById('featureFlagSearch')?.selectedOptions || [])
           .map(opt => opt.value);
 
         const filtered = window.allResults.filter(i => {
-          const envMatch = (showProd && i.environment === 'production') || (showStaging && i.environment === 'staging');
+          const envMatch = (showProd && i.environment === 'production') || (showStaging && i.environment === 'staging') || (showTest && i.environment === 'test');
           
           
           const platformId = i.c5playerSettings?.cassiePlatformId;
@@ -350,51 +369,148 @@
         renderResults(filtered, selectedFlags);
       }
 
+
       function renderResults(items, selectedFlags) {
         const div = document.getElementById('results');
         div.innerHTML = '';
-        items.forEach(item => {
-          const el = document.createElement('div');
-          el.className = 'entry';
 
-          const idMatch = item.filename?.match(/config_variant_(\d+)\.json/);
-          const id = idMatch ? idMatch[1] : null;
-          const cassieUrl = id
-            ? item.environment === 'production'
-              ? `https://cassie.channel5.com/admin/config_variants/${id}/edit`
-              : `https://cassie-staging.channel5.com/admin/config_variants/${id}/edit`
-            : null;
+        if (selectedFlags.length === 1) {
+          // Group by the single selected flag's distinct values
+          const flag = selectedFlags[0];
+          const groups = {};
 
-          let html = `
-          <strong>Platform:</strong> ${item.c5playerSettings?.cassiePlatformId || '—'}<br>
-            <strong>Environment:</strong> ${item.environment}<br>
-            <strong>Config:</strong> ${item._configName || '[missing]'}<br>
-            <strong>File:</strong> ${item.filename || '[missing]'}<br>
-            ${cassieUrl ? `<strong>Cassie Link:</strong> <a href="${cassieUrl}" target="_blank">${cassieUrl}</a><br>` : ''}
-          `;
-
-          if (selectedFlags.length > 0) {
-            html += `<div style="margin-top: 1rem;"><strong>Selected Flag Values:</strong><ul>`;
-            html += selectedFlags.map(flag => {
-              const parts = flag.split('.');
-              let value = item;
-              for (const part of parts) {
-                if (value && typeof value === 'object' && part in value) {
-                  value = value[part];
-                } else {
-                  value = undefined;
-                  break;
-                }
+          items.forEach(item => {
+            // Drill down to the flag value
+            let value = item;
+            for (const part of flag.split('.')) {
+              if (value && typeof value === 'object' && part in value) {
+                value = value[part];
+              } else {
+                value = undefined;
+                break;
               }
-              return `<li><code>${flag}</code>: ${value !== undefined ? JSON.stringify(value) : '<em>not found</em>'}</li>`;
-            }).join('');
-            html += `</ul></div>`;
-          }
+            }
 
-          el.innerHTML = html;
-          div.appendChild(el);
-        });
+            // Convert value to a string key (handles booleans, numbers, strings, null, undefined)
+            const key = value !== undefined && value !== null
+              ? String(value)
+              : 'not found';
+
+            // Initialize group and store
+            if (!groups[key]) groups[key] = [];
+            groups[key].push({ item, value });
+          });
+
+          // Flex container for columns
+          const container = document.createElement('div');
+          container.style.display = 'flex';
+          container.style.gap = '1rem';
+
+          // Create a column per distinct value
+          Object.entries(groups).forEach(([val, entries]) => {
+            const col = document.createElement('div');
+            col.style.flex = '1';
+            col.style.minWidth = '200px';
+
+            // Column header: value and count
+            const header = document.createElement('div');
+            header.innerHTML = `<strong>${val}</strong> (in ${entries.length})`;
+            header.style.marginBottom = '0.5rem';
+            header.style.textAlign = 'center';
+            col.appendChild(header);
+
+            // Sort entries by numeric ID descending
+            entries
+              .slice()
+              .sort((a, b) => {
+                const ida = +(a.item.filename.match(/config_variant_(\d+)\.json/)?.[1] || 0);
+                const idb = +(b.item.filename.match(/config_variant_(\d+)\.json/)?.[1] || 0);
+                return idb - ida;
+              })
+              .forEach(({ item, value }) => {
+                const el = document.createElement('div');
+                el.className = 'entry';
+
+                const idMatch = item.filename?.match(/config_variant_(\d+)\.json/);
+                const id = idMatch ? idMatch[1] : null;
+                const cassieUrl = id
+                 ? (item.environment === 'production'
+                      ? `https://cassie.channel5.com/admin/config_variants/${id}/edit`
+                      : item.environment === 'staging'
+                        ? `https://cassie-staging.channel5.com/admin/config_variants/${id}/edit`
+                        : `https://cassie-test.channel5.com/admin/config_variants/${id}/edit`)
+                  : null;
+
+
+                let html = `
+                  <strong>Platform:</strong> ${item.c5playerSettings?.cassiePlatformId || '—'}<br>
+                  <strong>Environment:</strong> ${item.environment}<br>
+                  <strong>Config:</strong> ${item._configName || '[missing]'}<br>
+                  <strong>File:</strong> ${item.filename || '[missing]'}<br>
+                  ${cassieUrl ? `<strong>Cassie Link:</strong> <a href="${cassieUrl}" target="_blank">${cassieUrl}</a><br>` : ''}
+                  <strong>Flag Value:</strong> ${value !== undefined && value !== null ? value : '<em>not found</em>'}
+                `;
+
+                el.innerHTML = html;
+                col.appendChild(el);
+              });
+
+            container.appendChild(col);
+          });
+
+          div.appendChild(container);
+
+        } else {
+          // Multiple or no flags: single sorted list, showing each selected flag's value
+          items
+            .slice()
+            .sort((a, b) => {
+              const ida = +(a.filename.match(/config_variant_(\d+)\.json/)?.[1] || 0);
+              const idb = +(b.filename.match(/config_variant_(\d+)\.json/)?.[1] || 0);
+              return idb - ida;
+            })
+            .forEach(item => {
+              const el = document.createElement('div');
+              el.className = 'entry';
+
+              const idMatch = item.filename?.match(/config_variant_(\d+)\.json/);
+              const id = idMatch ? idMatch[1] : null;
+              const cassieUrl = id
+                ? (item.environment === 'production'
+                    ? `https://cassie.channel5.com/admin/config_variants/${id}/edit`
+                    : item.environment === 'staging'
+                      ? `https://cassie-staging.channel5.com/admin/config_variants/${id}/edit`
+                      : `https://cassie-test.channel5.com/admin/config_variants/${id}/edit`)
+                : null;
+
+
+              let html = `
+                <strong>Platform:</strong> ${item.c5playerSettings?.cassiePlatformId || '—'}<br>
+                <strong>Environment:</strong> ${item.environment}<br>
+                <strong>Config:</strong> ${item._configName || '[missing]'}<br>
+                <strong>File:</strong> ${item.filename || '[missing]'}<br>
+                ${cassieUrl ? `<strong>Cassie Link:</strong> <a href="${cassieUrl}" target="_blank">${cassieUrl}</a><br>` : ''}
+              `;
+
+              if (selectedFlags.length > 0) {
+                html += `<div style="margin-top: 1rem;"><strong>Selected Flag Values:</strong><ul>`;
+                selectedFlags.forEach(flag => {
+                  let val = item;
+                  for (const part of flag.split('.')) {
+                    if (val && typeof val === 'object' && part in val) val = val[part];
+                    else { val = undefined; break; }
+                  }
+                  html += `<li><code>${flag}</code>: ${val !== undefined && val !== null ? val : '<em>not found</em>'}</li>`;
+                });
+                html += `</ul></div>`;
+              }
+
+              el.innerHTML = html;
+              div.appendChild(el);
+            });
+        }
       }
+
 
       function toggleCookie(env) {
         const el = document.getElementById(env + '-cookie');
@@ -447,7 +563,7 @@
 
       filterResults();
       document.getElementById('timestamp').textContent =
-        'Last updated: ' + new Date().toLocaleTimeString();
+        'Last updated: ' + new Date().toLocaleString();
     })
     .catch(err => console.error('Failed to load results.json:', err));
 }

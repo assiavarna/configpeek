@@ -252,7 +252,7 @@
     "dashboardContinueWatchingFeatureEnabled": false,
     "mandatoryRegistrationEnabled": true,
     "oneTrustEnabled": true,
-    "commsScreenEnabled": false,
+    "commsScreenEnabled": true,
     "kidsModeEnabled": true,
     "kochavaEnabled": true
   },

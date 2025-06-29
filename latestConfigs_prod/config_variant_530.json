@@ -2,7 +2,7 @@
   "onboardingVersion": 1,
   "resumePointPeriod": 20,
   "browsePageSubGenreRailMaxDisplayItems": 20,
-  "commsVersion": null,
+  "commsVersion": 1,
   "upgradeSettings": {
     "minVersion": "2100064184",
     "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5. Please download the latest My5 app from the Amazon Store.",
@@ -180,7 +180,7 @@
       }
     },
     "nearEndEventTime": 10,
-    "licenceRefreshTimeMins": 170,
+    "licenceRefreshTimeMins": 470,
     "guidanceOverlayDurationSecs": 5.0
   },
   "userServiceSettings": {
@@ -199,7 +199,7 @@
     "vodChannelsEnabled": false,
     "adjustTrackingEnabled": false,
     "oneTrustEnabled": true,
-    "isCommsScreenEnabled": false,
+    "isCommsScreenEnabled": true,
     "kidsModeEnabled": false
   },
   "appUserSettings": {

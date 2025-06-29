@@ -167,7 +167,8 @@
         "param1": "my5_android_mobile_huawei"
       }
     },
-    "nearEndEventTime": 10
+    "nearEndEventTime": 10,
+    "licenceRefreshTimeMins": 470
   },
   "adobeAnalytics": {
     "marketingCloud": {
