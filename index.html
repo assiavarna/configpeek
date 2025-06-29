@@ -42,13 +42,7 @@
         margin-top: 0.3rem;
       }
 
-      #timestamp {
-        font-style: italic;
-        color: #888;
-        justify-content: center;
-        margin: 1rem 30rem;
-        display: block;
-      }
+     
 
       .logo-container {
         text-align: left;
@@ -76,8 +70,8 @@
       .config-actions {
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
-        margin: 2rem;
+        text-align-last: right;
+        margin-left: auto;
       }
 
       .config-actions button {
@@ -182,27 +176,26 @@
   </head>
 
   <body>
+    <div style="margin-right: 5rem; margin-top: 2rem; text-align: right; font-size: 1 rem; color: #555; justify-content: center;">
+      Version 2, 29 June 2025<br>
+      <span id="timestamp"></span>
+    </div>
+    
     <div style="display: flex; align-items: center; gap: 2rem; margin-bottom: 2rem; background-color: #fcfcfc; padding: 1rem 2rem; border-radius: 8px;">
       <img src="logo.png" alt="ConfigPeek Logo" class="logo" style="max-height: 200px;">
       <div style="font-size: 2rem; color: #555;">
         Inspect platform flags, app versions,<br>
         and config details in one place
       </div>
-    </div>
-   
-    <div style="margin-left: 10rem; text-align: left; font-size: 1 rem; color: #555; justify-content: center;">
-      Version 2, 29 June 2025
-    </div>
-    
     
     <div class="config-actions">
+
       <button onclick="toggleCookie('prod')">Update Prod Configs</button>
       <div id="prod-cookie" class="cookie-input">
         Cookie: <input type="text" id="prodCookieInput"><br>
         <button onclick="toggleLog('prod')" id="prodLogButton">Show Summary</button>
         <pre class="summary" id="prodSummary" style="display:none;"></pre>
       </div>
-
       <button onclick="toggleCookie('stg')">Update Stage Configs</button>
       <div id="stg-cookie" class="cookie-input">
         Cookie: <input type="text" id="stgCookieInput"><br>
@@ -216,8 +209,8 @@
         <button onclick="toggleLog('test')" id="testLogButton">Show Summary</button>
         <pre class="summary" id="testSummary" style="display:none;"></pre>
       </div>
-
-      <span id="timestamp"></span>
+    </div>
+      
 
     </div>
 
