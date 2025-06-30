@@ -1,0 +1,81 @@
+{
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/videojsplayer/core/bundle.js",
+    "themeUrl": "https://player-staging.akamaized.net/videojsplayer/theme/my5/styles.css",
+    "theme": "my5",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassiePlatformId": "videojsdashchr",
+    "adSettings": {
+      "adRequestUrl": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=samsungtv_d5&prof=380990:c5_samsungtv_video&pvrn={pvrn}&vprn={vprn}"
+    },
+    "adobeAnalyticsSettings": {
+      "ADBMobileConfig": {
+        "lastModified": "2017-12-11T13:00:00.000Z",
+        "target": {
+          "clientCode": "",
+          "timeout": 5
+        },
+        "audienceManager": {
+          "server": "",
+          "analyticsForwardingEnabled": false,
+          "timeout": 5
+        },
+        "acquisition": {
+          "server": "c00.adobe.com",
+          "appid": "d101a5b0346d55efc7ca423a6e63d4ff31a9f2656285f30b261442775a8d9047"
+        },
+        "marketingCloud": {
+          "org": "ED7001AC512D2ABD0A490D4C@AdobeOrg"
+        },
+        "analytics": {
+          "rsids": "mobile1vhl.sample.player",
+          "server": "ch5.sc.omtrdc.net",
+          "ssl": false,
+          "offlineEnabled": false,
+          "charset": "UTF-8",
+          "lifecycleTimeout": 300,
+          "privacyDefault": "optedin",
+          "batchLimit": 0,
+          "timezone": "PDT",
+          "timezoneOffset": -420,
+          "referrerTimeout": 0,
+          "backdateSessionInfo": false,
+          "poi": [
+
+          ]
+        },
+        "mediaHeartbeat": {
+          "server": "ch5.sc.omtrdc.net",
+          "publisher": "Channel5",
+          "channel": "test-channel",
+          "ssl": false,
+          "ovp": "c5",
+          "sdkVersion": "1.0.0",
+          "playerName": "roku-c5-player"
+        },
+        "messages": [
+
+        ],
+        "remotes": {
+          "analytics.poi": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e2064746d64dc00ce3d.json",
+          "messages": "https://assets.adobedtm.com/b213090c5204bf94318f4ef0539a38b487d10368/scripts/satellite-57520e1e64746d2e0200d4dd.json"
+        }
+      }
+    },
+    "kantarSettings": {
+      "siteName": "c5androidtest",
+      "playerName": "my5",
+      "secure": "false"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "false",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "_configName": "1"
+}

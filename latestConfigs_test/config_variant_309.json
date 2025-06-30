@@ -1,0 +1,15 @@
+{
+  "appAudioDescriptionEnabled": false,
+  "appSubtitlesEnabled": false,
+  "appFeatureSettings": {
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.akamaized.net/videojsplayer/freesat/core/bundle.js",
+    "themeUrl": "https://player-test.akamaized.net/videojsplayer/freesat/theme/my5/styles.css"
+  },
+  "aviaPlayerSettings": {
+    "coreUrl": "https://player-test.channel5.com/ctvaviaplayer/freeviewplay/core/player.js",
+    "themeUrl": "https://player-test.channel5.com/ctvaviaplayer/freeviewplay/core/player-theme.css"
+  },
+  "_configName": "Relaunch App - Test Config"
+}

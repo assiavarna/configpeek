@@ -1,0 +1,32 @@
+{
+  "featured": "http://roku-feed.channel5.com/featured.json",
+  "popular": "http://youview-feed.channel5.com/popular.xml",
+  "minVersion": "1.1",
+  "freewheelVmapService": "http://5cc67.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=1071&nw=380007&resp=vmap1&caid={c5id}&csid=roku_d5&prof=380007:DISABLED&pvrn={pvrn}&vprn={vprn}",
+  "channels": [
+    {
+      "name": "Channel 5",
+      "feed": "http://roku-feed.channel5.com/c5.json"
+    },
+    {
+      "name": "5*",
+      "feed": "http://roku-feed.channel5.com/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://roku-feed.channel5.com/c7.json"
+    },
+    {
+      "name": "Demand 5 Exclusive",
+      "feed": "http://roku-feed.channel5.com/c1.json"
+    },
+    {
+      "name": "Spike",
+      "feed": "http://roku-feed.channel5.com/c2.json"
+    }
+  ],
+  "sponsorship": [
+
+  ],
+  "_configName": "2"
+}

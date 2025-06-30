@@ -1,0 +1,306 @@
+{
+  "comscoreTrackingDisabled": true,
+  "systemMessages": {
+    "policies": {
+      "text": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data at www.channel5.com/privacy-and-cookies",
+      "button1": "OK",
+      "button2": "Read later",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "cassieMediaUri": "https://cassie-auth-staging.channel5.com/media/youview/{c5id}.json",
+    "fwSettings": {
+      "serviceUri": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_d5&prof=380990:c5_youview_video&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "serviceUriStb": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_my5_stb&prof=380990:c5_youview_stb_video&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "serviceUriSonyTv": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_my5_sonytv&prof=380990:c5_youview_sonytv_video&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "vastTimeout": "20"
+    },
+    "daxSettings": {
+      "C5_MP": {
+        "c5_mp_stb": "Youview_My5",
+        "c5_mp_sonytv": "Youviewsony_My5"
+      },
+      "C5_VS_DE": {
+        "c5_vs_de_stb": "yv",
+        "c5_vs_de_sonytv": "yvsn"
+      },
+      "C5_VS_PL": {
+        "c5_vs_pl_stb": "stb",
+        "c5_vs_pl_sonytv": "tv"
+      },
+      "c5_vs_pr": "my5",
+      "c5_vs_de": "yv",
+      "c5_vs_pl": "stb",
+      "ns_site": "test",
+      "c5_mp": "Youview_My5",
+      "ns_st_pu": "Channel5",
+      "name": "my5.youview.player.page"
+    },
+    "kantarSettings": {
+      "siteName": "c5youviewtest",
+      "playerName": "my5"
+    },
+    "youboraSettings": {
+      "system": "channel5",
+      "secure": "true"
+    },
+    "adobeAnalytics": {
+      "heartbeatKeepAlivePeriod": 25
+    }
+  },
+  "userServiceSettings": {
+    "userServiceDisabled": false,
+    "bannerStyle": {
+      "position": "top",
+      "theme": "dark"
+    },
+    "sdkUrl": "https://userservice-staging.channel5.com/html/user-service-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api-staging.channel5.com/"
+    },
+    "version": 4,
+    "consent": [
+      "videology_ad_consent"
+    ],
+    "bannerGeneral": [
+      {
+        "type": "title",
+        "text": "My5 and your data"
+      },
+      {
+        "type": "paragraph",
+        "text": "We use cookies! To learn more about cookies and how to manage them, how we process your data and your rights please visit: channel5.com/privacy-and-cookies.\n\nWe’d like to store cookies on your device to be able to serve you more relevant (‘targeted’) advertising. Please select ‘Accept all’ to consent to the use of cookies for targeted advertising or ‘Not Now’ if you’re not sure. You can always check and change your preference in the Settings menu."
+      },
+      {
+        "type": "button",
+        "action": "accept_all",
+        "text": "Accept all - I want ads that are relevant to me",
+        "focused": true
+      },
+      {
+        "type": "button",
+        "action": "close",
+        "text": "Not Now"
+      }
+    ],
+    "bannerUpdate": [
+      {
+        "type": "title",
+        "text": "My5 and your data"
+      },
+      {
+        "type": "paragraph",
+        "text": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data."
+      },
+      {
+        "type": "button",
+        "action": "accept_all",
+        "text": "Accept all - I want ads that are relevant to me"
+      },
+      {
+        "type": "button",
+        "action": "edit_consent",
+        "text": "Edit Settings"
+      }
+    ],
+    "bannerTimeout": [
+      {
+        "type": "title",
+        "text": "My5 and your data"
+      },
+      {
+        "type": "paragraph",
+        "text": "Your consent settings is about to expire. Please review your settings or save it again."
+      },
+      {
+        "type": "button",
+        "action": "save_consent",
+        "text": "Save"
+      },
+      {
+        "type": "button",
+        "action": "edit_consent",
+        "text": "Review"
+      }
+    ],
+    "form": [
+      {
+        "type": "title",
+        "text": "Cookie Consent Settings"
+      },
+      {
+        "type": "paragraph",
+        "text": "We’d like to store cookies on your device to be able to serve you with more relevant ‘targeted’ advertising – please let us know if you consent to the use of cookies for this purpose:"
+      },
+      {
+        "type": "title",
+        "text": "Your current cookie settings:"
+      },
+      {
+        "type": "button",
+        "action": "accept_all",
+        "text": "Yes I do want ads that are relevant to me",
+        "id": "videology_ad_consent"
+      },
+      {
+        "type": "button",
+        "action": "close",
+        "text": "No I don’t want ads that are relevant to me",
+        "id": "videology_ad_consent"
+      },
+      {
+        "type": "paragraph",
+        "text": "To learn more about cookies and how to manage them, how we process your data and your rights please visit: channel5.com/privacy-and-cookies\n\nFor our general Terms and Conditions visit: channel5.com/terms-and-conditions"
+      }
+    ],
+    "consentExpirationTimeInMonths": 13
+  },
+  "navigation": {
+    "browse": [
+      {
+        "title": "HOME",
+        "path": "/",
+        "items": [
+          {
+            "title": "Featured",
+            "path": "/"
+          },
+          {
+            "title": "Catch Up",
+            "path": "/catch-up"
+          },
+          {
+            "title": "Box Sets",
+            "path": "/list/85788"
+          }
+        ]
+      },
+      {
+        "title": "CATEGORIES",
+        "path": "/categories",
+        "items": [
+          {
+            "title": "Entertainment",
+            "path": "/categories/entertainment"
+          },
+          {
+            "title": "Drama",
+            "path": "/categories/drama"
+          },
+          {
+            "title": "Documentary",
+            "path": "/categories/documentary"
+          },
+          {
+            "title": "Soap",
+            "path": "/categories/soap"
+          },
+          {
+            "title": "Milkshake!",
+            "path": "/categories/milkshake"
+          },
+          {
+            "title": "Sport",
+            "path": "/categories/sport"
+          },
+          {
+            "title": "Film",
+            "path": "/categories/films"
+          },
+          {
+            "title": "All (A-Z)",
+            "path": "/categories/all"
+          }
+        ]
+      },
+      {
+        "title": "CHANNELS",
+        "path": "/channels",
+        "items": [
+          {
+            "title": "Channel 5",
+            "path": "/channels/five"
+          },
+          {
+            "title": "5USA",
+            "path": "/channels/fiveusa"
+          },
+          {
+            "title": "5STAR",
+            "path": "/channels/fivestar"
+          },
+          {
+            "title": "5Spike",
+            "path": "/channels/5spike"
+          },
+          {
+            "title": "BLAZE",
+            "path": "/channels/blaze"
+          },
+          {
+            "title": "5SELECT",
+            "path": "/channels/5Select"
+          },
+          {
+            "title": "Paramount Network",
+            "path": "/channels/paramount"
+          },
+          {
+            "title": "BET",
+            "path": "/channels/bet"
+          },
+          {
+            "title": "PBS America",
+            "path": "/channels/pbsamerica"
+          },
+          {
+            "title": "Spark",
+            "path": "/channels/spark"
+          },
+          {
+            "title": "Real Stories",
+            "path": "/channels/realstories"
+          },
+          {
+            "title": "Together TV",
+            "path": "/channels/togethertv"
+          },
+          {
+            "path": "/channels/nextbyHot",
+            "title": "NEXT by HOT"
+          },
+          {
+            "path": "/channels/plutotvdrama",
+            "title": "PLUTO TV DRAMA"
+          },
+          {
+            "path": "/channels/plutotvmovies",
+            "title": "PLUTO TV MOVIES"
+          },
+          {
+            "path": "/channels/plutotvfood",
+            "title": "PLUTO TV Food"
+          },
+          {
+            "path": "/channels/realfamilies",
+            "title": "Real Families"
+          }
+        ]
+      },
+      {
+        "title": "MY FAVOURITES",
+        "path": "/account/profiles/favourites"
+      },
+      {
+        "title": "SEARCH",
+        "path": "/search"
+      },
+      {
+        "title": "ACCOUNT",
+        "path": "/account"
+      }
+    ]
+  },
+  "_configName": "1"
+}

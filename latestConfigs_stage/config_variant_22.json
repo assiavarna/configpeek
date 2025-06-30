@@ -1,0 +1,32 @@
+{
+  "featured": "http://roku-feed.channel5.com/featured.json",
+  "popular": "http://youview-feed.channel5.com/popular.xml",
+  "minVersion": "1.1",
+  "freewheelVmapService": "http://23571.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=1071&nw=380990&resp=vmap1&caid=C5165231158&csid=roku_d5&prof=380990:c5_roku_video&pvrn={pvrn}&vprn={vprn}",
+  "channels": [
+    {
+      "name": "Demand 5 Exclusive",
+      "feed": "http://roku-feed-prelive.channel5.com/c1.json"
+    },
+    {
+      "name": "5Spike",
+      "feed": "http://roku-feed-prelive.channel5.com/c2.json"
+    },
+    {
+      "name": "Channel 5",
+      "feed": "http://roku-feed-prelive.channel5.com/c5.json"
+    },
+    {
+      "name": "5STAR",
+      "feed": "http://roku-feed-prelive.channel5.com/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://roku-feed-prelive.channel5.com/c7.json"
+    }
+  ],
+  "sponsorship": [
+
+  ],
+  "_configName": "1"
+}

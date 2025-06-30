@@ -1,0 +1,45 @@
+{
+  "comscoreTrackingDisabled": true,
+  "c5playerSettings": {
+    "cassieMediaUri": "https://cassie-auth-staging.channel5.com/media/youview/{c5id}.json",
+    "fwSettings": {
+      "serviceUri": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_milkshake&prof=380990:c5_youview_milkshake&pvrn={pvrn}&vprn={vprn}",
+      "serviceUriStb": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_ms_stb&prof=380990:c5_youview_stb_video&pvrn={pvrn}&vprn={vprn}",
+      "serviceUriSonyTv": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=youview_ms_sonytv&prof=380990:c5_youview_sonytv_video&pvrn={pvrn}&vprn={vprn}",
+      "vastTimeout": "20"
+    },
+    "daxSettings": {
+      "C5_MP": {
+        "c5_mp_stb": "Youview_Milkshake",
+        "c5_mp_sonytv": "Youviewsony_Milkshake"
+      },
+      "C5_VS_DE": {
+        "c5_vs_de_stb": "yv",
+        "c5_vs_de_sonytv": "yvsn"
+      },
+      "C5_VS_PL": {
+        "c5_vs_pl_stb": "stb",
+        "c5_vs_pl_sonytv": "tv"
+      },
+      "c5_vs_pr": "ms",
+      "c5_vs_de": "yv",
+      "c5_vs_pl": "stb",
+      "ns_site": "Test",
+      "c5_mp": "Youview_Milkshake",
+      "ns_st_pu": "Channel5",
+      "name": "milkshake.youview.player.page"
+    },
+    "kantarSettings": {
+      "siteName": "c5youviewtest",
+      "playerName": "my5"
+    },
+    "youboraSettings": {
+      "system": "channel5",
+      "secure": "true"
+    },
+    "adobeAnalytics": {
+      "heartbeatKeepAlivePeriod": 25
+    }
+  },
+  "_configName": "1"
+}

@@ -1,0 +1,25 @@
+{
+  "featured": "http://assets.five.tv/platforms/ios/featured.json",
+  "minVersion": "2.4",
+  "clickThroughText": "Tap here for more information",
+  "channels": [
+    {
+      "name": "Channel 5",
+      "feed": "http://assets.five.tv/platforms/ios/c5.json"
+    },
+    {
+      "name": "5*",
+      "feed": "http://assets.five.tv/platforms/ios/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://assets.five.tv/platforms/ios/c7.json"
+    }
+  ],
+  "advertising": {
+    "adProviderID": "Auditude",
+    "adServerHostname": "5c9e4.v.fwmrm.net",
+    "adNetworkID": "379364"
+  },
+  "_configName": "1"
+}

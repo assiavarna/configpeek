@@ -10,6 +10,12 @@ LOG_FILE="$DEST_DIR/download_log.txt"
 mkdir -p "$DEST_DIR"
 > "$LOG_FILE"
 
+{
+  echo "=== Prod env configs extracted at $(date '+%Y-%m-%d %H:%M:%S') ==="
+  echo ""
+} > "$LOG_FILE"
+
+
 MAX_ID=999
 FAIL_COUNT_AFTER_710=0
 FAIL_LIMIT_AFTER_710=20
@@ -89,6 +95,6 @@ echo "📊 Summary:" | tee -a "$LOG_FILE"
 echo "   ✅ New downloads:   $NEW_COUNT" | tee -a "$LOG_FILE"
 echo "   🔁 Updated files:   $UPDATED_COUNT" | tee -a "$LOG_FILE"
 echo "   ⏭️  Skipped (same): $SKIPPED_COUNT" | tee -a "$LOG_FILE"
-echo "✅ Done. Full log saved to $LOG_FILE" | tee -a "$LOG_FILE"
+echo "✅ Done. Stage env configs extracted at $(date '+%Y-%m-%d %H:%M:%S'). Full log saved to $LOG_FILE" | tee -a "$LOG_FILE"
 
 

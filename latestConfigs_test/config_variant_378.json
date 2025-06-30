@@ -1,0 +1,14 @@
+{
+  "test": 1234,
+  "dataServiceSettings": {
+    "ednaBaseUri": "https://fees-api-test.channel5.com",
+    "ednaPlatformId": "my5Freesat7",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreeviewPlayPrimaryNav",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platform}",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter",
+    "coronaBaseUri": "https://corona-test.channel5.com",
+    "coronaShowsTemplateUri": "/shows/search.json?platform={platform}&genre={genre}&ids[]={ids}",
+    "coronaWatchablesTemplateUri": "/watchables/search.json?platform={platform}&ids[]={ids}"
+  },
+  "_configName": "Copy of 4"
+}

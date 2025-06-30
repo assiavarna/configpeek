@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<BindableSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <!--   Windows 10 settings   -->
+  <Win10TermsAndConditionsUrl>http://winphone-asset.channel5.com/terms.html</Win10TermsAndConditionsUrl>
+  <Win10HelpUrl>http://winphone-asset.channel5.com/help.html</Win10HelpUrl>
+  <Win10AboutUrl>http://winphone-asset.channel5.com/about.html</Win10AboutUrl>
+  <Win10PrivacyUrl>http://winphone-asset.channel5.com/Privacy.html</Win10PrivacyUrl>  
+  <Win10LatestClientVersion>1.0.0.0</Win10LatestClientVersion>
+  
+  <!--   Windows 8 settings -->
+  <TermsAndConditionsUrl>http://winphone-asset.channel5.com/terms.html</TermsAndConditionsUrl>
+  <HelpUrl>http://winphone-asset.channel5.com/help.html</HelpUrl>
+  <AboutUrl>http://winphone-asset.channel5.com/about.html</AboutUrl>
+  <PrivacyUrl>http://winphone-asset.channel5.com/Privacy.html</PrivacyUrl>
+  <LatestClientVersion>1.0.182.88</LatestClientVersion>
+  
+  <!--  Windows 8/10 Settings  -->    
+  <ActiveAdvertisementProvider>Freewheel</ActiveAdvertisementProvider>
+  <FreeWheelUrl><![CDATA[http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={0}&csid=winphone_d5&prof=144750:DISABLED]]></FreeWheelUrl>
+  <AuditudeUrl>http://ad.auditude.com</AuditudeUrl>
+  <EmailRelayUrl>http://www.channel5.com/portable_player/email_pin_reminder</EmailRelayUrl>
+  <ComScoreSite>master</ComScoreSite>
+  <ApiImagesEpisodesUrl>http://api-images.channel5.com/images/episode</ApiImagesEpisodesUrl>
+  <ApiImagesShowsUrl>http://api-images.channel5.com/images/show</ApiImagesShowsUrl>
+  <FeaturedFeedUrl>https://win8phone-feed.channel5.com/featured.json</FeaturedFeedUrl>
+  <CassieURL>https://cassie-test.channel5.com/api/v1</CassieURL>
+  <C5FeedUrl>http://app-feeds-test.channel5.com/win8phone/c5.json</C5FeedUrl>
+  <C6FeedUrl>http://app-feeds-test.channel5.com/win8phone/c6.json</C6FeedUrl>
+  <C7FeedUrl>http://app-feeds-test.channel5.com/win8phone/c7.json</C7FeedUrl>
+  <C2FeedUrl>http://app-feeds-test.channel5.com/win8phone/c2.json</C2FeedUrl>
+  <C8FeedUrl>http://app-feeds-test.channel5.com/win8phone/c8.json</C8FeedUrl>
+  <EdnaRefreshFrequencyInSeconds>1800</EdnaRefreshFrequencyInSeconds>
+  <AdvertClickThroughText>Tap here for more information</AdvertClickThroughText>
+  <SponsorshipAdvertDestinationUrl></SponsorshipAdvertDestinationUrl>
+  <SponsorshipFullscreenImageUrl></SponsorshipFullscreenImageUrl>
+  <SponsorshipSnapImageUrl></SponsorshipSnapImageUrl>
+  <SponsorshipFlyoutImageUrl></SponsorshipFlyoutImageUrl>
+  <SponsorshipDAXUrl><![CDATA[http://uk.sitestat.com/c5/master/s?windows8-demand5-tile&ns_type=clickout]]></SponsorshipDAXUrl>
+  <TTMLUrl>http://assets.five.tv/subtitles/ttml</TTMLUrl>
+</BindableSettings>

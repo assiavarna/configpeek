@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+<string id="minRequiredAppVersion"><![CDATA[0.2]]></string>
+<!-- IMAGES -->
+<!-- Base URIs of programme images -->
+<string id="imageAssetsEpisodeBaseURI"><![CDATA[http://api-images.channel5.com/images/episode/]]></string>
+<string id="imageAssetsShowBaseURI"><![CDATA[http://api-images.channel5.com/images/show/]]></string>
+<!-- SHOW GENRES -->
+<!-- Genres displayed in the portal's "Shows" section. Items are displayed in order as they appear below. -->
+<genres>
+<genre isPopular="true" id="Popular" navigationLabel="Popular" />
+<genre id="Entertainment" navigationLabel="Entertainment" />
+<genre id="Drama" navigationLabel="Drama" />
+<genre id="Documentary" navigationLabel="Documentary" />
+<genre id="Soap" navigationLabel="Soap" />
+<genre id="Sport" navigationLabel="Sport" />
+<genre id="Milkshake!" assetId="assets.MainNavigation.milkshake" />
+<genre id="Film" navigationLabel="Film" />
+</genres>
+<!-- CASSIE -->
+<string id="cassieEnabled"><![CDATA[true]]></string>
+<string id="cassieMediaURI"><![CDATA[https://cassie-auth.channel5.com/media/panasonic/{c5Id}.xml]]></string>
+<!-- EDNA -->
+<string id="ednaChannelsURI"><![CDATA[http://panasonic-feed.channel5.com/concise/{0}.json]]></string>
+<string id="featuredURI"><![CDATA[http://panasonic-feed.channel5.com/featured.xml]]></string>
+<string id="popularURI"><![CDATA[http://youview-feed.channel5.com/popular.xml]]></string>
+<!-- Channel ids for which calls to Edna are made -->
+<string id="ednaChannelIDs"><![CDATA[c5,c6,c7,c1]]></string>
+<!-- Readable channel names displayed in the UI, matched against the above channel ids -->
+<string id="readableChannelNames"><![CDATA[Channel 5, 5 Star, 5 USA, Demand 5 Exclusive]]></string>
+<!-- Number of days of content to display in "Recent" grid, applied to Edna TX dates -->
+<string id="ednaFromDateDaysOffset"><![CDATA[30]]></string>
+<!-- Additional offset (in hours) applied to data in "Recent" grid, to allow for potential publication delays -->
+<string id="ednaTillDateHoursOffset"><![CDATA[1]]></string>
+<!-- FREEWHEEL -->
+<string id="freewheelDisableSmoothStreaming"><![CDATA[false]]></string>
+<string id="useFreewheelVmap"><![CDATA[true]]></string>
+<string id="freewheelVideoProfile"><![CDATA[380007:c5_panasonic_video]]></string>
+<string id="freewheelVmapServiceUri"><![CDATA[http://5cc67.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380007&resp=vmap1&caid={c5id}&csid=panasonic_d5&prof={freewheelVideoProfile}&pvrn={pvrn}&vprn={vprn}]]></string>
+<!-- Reporting -->
+<string id="analyticsVideoURL"><![CDATA[http://b.scorecardresearch.com/p2?name=demand5.panasonic.player.page&c12={deviceId}&c1=19&c2=16184513&c4=demand5.panasonic&c5_vs_pr=c5&c5_vs_pl=stb&c5_vs_de=ps&ns_site=master&ns_st_it=p&c5_vs_ct=vi&c5_vs_vt=lf]]></string>
+<string id="analyticsMeasurementURL"><![CDATA[http://b.scorecardresearch.com/p2?c12={deviceId}&c5_vs_pr=c5&c5_vs_pl=stb&c5_vs_de=ps&c1=19&c2=16184513&c4=demand5.panasonic&ns_nc=1&ns_ap_pn=panasonic&ns_ap_device=panasonic&ns_site=master]]></string>
+<string id="analyticsReferralURL"><![CDATA[http://b.scorecardresearch.com/p2?c12={deviceId}&c5_vs_pr=c5&c5_vs_pl=stb&c5_vs_de=ps&c1=19&c2=16184513&c4=demand5.panasonic&ns_nc=1&ns_ap_pn=panasonic&ns_ap_device=panasonic&ns_site=master&ns_referrer={referrer}]]></string>
+<string id="reportingApp"><![CDATA[d5]]></string>
+<string id="reportingPlatform"><![CDATA[panasonic]]></string>
+<string id="reportingAppId"><![CDATA[Panasonic_Demand5]]></string>
+<!-- PLAYREADY -->
+<string id="playReadyLicenseRequest"><![CDATA[<?xml version="1.0" encoding="utf-8"?><PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/"><LicenseServerUriOverride><LA_URL>{url}</LA_URL></LicenseServerUriOverride></PlayReadyInitiator>]]></string>
+<string id="playReadyLicenseURLRequest"><![CDATA[<?xml version="1.0" encoding="utf-8"?><PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/"><LicenseServerUriOverride><LA_URL>{url}</LA_URL></LicenseServerUriOverride></PlayReadyInitiator>]]></string>
+<string id="playReadyLicenseCustomDataRequest"><![CDATA[<?xml version="1.0" encoding="utf-8"?><PlayReadyInitiator xmlns="http://schemas.microsoft.com/DRM/2007/03/protocols/"><SetCustomData><CustomData>{customData}</CustomData></SetCustomData></PlayReadyInitiator>]]></string>
+<!-- PIN -->
+<string id="pinRemniderURI"><![CDATA[http://www.channel5.com/portable_player/email_pin_reminder?e={0}&p={1}]]></string>
+</config>

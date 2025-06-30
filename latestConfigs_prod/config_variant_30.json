@@ -1,0 +1,1204 @@
+{
+  "comscoreTrackingDisabled": true,
+  "systemMessages": {
+    "policies": {
+      "bannerActive": true,
+      "text": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data.",
+      "button1": "Read the policies",
+      "link1": "http://www.channel5.com/privacy-and-cookies/",
+      "button2": "OK",
+      "version": 1
+    },
+    "notification": {
+      "bannerActive": false,
+      "text": "Here is some text.",
+      "button1": "Find out more",
+      "link1": "https://help.channel5.com/",
+      "button2": "OK",
+      "version": 1
+    }
+  },
+  "c5playerSettings": {
+    "coreUrl": "https://player.akamaized.net/html5player/core/html5-c5-player.js",
+    "themeUrl": "https://player.akamaized.net/html5player/theme/my5/html5-my5.css",
+    "theme": "my5",
+    "fairplayApplicationCertificateUrl": "https://c5apps.channel5.com/fps/c5-fps-app-cert-20170119.cer",
+    "widevineApplicationCertificateUrl": "",
+    "cassieBaseUrl": "https://cassie.channel5.com/api/v2",
+    "cassiePlatformId": "my5desktop",
+    "cassieChromecastPlatformId": "gccdesktop",
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb+fbad&metr=959&nw=144750&resp=vmap1&crtp=vast3ap&caid={c5id}&csid=ch5_web_d5&prof=144750:{prof}&pvrn={pvrn}&vprn={vprn};_fw_gdpr=1&_fw_gdpr_consent={consent}",
+      "prof": {
+        "dashProf": "c5_dash_dt",
+        "fpsProf": "c5_fps_dt"
+      }
+    },
+    "nearEndEventTime": 10,
+    "comscoreSettings": {
+      "c5_vs_pr": "my5",
+      "c5_vs_de": "pc",
+      "c5_vs_pl": "we",
+      "c5_vs_ct": "vi",
+      "ns_site": "master",
+      "c5_mp": "Demand_FIVE_Player",
+      "ns_st_pu": "Channel5",
+      "name": "demand5.channel5.player.page",
+      "secure": "true"
+    },
+    "kantarSettings": {
+      "siteName": "c5dotcom",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+    }
+  },
+  "userServiceSettings": {
+    "userServiceDisabled": false,
+    "bannerStyle": {
+      "position": "top",
+      "theme": "dark"
+    },
+    "sdkUrl": "https://userservice.channel5.com/html/user-service-sdk.js",
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/"
+    },
+    "version": 2,
+    "consent": [
+      "videology_ad_consent"
+    ],
+    "bannerGeneral": [
+      {
+        "type": "paragraph",
+        "text": "We use cookies - click Privacy and Cookies to learn how. Click Accept All to consent to all cookies or Edit Settings to manage your choices."
+      },
+      {
+        "type": "button",
+        "action": "accept_all",
+        "rank": "primary",
+        "text": "Accept All"
+      },
+      {
+        "type": "button",
+        "action": "open",
+        "rank": "secondary",
+        "text": "Privacy and Cookies",
+        "url": "http://www.channel5.com/privacy-and-cookies/"
+      },
+      {
+        "type": "button",
+        "action": "edit_consent",
+        "rank": "primary",
+        "text": "Edit Settings"
+      }
+    ],
+    "bannerUpdate": [
+      {
+        "type": "paragraph",
+        "text": "We've made some changes to our Privacy and Cookies Policies. Find out what this means for you and your data."
+      },
+      {
+        "type": "button",
+        "action": "accept_all",
+        "rank": "primary",
+        "text": "Accept All"
+      },
+      {
+        "type": "button",
+        "action": "open",
+        "rank": "secondary",
+        "text": "Read the policies",
+        "url": "http://www.channel5.com/privacy-and-cookies/"
+      },
+      {
+        "type": "button",
+        "action": "edit_consent",
+        "rank": "textonly",
+        "text": "Edit Settings"
+      }
+    ],
+    "bannerTimeout": [
+      {
+        "type": "paragraph",
+        "text": "Your consent settings is about to expire. Please review your settings or save it again."
+      },
+      {
+        "type": "button",
+        "action": "save_consent",
+        "rank": "primary",
+        "text": "Save"
+      },
+      {
+        "type": "button",
+        "action": "edit_consent",
+        "rank": "textonly",
+        "text": "Review"
+      }
+    ],
+    "form": [
+      {
+        "type": "title",
+        "text": "My5 Cookie Consent Settings"
+      },
+      {
+        "type": "link",
+        "url": "http://www.channel5.com/privacy-and-cookies/",
+        "text": "Channel 5 and its advertising partners would like to store cookies on your device to be able to serve you with more relevant (‘targeted’) advertising. For more information about the way we and our partners collect and use data and how to manage cookies, please click here."
+      },
+      {
+        "type": "header",
+        "text": "Choose your ad preferences below:"
+      },
+      {
+        "type": "paragraph",
+        "text": "Please select ‘Yes’ or ‘No’ and click ‘Save’ to indicate your preference. You can check and choose your settings at any time via Settings in the navigation bar. If you have already saved a selection, this will appear highlighted in blue."
+      },
+      {
+        "type": "checkbox",
+        "id": "videology_ad_consent",
+        "text": "I consent to the use of cookies for the purpose of receiving targeted advertising on Channel 5 services:"
+      },
+      {
+        "type": "button",
+        "action": "ok",
+        "rank": "primary",
+        "text": "Save"
+      },
+      {
+        "type": "button",
+        "action": "close",
+        "rank": "secondary",
+        "text": "Not now"
+      }
+    ],
+    "consentExpirationTimeInMonths": 13
+  },
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "http://www.channel5.com/privacy-and-cookies",
+    "cookieUrl": "http://www.channel5.com/cookie-policy",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com"
+  },
+  "globalSocialUrls": {
+    "facebookUrl": "https://www.facebook.com/my5tvuk",
+    "twitterUrl": "https://twitter.com/my5_tv",
+    "youtubeUrl": "https://www.youtube.com/user/demandfive",
+    "googlePlusUrl": "https://plus.google.com/103055358122996757277"
+  },
+  "sponsorship": {
+    "DFPNetworkID": "20346936",
+    "DFPSiteID": "channel5"
+  },
+  "navigation": {
+    "desktop": {
+      "account": [
+        {
+          "items": [
+            {
+              "path": "/account/profiles/favourites",
+              "title": "My Favourites"
+            },
+            {
+              "path": "/account",
+              "title": "Account Settings"
+            }
+          ],
+          "route": "",
+          "title": ""
+        }
+      ],
+      "browse": [
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "path": "/categories/entertainment",
+                  "title": "Entertainment"
+                },
+                {
+                  "path": "/categories/drama",
+                  "title": "Drama"
+                },
+                {
+                  "path": "/categories/documentary",
+                  "title": "Documentary"
+                },
+                {
+                  "path": "/categories/soap",
+                  "title": "Soap"
+                }
+              ],
+              "title": "Column 1"
+            },
+            {
+              "items": [
+                {
+                  "path": "/categories/milkshake",
+                  "title": "Milkshake!"
+                },
+                {
+                  "path": "/categories/sport",
+                  "title": "Sport"
+                },
+                {
+                  "path": "/categories/films",
+                  "title": "Film"
+                },
+                {
+                  "path": "/categories/all",
+                  "title": "All (A-Z)"
+                }
+              ],
+              "title": "Column 2"
+            }
+          ],
+          "path": "/categories",
+          "title": "Categories"
+        },
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "path": "/channels/five",
+                  "title": "Channel 5",
+                  "contentId": "C5"
+                },
+                {
+                  "path": "/channels/fiveusa",
+                  "title": "5USA",
+                  "contentId": "C7"
+                },
+                {
+                  "path": "/channels/fivestar",
+                  "title": "5STAR",
+                  "contentId": "C6"
+                },
+                {
+                  "path": "/channels/5select",
+                  "title": "5SELECT",
+                  "contentId": "C8"
+                },
+                {
+                  "path": "/channels/paramount",
+                  "title": "Paramount Network",
+                  "contentId": "C0"
+                },
+                {
+                  "path": "/channels/wwe",
+                  "title": "WWE"
+                },
+                {
+                  "path": "/channels/bet",
+                  "title": "BET"
+                }
+              ],
+              "title": "Column 1"
+            },
+            {
+              "items": [
+                {
+                  "path": "/channels/blaze",
+                  "title": "Blaze"
+                },
+                {
+                  "path": "/channels/mastersoffood",
+                  "title": "Masters of Food"
+                },
+                {
+                  "path": "/channels/pbsamerica",
+                  "title": "PBS America"
+                },
+                {
+                  "path": "/channels/plutotvchristmas",
+                  "title": "Pluto TV Christmas"
+                },
+                {
+                  "path": "/channels/plutotvdrama",
+                  "title": "Pluto TV Drama"
+                },
+                {
+                  "path": "/channels/plutotvfood",
+                  "title": "Pluto TV Food"
+                },
+                {
+                  "path": "/channels/plutotvmovies",
+                  "title": "Pluto TV Movies"
+                }
+              ],
+              "title": "Column 2"
+            },
+            {
+              "items": [
+                {
+                  "path": "/channels/plutotvparanormal",
+                  "title": "Pluto TV Paranormal"
+                },
+                {
+                  "path": "/channels/plutotvretro",
+                  "title": "Pluto TV Retro"
+                },
+                {
+                  "path": "/channels/smithsonian",
+                  "title": "Smithsonian Channel"
+                },
+                {
+                  "path": "/channels/timeline",
+                  "title": "Timeline"
+                },
+                {
+                  "path": "/channels/togethertv",
+                  "title": "Together TV"
+                },
+                {
+                  "path": "/channels/realstories",
+                  "title": "Real Stories"
+                },
+                {
+                  "path": "/channels/reeltruthcrime",
+                  "title": "Reel Truth Crime"
+                }
+              ],
+              "title": "Column 3"
+            }
+          ],
+          "path": "/channels",
+          "title": "Channels"
+        }
+      ],
+      "footer": [
+        {
+          "id": "links",
+          "items": [
+            {
+              "configKey": "channel5Url",
+              "linkType": "external",
+              "path": "http://www.channel5.com",
+              "title": "© Channel 5 Broadcasting Ltd "
+            },
+            {
+              "configKey": "helpUrl",
+              "linkType": "external",
+              "path": "https://help.my5.tv",
+              "title": "Help"
+            },
+            {
+              "configKey": "termsOfUseUrl",
+              "linkType": "external",
+              "path": "https://www.channel5.com/terms-of-use",
+              "title": "Terms of Use"
+            },
+            {
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "external",
+              "path": "https://www.channel5.com/terms-and-conditions",
+              "title": "Terms & Conditions"
+            },
+            {
+              "configKey": "privacyUrl",
+              "linkType": "external",
+              "path": "https://www.channel5.com/privacy-and-cookies",
+              "title": "Privacy & Cookies"
+            },
+            {
+              "configKey": "accessibilityUrl",
+              "linkType": "external",
+              "path": "https://www.channel5.com/accessibility",
+              "title": "Accessibility"
+            }
+          ],
+          "path": "/",
+          "title": ""
+        },
+        {
+          "id": "social",
+          "items": [
+            {
+              "configKey": "googlePlusUrl",
+              "id": "google",
+              "linkType": "external",
+              "path": "http://www.google.com",
+              "title": "Google +"
+            },
+            {
+              "configKey": "facebookUrl",
+              "id": "facebook",
+              "linkType": "external",
+              "path": "http://www.facebook.com",
+              "title": "Facebook"
+            },
+            {
+              "configKey": "twitterUrl",
+              "id": "twitter",
+              "linkType": "external",
+              "path": "http://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "configKey": "youtubeUrl",
+              "id": "youtube",
+              "linkType": "external",
+              "path": "http://www.youtube.com",
+              "title": "YouTube"
+            }
+          ],
+          "path": "/",
+          "title": ""
+        }
+      ]
+    },
+    "mobile": {
+      "browse": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five",
+              "contentId": "C5"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa",
+              "contentId": "C7"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar",
+              "contentId": "C6"
+            },
+            {
+              "title": "5SELECT",
+              "path": "/channels/5Select",
+              "contentId": "C8"
+            },
+            {
+              "title": "Paramount Network",
+              "path": "/channels/Paramount",
+              "contentId": "C0"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            },
+            {
+              "path": "/channels/wwe",
+              "title": "WWE"
+            },
+            {
+              "title": "BET",
+              "path": "/channels/bet"
+            },
+            {
+              "path": "/channels/mastersoffood",
+              "title": "Masters of Food"
+            },
+            {
+              "title": "PBS America",
+              "path": "/channels/pbsamerica"
+            },
+            {
+              "title": "Pluto TV Christmas",
+              "path": "/channels/plutotvchristmas"
+            },
+            {
+              "path": "/channels/plutotvdrama",
+              "title": "Pluto TV Drama"
+            },
+            {
+              "path": "/channels/plutotvfood",
+              "title": "Pluto TV Food"
+            },
+            {
+              "path": "/channels/plutotvmovies",
+              "title": "Pluto TV Movies"
+            },
+            {
+              "path": "/channels/plutotvparanormal",
+              "title": "Pluto TV Paranormal"
+            },
+            {
+              "path": "/channels/plutotvretro",
+              "title": "Pluto TV Retro"
+            },
+            {
+              "path": "/channels/smithsonian",
+              "title": "Smithsonian Channel"
+            },
+            {
+              "path": "/channels/timeline",
+              "title": "Timeline"
+            },
+            {
+              "title": "Together TV",
+              "path": "/channels/togethertv"
+            },
+            {
+              "title": "Real Stories",
+              "path": "/channels/realstories"
+            },
+            {
+              "path": "/channels/reeltruthcrime",
+              "title": "Reel Truth Crime"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "Terms of Use",
+              "path": "https://www.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "https://www.channel5.com/terms-and-conditions",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": "https://www.channel5.com/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "https://www.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            }
+          ]
+        }
+      ],
+      "account": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "My Favourites",
+          "path": "/account/profiles/favourites"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five",
+              "contentId": "C5"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa",
+              "contentId": "C7"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar",
+              "contentId": "C6"
+            },
+            {
+              "title": "5SELECT",
+              "path": "/channels/5Select",
+              "contentId": "C8"
+            },
+            {
+              "title": "Paramount Network",
+              "path": "/channels/Paramount",
+              "contentId": "C0"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            },
+            {
+              "title": "BET",
+              "path": "/channels/bet"
+            },
+            {
+              "path": "/channels/wwe",
+              "title": "WWE"
+            },
+            {
+              "path": "/channels/mastersoffood",
+              "title": "Masters of Food"
+            },
+            {
+              "title": "PBS America",
+              "path": "/channels/pbsamerica"
+            },
+            {
+              "title": "Pluto TV Christmas",
+              "path": "/channels/plutotvchristmas"
+            },
+            {
+              "path": "/channels/plutotvdrama",
+              "title": "Pluto TV Drama"
+            },
+            {
+              "path": "/channels/plutotvfood",
+              "title": "Pluto TV Food"
+            },
+            {
+              "path": "/channels/plutotvmovies",
+              "title": "Pluto TV Movies"
+            },
+            {
+              "path": "/channels/plutotvparanormal",
+              "title": "Pluto TV Paranormal"
+            },
+            {
+              "path": "/channels/plutotvretro",
+              "title": "Pluto TV Retro"
+            },
+            {
+              "path": "/channels/smithsonian",
+              "title": "Smithsonian Channel"
+            },
+            {
+              "path": "/channels/timeline",
+              "title": "Timeline"
+            },
+            {
+              "title": "Together TV",
+              "path": "/channels/togethertv"
+            },
+            {
+              "title": "Real Stories",
+              "path": "/channels/realstories"
+            },
+            {
+              "path": "/channels/reeltruthcrime",
+              "title": "Reel Truth Crime"
+            }
+          ]
+        },
+        {
+          "title": "My5",
+          "path": "/account",
+          "items": [
+            {
+              "title": "Account Details",
+              "path": "/account"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "Terms of Use",
+              "path": "https://www.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "https://www.channel5.com/terms-and-conditions",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": "https://www.channel5.com/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "https://www.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            }
+          ]
+        }
+      ],
+      "footer": [
+
+      ]
+    },
+    "tablet": {
+      "browse": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five",
+              "contentId": "C5"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa",
+              "contentId": "C7"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar",
+              "contentId": "C6"
+            },
+            {
+              "title": "5SELECT",
+              "path": "/channels/5Select",
+              "contentId": "C8"
+            },
+            {
+              "title": "Paramount Network",
+              "path": "/channels/Paramount",
+              "contentId": "C0"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            },
+            {
+              "title": "BET",
+              "path": "/channels/bet"
+            },
+            {
+              "path": "/channels/wwe",
+              "title": "WWE"
+            },
+            {
+              "path": "/channels/mastersoffood",
+              "title": "Masters of Food"
+            },
+            {
+              "title": "PBS America",
+              "path": "/channels/pbsamerica"
+            },
+            {
+              "title": "Pluto TV Christmas",
+              "path": "/channels/plutotvchristmas"
+            },
+            {
+              "path": "/channels/plutotvdrama",
+              "title": "Pluto TV Drama"
+            },
+            {
+              "path": "/channels/plutotvfood",
+              "title": "Pluto TV Food"
+            },
+            {
+              "path": "/channels/plutotvmovies",
+              "title": "Pluto TV Movies"
+            },
+            {
+              "path": "/channels/plutotvparanormal",
+              "title": "Pluto TV Paranormal"
+            },
+            {
+              "path": "/channels/plutotvretro",
+              "title": "Pluto TV Retro"
+            },
+            {
+              "path": "/channels/smithsonian",
+              "title": "Smithsonian Channel"
+            },
+            {
+              "path": "/channels/timeline",
+              "title": "Timeline"
+            },
+            {
+              "title": "Together TV",
+              "path": "/channels/togethertv"
+            },
+            {
+              "title": "Real Stories",
+              "path": "/channels/realstories"
+            },
+            {
+              "path": "/channels/reeltruthcrime",
+              "title": "Reel Truth Crime"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "Terms of Use",
+              "path": "https://www.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "https://www.channel5.com/terms-and-conditions",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": "https://www.channel5.com/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "https://www.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            }
+          ]
+        }
+      ],
+      "account": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "My Favourites",
+          "path": "/account/profiles/favourites"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five",
+              "contentId": "C5"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa",
+              "contentId": "C7"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar",
+              "contentId": "C6"
+            },
+            {
+              "title": "5SELECT",
+              "path": "/channels/5Select",
+              "contentId": "C8"
+            },
+            {
+              "title": "Paramount Network",
+              "path": "/channels/Paramount",
+              "contentId": "C0"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            },
+            {
+              "path": "/channels/wwe",
+              "title": "WWE"
+            },
+            {
+              "title": "BET",
+              "path": "/channels/bet"
+            },
+            {
+              "path": "/channels/mastersoffood",
+              "title": "Masters of Food"
+            },
+            {
+              "title": "PBS America",
+              "path": "/channels/pbsamerica"
+            },
+            {
+              "title": "Pluto TV Christmas",
+              "path": "/channels/plutotvchristmas"
+            },
+            {
+              "path": "/channels/plutotvdrama",
+              "title": "Pluto TV Drama"
+            },
+            {
+              "path": "/channels/plutotvfood",
+              "title": "Pluto TV Food"
+            },
+            {
+              "path": "/channels/plutotvmovies",
+              "title": "Pluto TV Movies"
+            },
+            {
+              "path": "/channels/plutotvparanormal",
+              "title": "Pluto TV Paranormal"
+            },
+            {
+              "path": "/channels/plutotvretro",
+              "title": "Pluto TV Retro"
+            },
+            {
+              "path": "/channels/smithsonian",
+              "title": "Smithsonian Channel"
+            },
+            {
+              "path": "/channels/timeline",
+              "title": "Timeline"
+            },
+            {
+              "title": "Together TV",
+              "path": "/channels/togethertv"
+            },
+            {
+              "title": "Real Stories",
+              "path": "/channels/realstories"
+            },
+            {
+              "path": "/channels/reeltruthcrime",
+              "title": "Reel Truth Crime"
+            }
+          ]
+        },
+        {
+          "title": "My5",
+          "path": "/account",
+          "items": [
+            {
+              "title": "Account Details",
+              "path": "/account"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "Terms of Use",
+              "path": "https://www.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "https://www.channel5.com/terms-and-conditions",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": "https://www.channel5.com/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "https://www.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            }
+          ]
+        }
+      ],
+      "footer": [
+
+      ]
+    }
+  },
+  "_configName": "1"
+}

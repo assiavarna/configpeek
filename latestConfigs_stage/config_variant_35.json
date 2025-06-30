@@ -1,0 +1,44 @@
+{
+  "c5playerSettings": {
+    "coreUrl": "https://player-staging.akamaized.net/html5player/corebb/html5-c5-player.js",
+    "themeUrl": "https://player-staging.akamaized.net/html5player/theme/bigbrother/html5-bigbrother.css",
+    "theme": "bigbrother",
+    "autoplay": "true",
+    "adSettings": {
+      "adRequestUrl": "",
+      "mode": "googima"
+    },
+    "nearEndEventTime": 10,
+    "comscoreSettings": {
+      "c5_vs_pr": "bigbrother",
+      "c5_vs_de": "pc",
+      "c5_vs_pl": "we",
+      "c5_vs_de_android": "an",
+      "c5_vs_pl_android": "mo",
+      "c5_vs_de_ios": "io",
+      "c5_vs_pl_ios": "mo",
+      "c5_vs_ct": "vi",
+      "ns_site": "test",
+      "c5_mp": "BigBrotherPlayer",
+      "ns_st_pu": "Channel5",
+      "name": "bigbrother.player.page",
+      "secure": "true"
+    },
+    "kantarSettings": {
+    },
+    "brightcoveSettings": {
+      "accountID": "963482462001"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "bigbrother"
+      }
+    }
+  },
+  "_configName": "1"
+}

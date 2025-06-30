@@ -1,0 +1,60 @@
+<config ><string id="minRequiredAppVersion"><![CDATA[0.2]]></string>
+<!---GENERAL AUDITUDE CONFIGURATION-->
+<string id="auditudeDomain"><![CDATA[auditude.com]]></string>
+<string id="auditudeVersion"><![CDATA[adunit-1.0]]></string>
+<!---EDNA-->
+<!---Channel ids for which calls to Edna are made-->
+<string id="ednaChannelIDs"><![CDATA[c5,c6,c7,c2,c0]]></string>
+<!---RECENT-->
+<!---Readable channel names displayed in the UI, matched against the above channel ids-->
+<string id="readableChannelNames"><![CDATA[Channel 5,5 Star,5 USA, Spike, Paramount Network]]></string>
+<!---Number of days of content to display in "Recent" grid, applied to Edna TX dates-->
+<string id="ednaFromDateDaysOffset"><![CDATA[30]]></string>
+<!---Additional offset (in hours) applied to data in "Recent" grid, to allow for potential publication delays-->
+<string id="ednaTillDateHoursOffset"><![CDATA[1]]></string>
+<!---IMAGES-->
+<!---Base URIs of programme images-->
+<string id="imageAssetsEpisodeBaseURI"><![CDATA[http://api-images.channel5.com/images/episode/]]></string>
+<string id="imageAssetsShowBaseURI"><![CDATA[http://api-images.channel5.com/images/show/]]></string>
+<string id="cridTemplate"><![CDATA[crid://panorama.five.tv/versions/{c5id}{version}]]></string>
+<!---SOS Remote logging-->
+<string id="useSOSServer"><![CDATA[false]]></string>
+<string id="SOSServerHost"><![CDATA[192.168.1.100]]></string>
+<string id="SOSServerPort"><![CDATA[4444]]></string>
+<!---Http Remote Logging-->
+<string id="useHttpLogger"><![CDATA[false]]></string>
+<string id="httpLoggerHost"><![CDATA[http://10.1.0.236:4334/logd]]></string>
+<string id="httpLogChannel"><![CDATA[ns-channel]]></string>
+<!---AUDITUDE-->
+<string id="auditude_ENV"><![CDATA[LIVE]]></string>
+<string id="auditude_PLR"><![CDATA[LF]]></string>
+<string id="auditude_DOM"><![CDATA[five.tv]]></string>
+<string id="auditude_SYN"><![CDATA[F]]></string>
+<!---SHOWS-->
+<!---Genres displayed in the portal's "Shows" section. Items are displayed in order as they appear below. See separate specification for more information-->
+<genres ><genre isPopular="true" id="Popular" navigationLabel="Popular" /><genre id="Entertainment" navigationLabel="Entertainment" /><genre id="Drama" navigationLabel="Drama" /><genre id="Documentary" navigationLabel="Documentary" /><genre id="Soap" navigationLabel="Soap" /><genre id="Sport" navigationLabel="Sport" /><genre id="Milkshake!" assetId="assets.MainNavigation.milkshake" /><genre id="Film" navigationLabel="Film" /></genres>
+<!---Subtitles-->
+<string id="subtitlesURI"><![CDATA[http://assets.five.tv/subtitles/ttml/ios/{c5Id}.ttml]]></string>
+<string id="auditudeZoneID"><![CDATA[130562]]></string>
+<!---Reporting-->
+<string id="streamSenseURI"><![CDATA[http://uk.sitestat.com/c5/test/s?name=sony-demand5.player]]></string>
+<string id="siteStatReferralURI"><![CDATA[http://uk.sitestat.com/c5/test/s?name={screen}&c5_vid={deviceId}&ns_referrer={referrer}&c5_mp={appId}&c5_mv={appVer}&ns_st_mp={appId}&ns_st_mv={appVer}]]></string>
+<string id="siteStatURI"><![CDATA[http://uk.sitestat.com/c5/test/s?name={screen}&c5_vid={deviceId}&c5_mp={appId}&c5_mv={appVer}&ns_st_mp={appId}&ns_st_mv={appVer}]]></string>
+<string id="reportingAppId"><![CDATA[Sony_Demand5]]></string>
+<string id="pinRemniderURI"><![CDATA[http://www.channel5.com/portable_player/email_pin_reminder?e={0}&p={1}]]></string>
+<!---Edna URI for calls to retrieve VOD metadata, appended to the above Edna base URI-->
+<string id="ednaChannelsURI"><![CDATA[http://app-feeds-staging.channel5.com/sonytv/{0}.json?version=concise]]></string>
+<string id="featuredURI"><![CDATA[http://app-feeds-staging.channel5.com/sonytv/featured.xml]]></string>
+<string id="popularURI"><![CDATA[http://app-feeds-staging.channel5.com/youview/popular.xml]]></string>
+<!---Cassie-->
+<string id="cassieEnabled"><![CDATA[true]]></string>
+<string id="cassieMediaURI"><![CDATA[https://cassie-auth.channel5.com/media/sonytv/{c5Id}.xml]]></string>
+<!---PlayReady-->
+<string id="webinitiatorURI"><![CDATA[webinitiator/webinitiator.php?contentUrl={contentUrl}&laUrl={laUrl}]]></string>
+<string id="suppressAds"><![CDATA[false]]></string>
+<!---Freewheel-->
+<string id="freewheelVmapServiceUri"><![CDATA[http://5c9e4.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=sonytv_d5&prof={freewheelVideoProfile}&pvrn={pvrn}&vprn={vprn}]]></string>
+<string id="freewheelVideoProfile"><![CDATA[380990:c5_sonytv_video]]></string>
+<string id="freewheelDisableSmoothStreaming"><![CDATA[false]]></string>
+<string id="useFreewheelVmap"><![CDATA[true]]></string>
+</config>

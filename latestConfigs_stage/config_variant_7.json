@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BindableSettings>
+<ImagePath>http://api-images.channel5.com/images/</ImagePath>
+<MediaPath>http://app-feeds-staging.channel5.com/xboxone/</MediaPath>
+<CassieContentUrl>https://cassie-auth.channel5.com/</CassieContentUrl>
+<StreamSenseUrl>http://uk.sitestat.com/c5/test/s?name=xboxone-demand5.player</StreamSenseUrl>
+<AuditudeUrl>http://ad.auditude.com/adserver/vmap1?u={contentIdHash}&amp;z=148745</AuditudeUrl>
+<ReportingAppId>XboxOne_Demand5</ReportingAppId>
+<WatchedTimeBeforeAdInSeconds>300</WatchedTimeBeforeAdInSeconds>
+<ReminderServiceBaseUrl>http://www.channel5.com/portable_player/email_pin_reminder?e={email}&amp;p={pin}</ReminderServiceBaseUrl>
+<MediaReloadTimeInSeconds>900</MediaReloadTimeInSeconds>
+<PercentOfShowToWatchForAchievement>80</PercentOfShowToWatchForAchievement>
+<AutoPlayDeeplinkDelayInSeconds>3</AutoPlayDeeplinkDelayInSeconds>
+<ReportingSite>master</ReportingSite>
+<VideoStalledThreshholdForSpinnerInSeconds>3</VideoStalledThreshholdForSpinnerInSeconds>
+<VideoStalledThreshholdForErrorInSeconds>20</VideoStalledThreshholdForErrorInSeconds>
+</BindableSettings>

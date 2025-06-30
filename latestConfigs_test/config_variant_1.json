@@ -1,0 +1,67 @@
+{
+  "minVersion": "2000136012",
+  "c5playerSettings": {
+    "coreUrl": "https://player-test.akamaized.net/html5player/core/html5-c5-player.js",
+    "themeUrl": "https://player-test.akamaized.net/html5player/theme/androidtv/androidtv-my5.css",
+    "theme": "my5",
+    "widevineApplicationCertificateUrl": "",
+    "cassieBaseUrl": "https://cassie-test.channel5.com/api/v2",
+    "cassiePlatformId": "firetv",
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=ch5_web_d5&prof=380990:{prof}&pvrn={pvrn}&vprn={vprn}",
+      "prof": {
+        "dashProf": "c5_appletv_video"
+      }
+    },
+    "nearEndEventTime": 10,
+    "comscoreSettings": {
+      "c5_vs_pr": "my5",
+      "c5_vs_de": "af",
+      "c5_vs_pl": "stb",
+      "c5_vs_ct": "vi",
+      "ns_site": "test",
+      "c5_mp": "Amazon_My5",
+      "ns_st_pu": "Channel5",
+      "name": "demand5.channel5.player.page",
+      "secure": "true"
+    },
+    "kantarSettings": {
+      "siteName": "c5firetvtest",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5"
+      }
+    }
+  },
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "http://www.channel5.com/privacy-and-cookies",
+    "cookieUrl": "http://www.channel5.com/cookie-policy",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com"
+  },
+  "globalSocialUrls": {
+    "facebookUrl": "https://www.facebook.com/my5tvuk",
+    "twitterUrl": "https://twitter.com/demand5_tv",
+    "youtubeUrl": "https://www.youtube.com/user/demandfive",
+    "googlePlusUrl": "https://plus.google.com/103055358122996757277"
+  },
+  "sponsorship": {
+    "DFPNetworkID": "69550299",
+    "DFPSiteID": "channel5"
+  },
+  "_configName": "1"
+}

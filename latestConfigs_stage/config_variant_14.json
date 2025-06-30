@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<BindableSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LiveTileLocation>https://pdb.dmgstage1.com/windows8phone/live</LiveTileLocation>
+  <LiveTileUpdateRecurrance>HalfHour</LiveTileUpdateRecurrance>
+  <EmailRelayUrl>http://www.channel5.com/portable_player/email_pin_reminder</EmailRelayUrl>
+  
+  <!--Comscore-->
+  <ComScoreSite>test</ComScoreSite>
+  
+  <!--Feeds-->
+  <FeaturedFeedUrl>http://win8phone-feed.channel5.com/featured.json</FeaturedFeedUrl>
+  <Feeds>
+    <Feed id="c5" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c5.json" readableName="Channel 5"/>
+    <Feed id="c6" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c6.json" readableName="5STAR"/>
+    <Feed id="c7" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c7.json" readableName="5USA"/>
+    <Feed id="c1" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c1.json" readableName="Demand 5 Exclusive"/>
+    <Feed id="c2" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c2.json" readableName="5Spike"/>
+	<Feed id="c0" URL="http://app-feeds-staging.channel5.com/win8phone/concise/c0.json" readableName="Paramount Network"/>
+  </Feeds>
+  
+  <LatestClientVersion>1.0.182.88</LatestClientVersion>
+
+  <!--Cassie & Edna-->
+  <ApiImagesEpisodesUrl>http://api-images.channel5.com/images/episode</ApiImagesEpisodesUrl>
+  <ApiImagesShowsUrl>http://api-images.channel5.com/images/show</ApiImagesShowsUrl>
+  <CassieUrl>https://cassie-staging.channel5.com/api/v1/media/windows8phone/</CassieUrl>
+  <TtmlUrl>https://akasubs.akamaized.net/ttml</TtmlUrl>
+  <EdnaRefreshFrequencyInSeconds>1800</EdnaRefreshFrequencyInSeconds>
+  
+  <!--Sponsor settings-->
+  <SponsorshipAdvertDestinationUrl></SponsorshipAdvertDestinationUrl>
+  <SponsorshipFullscreenImageUrl></SponsorshipFullscreenImageUrl>
+  <SponsorshipSnapImageUrl></SponsorshipSnapImageUrl>
+  <SponsorshipFlyoutImageUrl></SponsorshipFlyoutImageUrl>
+  <SponsorshipDAXUrl>
+    <![CDATA[http://uk.sitestat.com/c5/test/s?windows8-demand5-tile&ns_type=clickout]]>
+  </SponsorshipDAXUrl>
+  
+  <!--Advert Settings-->
+  <AuditudeUrl>http://ad.auditude.com</AuditudeUrl>
+  <ActiveAdvertisementProvider>Freewheel</ActiveAdvertisementProvider>
+  <FreeWheelUrl><![CDATA[http://5c9e4.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={0}&csid=winphone_d5&prof=380990:c5_winphone_video]]></FreeWheelUrl>
+  <AdvertClickThroughText>Tap here for more information</AdvertClickThroughText>
+  
+  <!--Static Pages-->
+  <TermsAndConditionsUrl>http://assets-staging.channel5.com/winphone/terms.html</TermsAndConditionsUrl>
+  <HelpUrl>http://assets-staging.channel5.com/winphone/help.html</HelpUrl>
+  <AboutUrl>http://assets-staging.channel5.com/winphone/about.html</AboutUrl> 
+  <PrivacyUrl>http://assets-staging.channel5.com/winphone/Privacy.html</PrivacyUrl>
+</BindableSettings>

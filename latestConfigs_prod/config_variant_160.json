@@ -1,0 +1,150 @@
+{
+  "onboardingVersion": 1,
+  "resumePointPeriod": 20,
+  "dataServiceSettings": {
+    "platformId": "",
+    "ednaBaseUri": "",
+    "ednaCollectionsTemplateUri": "",
+    "ednaOnboardingImagesCollectionId": "",
+    "ednaPrimaryNavCollectionId": "",
+    "ednaMyListCollectionId": "",
+    "ednaSubNavDelimiterCollectionId": "",
+    "ednaContinueWatchingCollectionId": "",
+    "ednaContinueWatchingV2CollectionId": "",
+    "ednaImagesTemplateUri": "",
+    "ednaNowNextFeedTemplateUri": "",
+    "ednaRecommendationsCollectionId": "",
+    "coronaBaseUri": "",
+    "coronaShowSearchTemplateUri": "",
+    "coronaShowTemplateUri": "",
+    "coronaWatchableSearchTemplateUri": "",
+    "coronaWatchableTemplateUri": "",
+    "coronaWatchableRelatedItemsTemplateUri": "",
+    "coronaWatchableByShowSeasonTemplateUri": "",
+    "coronaAllEpisodesByShowSeasonTemplateUri": "",
+    "coronaAllEpisodesByShowTemplateUri": "",
+    "coronaAllSeasonsByShowTemplateUri": "",
+    "coronaShowAtoZTemplateUri": "",
+    "coronaShowsByChannelTemplateUri": "",
+    "watchableOverlayStatusText": [
+      {
+        "collection": "",
+        "text": ""
+      },
+      {
+        "collection": "",
+        "text": ""
+      },
+      {
+        "collection": "",
+        "text": "",
+        "colour": ""
+      }
+    ],
+    "ednaSettingsMenuIds": {
+      "ednaAccountSettingsId": ""
+    }
+  },
+  "upgradeSettings": {
+    "minVersion": "6.8.4",
+    "upgradeMessage": "Sorry, you need to upgrade to a newer version of My5.\nPlease download the latest My5 app from the App Store."
+  },
+  "systemMessages": {
+    "policies": {
+      "active": true,
+      "title": "My5 will not be supported on this device from 25th March 2024",
+      "text": "For technical reasons, we cannot continue supporting the My5 app on this device, and we will be disabling the app on Monday 25th March 2024. Please visit help.channel5.com for more information.",
+      "dataActive": true,
+      "dataSubtitle": "",
+      "dataText": ".",
+      "dataYesButton": "Yes",
+      "dataNoButton": "No",
+      "cookiesActive": true,
+      "cookiesSubtitle": "More Information",
+      "cookiesText": "You can read more about in our My5 help centre",
+      "cookiesYesButton": "Yes",
+      "cookiesNoButton": "No",
+      "policyButton": "My5 Help Centre",
+      "policyUrl": "https://help.channel5.com ",
+      "editButton": "",
+      "acceptButton": "Accept",
+      "saveButton": "",
+      "version": 8
+    }
+  },
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/iosplayer/theme/my5/ios-my5.css",
+    "theme": "my5",
+    "fairplayApplicationCertificateUrl": "https://c5apps.channel5.com/fps/c5-fps-app-cert-20170119.cer",
+    "cassieBaseUrl": "https://cassie-auth.channel5.com/api/v2/media",
+    "cassieBaseLiveUrl": "https://cassie-auth.channel5.com/api/v2/live_media",
+    "cassiePlatformId": "my5iosng",
+    "cassieChromecastPlatformId": "gcciosng",
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "adSettings": {
+      "adServerUrl": "https://7f077.v.fwmrm.net",
+      "csid": {
+        "csid_iphone": "intllocal_my5_uk_mobile_iosphone_vod",
+        "csid_ipad": "intllocal_my5_uk_mobile_iostablet_vod"
+      },
+      "networkId": 520311,
+      "profile": "520311:my5_ios_video",
+      "flags": "+emcr+exvt+sltp+slcb+fbad",
+      "crtp": "vast3ap",
+      "metr": "959",
+      "_fw_h_x_country": "GB",
+      "skipPreRollOnResume": false
+    },
+    "adobeAnalytics": {
+      "server": "mtv.hb.omtrdc.net",
+      "channel": "Channel 5",
+      "ovp": "my5-uk",
+      "ssl": true,
+      "publisher": "Channel 5",
+      "playerName": "ios-c5-player",
+      "debugLogging": false,
+      "heartbeatKeepAlivePeriod": 25
+    },
+    "kantarSettings": {
+      "siteName": "c5iostest",
+      "playerName": "my5",
+      "secure": "true"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+      "accountCode": "channel5",
+      "httpSecure": "true",
+      "contentIdKey": "param2",
+      "extraParams": {
+        "param1": "my5_ios_9"
+      }
+    },
+    "nearEndEventTime": 10
+  },
+  "userServiceSettings": {
+    "userServiceSdkConfig": {
+      "apiUrl": "https://userservice-api.channel5.com/",
+      "consentExpirationTimeInMonths": 13,
+      "maxResumePoints": 10,
+      "maxLocalResumePoints": 10,
+      "maxLocalSearchHistory": 10
+    }
+  },
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "https://www.viacomcbsprivacy.com/policy",
+    "cookieUrl": "https://www.viacomcbsprivacy.com/cookies",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com"
+  },
+  "_configName": "iOS9"
+}

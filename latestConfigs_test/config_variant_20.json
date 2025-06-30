@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BindableSettings>
+  <!--   Windows 10 settings   -->
+  <!--   Auxiliary Links   -->
+  <Win10TermsAndConditionsUrl>http://assets.channel5.com/windows8/terms.html</Win10TermsAndConditionsUrl>
+  <Win10HelpUrl>http://assets.channel5.com/windows8/help.html</Win10HelpUrl>
+  <Win10AboutUrl>http://assets.channel5.com/windows8/about.html</Win10AboutUrl>
+  <Win10PrivacyUrl>http://www.channel5.com/privacy</Win10PrivacyUrl>
+  <Win10LatestClientVersion>1.0.0.0</Win10LatestClientVersion>
+
+  <!-- Windows 8.1 settings -->
+  <Win81LatestClientVersion>1.1.0.0</Win81LatestClientVersion>
+  <LiveTileLocation>http://app-feeds.channel5.com/win8</LiveTileLocation>
+  <LiveTileUpdateRecurrance>HalfHour</LiveTileUpdateRecurrance>
+  
+  <!-- Windows 8/8.1/10 settings -->
+  <LatestClientVersion>1.0.228.1</LatestClientVersion>
+  <AuditudeUrl>http://ad.auditude.com</AuditudeUrl>
+  <BrightcoveUrl>http://api.brightcove.com/services</BrightcoveUrl>
+  <EmailRelayUrl>http://www.channel5.com/portable_player/email_pin_reminder</EmailRelayUrl>
+  <DaxUrl><![CDATA[http://uk.sitestat.com/c5/fivedownload/s?ns_nc=1&]]></DaxUrl>
+
+  <!--Featured Feeds-->
+  <FeaturedFeedUrl>http://app-feeds.channel5.com/win8/featured.json</FeaturedFeedUrl>
+  
+  <!--Channel Feeds URL-->
+  <Feeds>
+    <Feed id="c5" URL="http://app-feeds.channel5.com/win8/concise/c5.json" readableName="Channel 5"/>
+    <Feed id="c6" URL="http://app-feeds.channel5.com/win8/concise/c6.json" readableName="5STAR"/>
+    <Feed id="c7" URL="http://app-feeds.channel5.com/win8/concise/c7.json" readableName="5USA"/>
+    <Feed id="c1" URL="http://app-feeds.channel5.com/win8/concise/c1.json" readableName="Demand 5 Exclusive"/>
+    <Feed id="c2" URL="http://app-feeds.channel5.com/win8/concise/c2.json" readableName="5Spike"/>
+	<Feed id="c8" URL="http://app-feeds.channel5.com/win8/concise/c8.json" readableName="5SELECT"/>
+  </Feeds>
+
+  <!--Edna and Cassie-->
+  <ApiImagesEpisodesUrl>http://api-images.channel5.com/images/episode</ApiImagesEpisodesUrl>
+  <ApiImagesShowsUrl>http://api-images.channel5.com/images/show</ApiImagesShowsUrl>  
+  <EdnaRefreshFrequencyInSeconds>7200</EdnaRefreshFrequencyInSeconds>
+  <CassieUrl>https://cassie.channel5.com/media/windows8/</CassieUrl>
+  <TtmlUrl><![CDATA[https://akasubs.akamaized.net/ttml]]></TtmlUrl>
+  
+  <!--Sponsor URL's-->
+  <SponsorshipAdvertDestinationUrl/>
+  <SponsorshipFullscreenImageUrl/>
+  <SponsorshipSnapImageUrl/>
+  <SponsorshipFlyoutImageUrl/>
+  <SponsorshipDAXUrl><![CDATA[http://uk.sitestat.com/c5/fivedownload/s?windows8-demand5-tile&ns_type=clickout]]></SponsorshipDAXUrl>
+  
+  <!--Advert Setting-->
+  <ActiveAdvertisementProvider>Freewheel</ActiveAdvertisementProvider>
+  <FreeWheelUrl><![CDATA[http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={0}&csid=win8_d5&prof=144750:DISABLED]]></FreeWheelUrl>
+  <AdvertPreRollRange>6</AdvertPreRollRange>
+  <AdvertPostRollRange>6</AdvertPostRollRange>
+  <AdvertMidRollRange>8</AdvertMidRollRange>
+  <AdvertClickThroughText>Click here for more information</AdvertClickThroughText>
+  <AuditudeEnvironment>LIVE</AuditudeEnvironment>
+  
+  <!--Static Pages-->
+  <PrivacyUrl>http://www.channel5.com/privacy</PrivacyUrl>
+  <TermsAndConditionsUrl>http://assets.channel5.com/windows8/terms.html</TermsAndConditionsUrl>
+  <HelpUrl>http://assets.channel5.com/windows8/help.html</HelpUrl>
+  <AboutUrl>http://assets.channel5.com/windows8/about.html</AboutUrl>
+</BindableSettings>

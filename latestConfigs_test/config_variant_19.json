@@ -1,0 +1,36 @@
+{
+  "channels": [
+    {
+      "name": "Demand 5 Exclusive",
+      "feed": "http://app-feeds-test.channel5.com/roku/c1.json"
+    },
+    {
+      "name": "5Spike",
+      "feed": "http://app-feeds-test.channel5.com/roku/c2.json"
+    },
+    {
+      "name": "Channel 5",
+      "feed": "http://app-feeds-test.channel5.com/roku/c5.json"
+    },
+    {
+      "name": "5STAR",
+      "feed": "http://app-feeds-test.channel5.com/roku/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://app-feeds-test.channel5.com/roku/c7.json"
+    },
+    {
+      "name": "5SELECT",
+      "feed": "http://app-feeds-test.channel5.com/roku/c8.json"
+    }
+  ],
+  "featured": "http://app-feeds-test.channel5.com/roku/featured.json",
+  "popular": "http://app-feeds-test.channel5.com/youview/popular.xml",
+  "minVersion": "1.1",
+  "sponsorship": [
+
+  ],
+  "freewheelVmapService": "http://23571.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid=roku_d5&prof=380990:DISABLE&pvrn={pvrn}&vprn={vprn}",
+  "_configName": "2"
+}

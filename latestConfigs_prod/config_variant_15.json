@@ -1,0 +1,48 @@
+window.remoteConfig = {
+  'c5playerSettings': {
+    'fwSettings': {
+      'flag': '+emcr+exvt+sltp+slcb',
+      'metr': '959',
+      'nw': '144750',
+      'csid': 'freesat_d5',
+      'prof': '144750:DISABLED'
+    },
+    'comscoreSettings': {
+      'base_measurement_url' : 'http://404.channel5.com/p?c1=2&c2=16187204',
+      'c5_vs_pr': 'my5',
+      'c5_vs_de': 'ch',
+      'c5_vs_pl': 'stb',
+      'ns_site': 'master',
+      'c5_mp': 'Chromecast_My5',
+      'ns_st_pu': 'Channel5',
+      'name': 'my5.chromecast.player.page'
+    },
+    'kantarSettings' : {
+      'siteName': 'TBC',
+      'playerName': 'TBC'
+    },
+    'youboraSettings': {
+      'system': 'channel5',
+      'secure': 'true'
+    },
+    'imageSettings': {
+      'baseUrl': 'http://api-images.channel5.com/images/',
+      'type': 'episode',
+      'thumbnailSize': '1024x576'
+    },
+	'playbackSettings': {
+		'endScreenDuration': 300,
+		'featuredRotationInterval': 30,
+		'featuredContentUrl': ''
+	},
+	'applicationSettings': {
+      'timeout': {
+        'launching': 20 * 60,
+        'loading': 20 * 60,
+        'paused': 20 * 60,
+        'done': 20 * 60,
+        'idle': 5 * 60
+      }
+    }
+  }
+};

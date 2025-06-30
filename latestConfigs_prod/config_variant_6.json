@@ -1,0 +1,23 @@
+{
+  "featured": "http://api.channel5.com/carousel/roku/featured.json",
+  "popular": "http://api.channel5.com/youview/popular.xml",
+  "minVersion": "1.1",
+  "channels": [
+    {
+      "name": "Channel 5",
+      "feed": "http://api.channel5.com/roku/c5.json"
+    },
+    {
+      "name": "5*",
+      "feed": "http://api.channel5.com/roku/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://api.channel5.com/roku/c7.json"
+    }
+  ],
+  "sponsorship": [
+
+  ],
+  "_configName": "1"
+}

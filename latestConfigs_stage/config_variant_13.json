@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<BindableSettings>
+  <!-- Windows 8.1 settings -->
+  <Win81LatestClientVersion>1.1.0.0</Win81LatestClientVersion>
+  <LiveTileLocation>http://win8-feed.channel5.com</LiveTileLocation>
+  <LiveTileUpdateRecurrance>HalfHour</LiveTileUpdateRecurrance>
+  
+  
+  <!-- Windows 8 & Windows 8.1 settings -->
+  <AuditudeUrl>http://ad.auditude.com</AuditudeUrl>
+  <BrightcoveUrl>http://api.brightcove.com/services</BrightcoveUrl>
+  <EmailRelayUrl>http://www.channel5.com/portable_player/email_pin_reminder</EmailRelayUrl>
+  <DaxUrl><![CDATA[http://uk.sitestat.com/c5/fivedownload/s?ns_nc=1&]]></DaxUrl>
+  <ApiImagesEpisodesUrl>http://api-images.channel5.com/images/episode</ApiImagesEpisodesUrl>
+  <ApiImagesShowsUrl>http://api-images.channel5.com/images/show</ApiImagesShowsUrl>
+  <FeaturedFeedUrl>http://win8-feed.channel5.com/featured.json</FeaturedFeedUrl>
+  <C5FeedUrl>http://win8-feed.channel5.com/c5.json</C5FeedUrl>
+  <C6FeedUrl>http://win8-feed.channel5.com/c6.json</C6FeedUrl>
+  <C7FeedUrl>http://win8-feed.channel5.com/c7.json</C7FeedUrl>
+  <C0FeedUrl>http://win8-feed.channel5.com/c0.json</C0FeedUrl>
+  
+  <LiveTileUpdateRecurrance>HalfHour</LiveTileUpdateRecurrance>
+  <TermsAndConditionsUrl>http://assets.five.tv/mobile/windows8/terms.html</TermsAndConditionsUrl>
+  <HelpUrl>http://assets.five.tv/mobile/windows8/help.html</HelpUrl>
+  <AboutUrl>http://assets.five.tv/mobile/windows8/about.html</AboutUrl>
+  <EdnaRefreshFrequencyInSeconds>7200</EdnaRefreshFrequencyInSeconds>
+  <LatestClientVersion>1.0.228.1</LatestClientVersion>
+  <AdvertPreRollRange>6</AdvertPreRollRange>
+  <AdvertPostRollRange>6</AdvertPostRollRange>
+  <AdvertMidRollRange>8</AdvertMidRollRange>
+  <AdvertClickThroughText>Click here for more information</AdvertClickThroughText>
+  <AuditudeEnvironment>LIVE</AuditudeEnvironment>
+  <SponsorshipAdvertDestinationUrl/>
+  <SponsorshipFullscreenImageUrl/>
+  <SponsorshipSnapImageUrl/>
+  <SponsorshipFlyoutImageUrl/>
+  <SponsorshipDAXUrl><![CDATA[http://uk.sitestat.com/c5/fivedownload/s?windows8-demand5-tile&ns_type=clickout]]></SponsorshipDAXUrl>
+  <PrivacyUrl>http://www.channel5.com/privacy</PrivacyUrl>
+  <CassieContentURL>https://cassie.channel5.com/api/v1/media/windows8/</CassieContentURL>
+  <TTMLUrl><![CDATA[http://assets.five.tv/subtitles/ttml]]></TTMLUrl>
+  <ActiveAdvertisementProvider>Freewheel</ActiveAdvertisementProvider>
+  <FreeWheelUrl><![CDATA[http://5c9e4.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={0}&csid=win8_d5&prof=380990:c5_win8_video]]></FreeWheelUrl>
+</BindableSettings>

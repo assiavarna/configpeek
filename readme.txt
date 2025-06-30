@@ -1,20 +1,19 @@
 
-1. To download/update configs  run from root
+HOW-TO-USE
+
+1. To download/update configs run from root
 ./downloadConfigs/download_all_configs_prod.sh
 ./downloadConfigs/download_all_configs_stage.sh
 ./downloadConfigs/download_all_configs_test.sh
 
-
-
-2. Clean up those without platformID - too old, not used
+2. Clean up those without platformID - some are too old, not json
 ./cleanup/cleanup_noplatformID.sh
 
 3. Merge all in one
 ./merge/grandmerge.sh
 
 
-4. ??maybenot needed??? 
-To extract keys from configs from root run - this will update the keys.json
+4. To extract keys from configs from root run - this will update the keys.json
 ./extractKeys/extract_keys.sh
 
 
@@ -24,11 +23,7 @@ python3 -m http.server
 
 
 #### TO DO:
-1. download results summary - short version - then click for big version
-2. 3 columns for results - false true not found
-3. not found - make missing or smth better
-4. standalone app to avoid the Backend???!! (Electron App)
-5. add timestamp to downloads logs
-6. compare few configs feature
-7. beautify the search flags - some lines around that itch my eye - font increase, and colour change
-8. add `not working for now` on Update CTA's
+1. Show Summary for downloads - short version only - then click for full log
+2. Backend or localforage standalone app wrapper Electron App so that Update CTA's do work
+3. Compare few configs feature
+8. Add timestamp next to Update CTA's

@@ -1,0 +1,762 @@
+{
+  "minVersion": "5.0.0",
+  "c5playerSettings": {
+    "themeUrl": "https://player.akamaized.net/iosplayer/theme/my5/ios-my5-1.0.6.css",
+    "theme": "my5",
+    "fairplayApplicationCertificateUrl": "https://c5apps-staging.channel5.com/fps/c5-fps-app-cert-20170119.cer",
+    "cassieBaseUrl": "https://cassie-auth-staging.channel5.com/api/v2/media",
+    "cassiePlatformId": "videojsfps",
+    "cassieChromecastPlatformId": "gccios",
+    "renditionDetectionSettings": {
+      "initialBitrate": 480000,
+      "minBitrate": 0,
+      "maxBitrate": 2000000
+    },
+    "autoplay": "true",
+    "adSettings": {
+      "adRequestUrl": "https://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=380990&resp=vmap1&caid={c5id}&csid={csid}&prof=380990:c5_fps_ios&pvrn={pvrn}&vprn={vprn}",
+      "csid": {
+        "csid_iphone": "iphone_d5",
+        "csid_ipad": "ipad_d5"
+      }
+    },
+    "comscoreSettings": {
+      "c5_vs_pr": "my5",
+      "c5_vs_de": "ios",
+      "c5_vs_pl": "mo",
+      "c5_vs_ct": "vi",
+      "ns_site": "test",
+      "c5_mp": "iOS_Demand5",
+      "ns_st_pu": "Channel5",
+      "name": "demand5.ios.player.page"
+    },
+    "kantarSettings": {
+      "siteName": "c5iostest",
+      "playerName": "my5",
+      "httpSecure": "true"
+    },
+    "ChromecastSettings": {
+      "lastCastTimeout": 5
+    },
+    "youboraSettings": {
+      "accountCode": "channel5test",
+      "httpSecure": "true",
+      "extraParams": {
+        "param1": "my5"
+      }
+    }
+  },
+  "stores": [
+    {
+      "name": "Google Play Store",
+      "url": "https://play.google.com/store/apps/details?id=com.mobileiq.demand5&hl=en_GB"
+    },
+    {
+      "name": "Kindle App Store",
+      "url": "http://www.amazon.com/Channel-5-Demand/dp/B00ICKFR7Q/ref=sr_1_1?s=mobile-apps&ie=UTF8&qid=1393599080&sr=1-1&keywords=demand+5"
+    }
+  ],
+  "auxiliaryUrls": {
+    "termsAndConditionsUrl": "http://www.channel5.com/terms-and-conditions",
+    "helpUrl": "https://help.channel5.com",
+    "termsOfUseUrl": "http://www.channel5.com/terms-of-use",
+    "privacyUrl": "http://www.channel5.com/privacy-and-cookies",
+    "cookieUrl": "http://www.channel5.com/cookie-policy",
+    "accessibilityUrl": "http://www.channel5.com/accessibility",
+    "channel5Url": "http://www.channel5.com"
+  },
+  "globalSocialUrls": {
+    "facebookUrl": "https://www.facebook.com/my5tvuk",
+    "twitterUrl": "https://twitter.com/demand5_tv",
+    "youtubeUrl": "https://www.youtube.com/user/demandfive",
+    "googlePlusUrl": "https://plus.google.com/103055358122996757277"
+  },
+  "sponsorship": {
+    "DFPNetworkID": "69550299",
+    "DFPSiteID": "channel5"
+  },
+  "navigation": {
+    "desktop": {
+      "account": [
+        {
+          "items": [
+            {
+              "path": "/account/profiles/favourites",
+              "title": "My Favourites"
+            },
+            {
+              "path": "/account",
+              "title": "Account Settings"
+            }
+          ],
+          "route": "",
+          "title": ""
+        }
+      ],
+      "browse": [
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "path": "/categories/entertainment",
+                  "title": "Entertainment"
+                },
+                {
+                  "path": "/categories/drama",
+                  "title": "Drama"
+                },
+                {
+                  "path": "/categories/documentary",
+                  "title": "Documentary"
+                },
+                {
+                  "path": "/categories/soap",
+                  "title": "Soap"
+                }
+              ],
+              "title": "Column 1"
+            },
+            {
+              "items": [
+                {
+                  "path": "/categories/milkshake",
+                  "title": "Milkshake!"
+                },
+                {
+                  "path": "/categories/sport",
+                  "title": "Sport"
+                },
+                {
+                  "path": "/categories/films",
+                  "title": "Film"
+                },
+                {
+                  "path": "/categories/all",
+                  "title": "All (A-Z)"
+                }
+              ],
+              "title": "Column 2"
+            }
+          ],
+          "path": "/categories",
+          "title": "Categories"
+        },
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "path": "/channels/five",
+                  "title": "Channel 5"
+                },
+                {
+                  "path": "/channels/fiveusa",
+                  "title": "5USA"
+                },
+                {
+                  "path": "/channels/fivestar",
+                  "title": "5STAR"
+                },
+                {
+                  "path": "/channels/5spike",
+                  "title": "5Spike"
+                },
+                {
+                  "path": "/channels/blaze",
+                  "title": "BLAZE"
+                }
+              ],
+              "title": "Column 1"
+            }
+          ],
+          "path": "/channels",
+          "title": "Channels"
+        }
+      ],
+      "footer": [
+        {
+          "id": "links",
+          "items": [
+            {
+              "configKey": "channel5Url",
+              "linkType": "external",
+              "path": "http://www.channel5.com",
+              "title": "&copy; Channel 5 Broadcasting Ltd "
+            },
+            {
+              "configKey": "helpUrl",
+              "linkType": "external",
+              "path": "https://help.my5.tv",
+              "title": "Help"
+            },
+            {
+              "configKey": "termsOfUseUrl",
+              "linkType": "external",
+              "path": "http://about.channel5.com/terms-of-use",
+              "title": "Terms of Use"
+            },
+            {
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "external",
+              "path": "http://ios-asset.channel5.com/terms.html",
+              "title": "Terms & Conditions"
+            },
+            {
+              "configKey": "privacyUrl",
+              "linkType": "external",
+              "path": "http://about.channel5.com/corporate-information/privacy-and-cookies",
+              "title": "Privacy & Cookies"
+            },
+            {
+              "configKey": "accessibilityUrl",
+              "linkType": "external",
+              "path": "http://about.channel5.com/accessibility",
+              "title": "Accessibility"
+            }
+          ],
+          "path": "/",
+          "title": ""
+        },
+        {
+          "id": "social",
+          "items": [
+            {
+              "configKey": "googlePlusUrl",
+              "id": "google",
+              "linkType": "external",
+              "path": "http://www.google.com",
+              "title": "Google +"
+            },
+            {
+              "configKey": "facebookUrl",
+              "id": "facebook",
+              "linkType": "external",
+              "path": "http://www.facebook.com",
+              "title": "Facebook"
+            },
+            {
+              "configKey": "twitterUrl",
+              "id": "twitter",
+              "linkType": "external",
+              "path": "http://www.twitter.com",
+              "title": "Twitter"
+            },
+            {
+              "configKey": "youtubeUrl",
+              "id": "youtube",
+              "linkType": "external",
+              "path": "http://www.youtube.com",
+              "title": "YouTube"
+            }
+          ],
+          "path": "/",
+          "title": ""
+        }
+      ]
+    },
+    "mobile": {
+      "browse": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar"
+            },
+            {
+              "title": "5spike",
+              "path": "/channels/5spike"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "About",
+              "path": "/about",
+              "configKey": "aboutUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Terms of Use",
+              "path": "http://about.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "http://android-asset.channel5.com/terms.html",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": " http://about.channel5.com/corporate-information/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "http://about.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Version",
+              "path": "/application-info"
+            }
+          ]
+        }
+      ],
+      "account": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "My Favourites",
+          "path": "/account/profiles/favourites"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa"
+            },
+            {
+              "title": "5Star",
+              "path": "/channels/fivestar"
+            },
+            {
+              "title": "5spike",
+              "path": "/channels/5spike"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            }
+          ]
+        },
+        {
+          "title": "My5",
+          "path": "/account",
+          "items": [
+            {
+              "title": "Account Details",
+              "path": "/account"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "About",
+              "path": "/about",
+              "configKey": "aboutUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Terms of Use",
+              "path": "http://about.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "http://android-asset.channel5.com/terms.html",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": " http://about.channel5.com/corporate-information/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "http://about.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Version",
+              "path": "/application-info"
+            }
+          ]
+        }
+      ],
+      "footer": [
+
+      ]
+    },
+    "tablet": {
+      "browse": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa"
+            },
+            {
+              "title": "5STAR",
+              "path": "/channels/fivestar"
+            },
+            {
+              "title": "5spike",
+              "path": "/channels/5spike"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "About",
+              "path": "/about",
+              "configKey": "aboutUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Terms of Use",
+              "path": "http://about.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "http://android-asset.channel5.com/terms.html",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": " http://about.channel5.com/corporate-information/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "http://about.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Version",
+              "path": "/application-info"
+            }
+          ]
+        }
+      ],
+      "account": [
+        {
+          "title": "Home",
+          "path": "/"
+        },
+        {
+          "title": "My Favourites",
+          "path": "/account/profiles/favourites"
+        },
+        {
+          "title": "Categories",
+          "path": "/categories",
+          "items": [
+            {
+              "title": "Entertainment",
+              "path": "/categories/entertainment"
+            },
+            {
+              "title": "Drama",
+              "path": "/categories/drama"
+            },
+            {
+              "title": "Documentary",
+              "path": "/categories/documentary"
+            },
+            {
+              "title": "Soap",
+              "path": "/categories/soap"
+            },
+            {
+              "title": "Milkshake!",
+              "path": "/categories/milkshake"
+            },
+            {
+              "title": "Sport",
+              "path": "/categories/sport"
+            },
+            {
+              "title": "Film",
+              "path": "/categories/films"
+            },
+            {
+              "title": "All (A-Z)",
+              "path": "/categories/all"
+            }
+          ]
+        },
+        {
+          "title": "Channels",
+          "path": "/channels",
+          "items": [
+            {
+              "title": "Channel 5",
+              "path": "/channels/five"
+            },
+            {
+              "title": "5USA",
+              "path": "/channels/fiveusa"
+            },
+            {
+              "title": "5Star",
+              "path": "/channels/fivestar"
+            },
+            {
+              "title": "5spike",
+              "path": "/channels/5spike"
+            },
+            {
+              "title": "BLAZE",
+              "path": "/channels/blaze"
+            }
+          ]
+        },
+        {
+          "title": "My5",
+          "path": "/account",
+          "items": [
+            {
+              "title": "Account Details",
+              "path": "/account"
+            }
+          ]
+        },
+        {
+          "title": "Help",
+          "path": "/help",
+          "configKey": "helpUrl",
+          "linkType": "external"
+        },
+        {
+          "title": "More",
+          "path": "/",
+          "items": [
+            {
+              "title": "About",
+              "path": "/about",
+              "configKey": "aboutUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Terms of Use",
+              "path": "http://about.channel5.com/terms-of-use",
+              "configKey": "termsOfUseUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Terms & Conditions",
+              "path": "http://android-asset.channel5.com/terms.html",
+              "configKey": "termsAndConditionsUrl",
+              "linkType": "inapp"
+            },
+            {
+              "title": "Privacy and Cookies",
+              "path": " http://about.channel5.com/corporate-information/privacy-and-cookies",
+              "configKey": "privacyUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Accessibility",
+              "path": "http://about.channel5.com/accessibility",
+              "configKey": "accessibilityUrl",
+              "linkType": "external"
+            },
+            {
+              "title": "Version",
+              "path": "/application-info"
+            }
+          ]
+        }
+      ],
+      "footer": [
+
+      ]
+    }
+  },
+  "_configName": "1"
+}

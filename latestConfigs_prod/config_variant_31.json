@@ -1,0 +1,189 @@
+{
+  "comscoreTrackingDisabled": true,
+  "adobeLaunchScriptUri": "https://c5analytics.channel5.com/adobe/samsungmy5/dtm-launch-shutdown.min.js",
+  "c5playerSettings": {
+    "cassieMediaUri": "https://cassie-auth2.channel5.com/media/samsung/{c5id}.json",
+    "fwSettings": {
+      "serviceUri": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={c5id}&csid=samsungtv_d5&prof=144750:c5_samsungtv_video&pvrn={pvrn}&vprn={vprn}",
+      "serviceUriTizen": "http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp+slcb&metr=959&nw=144750&resp=vmap1&caid={c5id}&csid=samsungtv_d5&prof=144750:c5_samsungtv_video&pvrn={pvrn}&vprn={vprn}",
+      "vastTimeout": "20"
+    },
+    "daxSettings": {
+      "baseUrl": "http://b.scorecardresearch.com/p2?name={name}&c12={deviceId}&c1=19&c2=16184513&c4={my5}.{platform}&c5_vs_pr={c5_vs_pr}&c5_vs_pl={c5_vs_pl}&c5_vs_de={c5_vs_de}&ns_site={ns_site}&ns_st_it=c&c5_vs_ct=vi&c5_vs_vt=lf",
+      "c5_vs_pr": "my5",
+      "c5_vs_de": "sam",
+      "c5_vs_pl": "tv",
+      "ns_site": "master",
+      "c5_mp": "Samsung_My5",
+      "ns_st_pu": "Channel5",
+      "name": "my5.samsung.player.page"
+    },
+    "kantarSettings": {
+      "siteName": "c5samsung",
+      "playerName": "my5"
+    },
+    "youboraSettings": {
+      "system": "channel5",
+      "secure": "true"
+    },
+    "adobeAnalytics": {
+      "heartbeatKeepAlivePeriod": 25
+    }
+  },
+  "navigation": {
+    "browse": [
+      {
+        "title": "HOME",
+        "path": "/",
+        "items": [
+          {
+            "title": "Featured",
+            "path": "/"
+          },
+          {
+            "title": "Catch Up",
+            "path": "/catch-up"
+          },
+          {
+            "title": "Box Sets",
+            "path": "/list/85788"
+          }
+        ]
+      },
+      {
+        "title": "CATEGORIES",
+        "path": "/categories",
+        "items": [
+          {
+            "title": "Entertainment",
+            "path": "/categories/entertainment"
+          },
+          {
+            "title": "Drama",
+            "path": "/categories/drama"
+          },
+          {
+            "title": "Documentary",
+            "path": "/categories/documentary"
+          },
+          {
+            "title": "Soap",
+            "path": "/categories/soap"
+          },
+          {
+            "title": "Milkshake!",
+            "path": "/categories/milkshake"
+          },
+          {
+            "title": "Sport",
+            "path": "/categories/sport"
+          },
+          {
+            "title": "Film",
+            "path": "/categories/films"
+          },
+          {
+            "title": "All (A-Z)",
+            "path": "/categories/all"
+          }
+        ]
+      },
+      {
+        "title": "CHANNELS",
+        "path": "/channels",
+        "items": [
+          {
+            "title": "Channel 5",
+            "path": "/channels/five",
+            "contentId": "C5"
+          },
+          {
+            "title": "5USA",
+            "path": "/channels/fiveusa",
+            "contentId": "C7"
+          },
+          {
+            "title": "5STAR",
+            "path": "/channels/fivestar",
+            "contentId": "C6"
+          },
+          {
+            "title": "5SELECT",
+            "path": "/channels/5Select",
+            "contentId": "C8"
+          },
+          {
+            "title": "Paramount Network",
+            "path": "/channels/Paramount",
+            "contentId": "C0"
+          },
+          {
+            "title": "BLAZE",
+            "path": "/channels/blaze"
+          },
+          {
+            "title": "BET",
+            "path": "/channels/bet"
+          },
+          {
+            "title": "PBS America",
+            "path": "/channels/pbsamerica"
+          },
+          {
+            "title": "Pluto TV Christmas",
+            "path": "/channels/plutotvchristmas"
+          },
+          {
+            "path": "/channels/plutotvdrama",
+            "title": "Pluto TV Drama"
+          },
+          {
+            "path": "/channels/plutotvfood",
+            "title": "Pluto TV Food"
+          },
+          {
+            "path": "/channels/plutotvmovies",
+            "title": "Pluto TV Movies"
+          },
+          {
+            "path": "/channels/plutotvparanormal",
+            "title": "Pluto TV Paranormal"
+          },
+          {
+            "path": "/channels/plutotvretro",
+            "title": "Pluto TV Retro"
+          },
+          {
+            "path": "/channels/smithsonian",
+            "title": "Smithsonian Channel"
+          },
+          {
+            "path": "/channels/timeline",
+            "title": "Timeline"
+          },
+          {
+            "title": "Together TV",
+            "path": "/channels/togethertv"
+          },
+          {
+            "title": "Real Stories",
+            "path": "/channels/realstories"
+          }
+        ]
+      },
+      {
+        "title": "MY FAVOURITES",
+        "path": "/account/profiles/favourites"
+      },
+      {
+        "title": "SEARCH",
+        "path": "/search"
+      },
+      {
+        "title": "ACCOUNT",
+        "path": "/account"
+      }
+    ]
+  },
+  "_configName": "2"
+}

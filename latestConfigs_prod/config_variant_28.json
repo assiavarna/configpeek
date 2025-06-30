@@ -1,0 +1,102 @@
+<PlatformConfiguration version="1.0.0">
+<Config>
+<!--
+<Channels>
+<Channel id="C5" name="Channel 5" url="https://api-prelive.channel5.com/xbox/c5.xml"/>
+<Channel id="C6" name="Channel 5STAR" url="https://api-prelive.channel5.com/xbox/c6.xml"/>
+<Channel id="C7" name="Channel 5 Usa" url="https://api-prelive.channel5.com/xbox/c7.xml"/>
+</Channels>
+-->
+<Pivots>
+<Pivot id="Featured" name="Featured" url="https://app-feeds.channel5.com/xbox/featured.xml"/>
+<Pivot id="Settings" name="Settings">
+<Buttons>
+<Button name="ForgottenPin" url="https://assets.channel5.com/xbox/forgottenPIN.txt"/>
+</Buttons>
+</Pivot>
+<Pivot id="Help" name="Help">
+<Buttons>
+<Button name="TermsAndConditions" url="https://assets.channel5.com/xbox/terms.txt"/>
+<Button name="FAQ" url="https://assets.channel5.com/xbox/faq.txt"/>
+</Buttons>
+</Pivot>
+</Pivots>
+<Genres>
+<Genre id="Entertainment" navigationLabel="Entertainment"/>
+<Genre id="Drama" navigationLabel="Drama"/>
+<Genre id="Documentary" navigationLabel="Documentary"/>
+<Genre id="Soap" navigationLabel="Soap"/>
+<Genre id="Milkshake!" navigationLabel="Milkshake!"/>
+<Genre id="Sport" navigationLabel="Sport"/>
+<Genre id="Film" navigationLabel="Film"/>
+</Genres>
+<PlayerSettings>
+<MediaAssetIdStringTemplate url="http://channel5.com/en-GB/TVEpisode/{0}"/>
+<DogMargin>
+<Margin name="Default" left="139" top="45" right="0" buttom="0"/>
+<Margin name="FourByThree" left="139" top="120" right="0" buttom="0"/>
+</DogMargin>
+<CommonDrmLicenseUri>true</CommonDrmLicenseUri>
+<LicenseServerUriOverride url="http://xbox.playready.stage.msf.ioko.com/RightsManager.asmx"/>
+</PlayerSettings>
+<Images>
+<ShowGridOrListImageLink url="http://api-images.channel5.com/images/show/{0}/522x293.jpg"/>
+<ShowOverviewImageLink url="http://api-images.channel5.com/images/show/{0}/522x293.jpg"/>
+<ShowFeaturedImageLink url="http://api-images.channel5.com/images/show/{0}/674x379.jpg"/>
+<EpisodeGridOrListImageLink url="http://api-images.channel5.com/images/episode/{0}/522x293.jpg"/>
+</Images>
+</Config>
+<Config id="1">
+<Channels>
+<Channel id="C5" name="Channel 5" url="https://app-feeds.channel5.com/xbox/c5.xml"/>
+<Channel id="C6" name="5STAR" url="https://app-feeds.channel5.com/xbox/c6.xml"/>
+<Channel id="C7" name="5USA" url="https://app-feeds.channel5.com/xbox/c7.xml"/>
+<Channel id="C1" name="D5 Exclusive" url="https://app-feeds.channel5.com/xbox/c1.xml"/>
+<Channel id="C2" name="5Spike" url="https://app-feeds.channel5.com/xbox/c2.xml"/>
+<Channel id="C8" name="5SELECT" url="https://app-feeds.channel5.com/xbox/c8.xml"/>
+<Channel id="C0" name="Paramount Network" url="https://app-feeds.channel5.com/xbox/c0.xml"/>
+</Channels>
+<Pivots>
+<Pivot id="Featured" name="Featured" url="https://app-feeds.channel5.com/xbox/featured.xml"/>
+<Pivot id="Settings" name="Settings">
+<Buttons>
+<Button name="ForgottenPin" url="https://assets.channel5.com/xbox/forgottenPIN.txt"/>
+</Buttons>
+</Pivot>
+<Pivot id="Help" name="Help">
+<Buttons>
+<Button name="TermsAndConditions" url="https://assets.channel5.com/xbox/terms.txt"/>
+<Button name="FAQ" url="https://assets.channel5.com/xbox/faq.txt"/>
+</Buttons>
+</Pivot>
+</Pivots>
+<Genres>
+<Genre id="Entertainment" navigationLabel="Entertainment"/>
+<Genre id="Drama" navigationLabel="Drama"/>
+<Genre id="Documentary" navigationLabel="Documentary"/>
+<Genre id="Soap" navigationLabel="Soap"/>
+<Genre id="Milkshake!" navigationLabel="Milkshake!"/>
+<Genre id="Sport" navigationLabel="Sport"/>
+<Genre id="Film" navigationLabel="Film"/>
+</Genres>
+<PlayerSettings>
+<MediaAssetIdStringTemplate url="http://channel5.com/en-GB/TVEpisode/{0}"/>
+<DogMargin>
+<Margin name="Default" left="139" top="45" right="0" buttom="0"/>
+<Margin name="FourByThree" left="139" top="120" right="0" buttom="0"/>
+</DogMargin>
+<CommonDrmLicenseUri>false</CommonDrmLicenseUri>
+<LicenseServerUriOverride url="http://xbox.playready.stage.msf.ioko.com/RightsManager.asmx"/>
+</PlayerSettings>
+<Images>
+<Image id="ShowGridOrListImageLink" url="http://api-images.channel5.com/images/show/{0}/522x293.jpg" />
+<Image id="ShowOverviewImageLink" url="http://api-images.channel5.com/images/show/{0}/522x293.jpg" />
+<Image id="ShowFeaturedImageLink" url="http://api-images.channel5.com/images/show/{0}/674x379.jpg" />
+<Image id="EpisodeGridOrListImageLink" url="http://api-images.channel5.com/images/episode/{0}/522x293.jpg" />
+</Images>
+<FreeWheelUrl><![CDATA[http://2356e.v.fwmrm.net/ad/g/1?flag=+emcr+exvt+sltp&metr=959&nw=144750&resp=vmap1&caid={c5id}&csid=xbox360_d5&prof=144750:c5_xbox360_video]]></FreeWheelUrl>
+</Config>
+<Config id="2">
+<Redirect>cassie-prelive.channel5.com</Redirect>
+</Config>
+</PlatformConfiguration>

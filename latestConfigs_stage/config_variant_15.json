@@ -1,0 +1,87 @@
+{
+  "featured": "http://android-feed-prelive.channel5.com/featured.json",
+  "minVersion": "1.0.0",
+  "minAPIVersion": "7",
+  "cassieHostname": "cassie-auth-prelive.channel5.com",
+  "surveyLink": "http://www.pressrun.com/",
+  "termsAndConditionsUrl": "http://android-asset.channel5.com/terms.html",
+  "helpUrl": "http://help.channel5.com",
+  "aboutUrl": "http://android-asset.channel5.com/about.html",
+  "channels": [
+    {
+      "name": "Channel 5",
+      "feed": "http://android-feed-prelive.channel5.com/c5.json"
+    },
+    {
+      "name": "5*",
+      "feed": "http://android-feed-prelive.channel5.com/c6.json"
+    },
+    {
+      "name": "5USA",
+      "feed": "http://android-feed-prelive.channel5.com/c7.json"
+    },
+    {
+      "name": "Demand 5 Exclusive",
+      "feed": "http://android-feed-prelive.channel5.com/c1.json"
+    },
+    {
+      "name": "Spike",
+      "feed": "http://android-feed-prelive.channel5.com/c2.json"
+    }
+  ],
+  "cassiePlatformId": [
+    "android"
+  ],
+  "ptAdsSettings": {
+    "mediaId": "C5156490004",
+    "zoneId": "9478",
+    "domain": "auditude.com"
+  },
+  "fwSettings": {
+    "flag": "+emcr+exvt+sltp+slcb+fbad",
+    "metr": "959",
+    "nw": "380990",
+    "csid": "android_d5",
+    "prof": "380990:c5_pt_hls_android"
+  },
+  "renditionDetectionSettings": {
+    "initialBitrate": 0,
+    "minBitrate": 0,
+    "maxBitrate": 2000000,
+    "renditionSwitchingPolicy": "aggressive"
+  },
+  "youbora": {
+    "system": "channel5test"
+  },
+  "comscoreSettings": {
+    "c5_vs_pr": "c5",
+    "c5_vs_de": "an",
+    "c5_vs_pl": "mo",
+    "ns_site": "test",
+    "c5_mp": "Android_Demand5",
+    "ns_st_pu": "Channel5",
+    "name": "demand5.android.player.page"
+  },
+  "kantarSettings": {
+    "siteName": "c5androidtest",
+    "playerName": "My5"
+  },
+  "sponsorship": [
+
+  ],
+  "stores": [
+    {
+      "name": "Samsung App Store",
+      "url": "samsungapps://ProductDetail/air.ITVMobilePlayer"
+    },
+    {
+      "name": "Play Store",
+      "url": "samsungapps://ProductDetail/air.ITVMobilePlayer"
+    },
+    {
+      "name": "Kindle App Store",
+      "url": "samsungapps://ProductDetail/air.ITVMobilePlayer"
+    }
+  ],
+  "_configName": "3"
+}

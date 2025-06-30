@@ -1,0 +1,17 @@
+{
+  "test": 123,
+  "dataServiceSettings": {
+    "ednaBaseUri": "https://feeds-api-test.channel5.com",
+    "ednaPlatformId": "my5Freesa",
+    "ednaPrimaryNavCollectionId": "PLC_My5FreeviewPlayPrimaryNav",
+    "ednaCollectionsTemplateUri": "/collections/{collectionId}/concise.json?vod_available={platform}",
+    "ednaSubNavDelimiterCollectionId": "PLC_My5SubNavDelimiter",
+    "coronaBaseUri": "https://corona-test.channel5.com",
+    "coronaShowsTemplateUri": "/shows/search.json?platform={platform}&genre={genre}&ids[]={ids}",
+    "coronaWatchablesTemplateUri": "/watchables/search.json?platform={platform}&ids[]={ids}"
+  },
+  "New Section": {
+    "onboardingVersion": 100
+  },
+  "_configName": "Copy of 3"
+}
